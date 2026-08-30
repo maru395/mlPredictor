@@ -53,9 +53,6 @@ OFFLINE_TEST_MODE = os.environ.get("MLBB_OFFLINE_TEST_MODE") == "1"
 
 st.set_page_config(page_title="MLBB Match Predictor", page_icon="⚔️", layout="wide")
 
-st.html(ROOT / "ui" / "matchdesk.css")
-
-
 @st.cache_resource
 def load_current_prediction_data(modified_at: tuple, offline: bool) -> tuple:
     del modified_at
@@ -101,10 +98,27 @@ required_artifacts = (
     *GAME_PATHS,
     CONTEXT_PATH,
     TEAM_PROFILES_PATH,
+    META_PATH,
+    ROOT / "ui" / "matchdesk.css",
 )
-if any(not path.exists() for path in required_artifacts):
-    st.error("An artifact is missing. Run `python download_data.py`, `python download_player_data.py`, `python download_recent_data.py`, then `python train_model.py`.")
+missing_artifacts = [path for path in required_artifacts if not path.is_file()]
+if missing_artifacts:
+    st.error("This deployment is missing required model, data, or configuration files.")
+    st.write("Missing files, relative to app.py:")
+    st.code("\n".join(path.relative_to(ROOT).as_posix() for path in missing_artifacts), language="text")
+    st.info(
+        "On Streamlit Community Cloud, these files must be committed to the GitHub repository, "
+        "not just saved on your PC. Upload them at the paths above, push to the deployed branch, "
+        "then reboot the app. The README has the deployment commands. "
+        "If the saved files already exist locally, you do not need to download datasets or retrain."
+    )
+    with st.expander("Only if the saved files are also missing on your PC"):
+        st.write("Run the data-preparation commands locally, then commit the generated model and data files. "
+                 "These commands require the external sources to be available. Restore configuration and UI files from the project.")
+        st.code("python download_data.py\npython download_player_data.py\npython download_recent_data.py\npython train_model.py", language="bash")
     st.stop()
+
+st.html(ROOT / "ui" / "matchdesk.css")
 
 collection_service = None if OFFLINE_TEST_MODE else get_collection_service()
 loaded_revision = data_revision(ROOT, offline=OFFLINE_TEST_MODE)

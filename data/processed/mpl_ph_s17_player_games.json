@@ -1,0 +1,6442 @@
+{
+  "season": "MPL Philippines Season 17",
+  "scope": "Regular season and playoffs",
+  "series": 64,
+  "games": 169,
+  "games_with_valid_picks": 160,
+  "source": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17",
+  "method": "Extracted from every completed game breakdown; each row contains both five-player lineups and the game winner. Played heroes are retained when the published draft has ten unique heroes; inconsistent drafts are flagged and excluded from pick counts.",
+  "rows": [
+    {
+      "date": "2026-03-20",
+      "team_a": "TLPH",
+      "team_b": "RORA",
+      "players_a": [
+        "Sanford",
+        "KarlTzy",
+        "Sanji",
+        "Jaypee",
+        "Daiki"
+      ],
+      "players_b": [
+        "Edward",
+        "Demonkite",
+        "Yue",
+        "Light",
+        "Domeng"
+      ],
+      "heroes_a": [
+        "Alice",
+        "Leomord",
+        "Yve",
+        "Khaleed",
+        "Moskov"
+      ],
+      "heroes_b": [
+        "Lapu-Lapu",
+        "Balmond",
+        "Zhuxin",
+        "Grock",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TLPH",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_8ypby",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-03-20",
+      "team_a": "TLPH",
+      "team_b": "RORA",
+      "players_a": [
+        "Sanford",
+        "KarlTzy",
+        "Sanji",
+        "Jaypee",
+        "Daiki"
+      ],
+      "players_b": [
+        "Edward",
+        "Demonkite",
+        "Yue",
+        "Light",
+        "Domeng"
+      ],
+      "heroes_a": [
+        "Gloo",
+        "Hayabusa",
+        "Zetian",
+        "Khaleed",
+        "Claude"
+      ],
+      "heroes_b": [
+        "Lapu-Lapu",
+        "Baxia",
+        "Zhuxin",
+        "Grock",
+        "Harith"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "RORA",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_8ypby",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-03-20",
+      "team_a": "TLPH",
+      "team_b": "RORA",
+      "players_a": [
+        "Sanford",
+        "KarlTzy",
+        "Sanji",
+        "Jaypee",
+        "Daiki"
+      ],
+      "players_b": [
+        "Edward",
+        "Demonkite",
+        "Yue",
+        "Light",
+        "Domeng"
+      ],
+      "heroes_a": [
+        "Lapu-Lapu",
+        "Suyou",
+        "Zhuxin",
+        "Gatotkaca",
+        "Karrie"
+      ],
+      "heroes_b": [
+        "Arlott",
+        "Leomord",
+        "Pharsa",
+        "Grock",
+        "Lesley"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TLPH",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_8ypby",
+      "game": 3,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-03-20",
+      "team_a": "TWIS",
+      "team_b": "FNOP",
+      "players_a": [
+        "Lansu",
+        "MP the King",
+        "Sionnn",
+        "Caloy",
+        "Owl"
+      ],
+      "players_b": [
+        "Ryota",
+        "K1NGKONG",
+        "Super Frince",
+        "Brusko",
+        "Savero"
+      ],
+      "heroes_a": [
+        "Phoveus",
+        "Leomord",
+        "Yve",
+        "Marcel",
+        "Claude"
+      ],
+      "heroes_b": [
+        "Yu Zhong",
+        "Harley",
+        "Zetian",
+        "Kalea",
+        "Yi Sun-shin"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FNOP",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_r82wg",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-03-20",
+      "team_a": "TWIS",
+      "team_b": "FNOP",
+      "players_a": [
+        "Lansu",
+        "MP the King",
+        "Sionnn",
+        "Caloy",
+        "Owl"
+      ],
+      "players_b": [
+        "Ryota",
+        "K1NGKONG",
+        "Super Frince",
+        "Brusko",
+        "Savero"
+      ],
+      "heroes_a": [
+        "Gloo",
+        "Leomord",
+        "Valentina",
+        "Khaleed",
+        "Claude"
+      ],
+      "heroes_b": [
+        "Phoveus",
+        "Suyou",
+        "Yve",
+        "Hilda",
+        "Moskov"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TWIS",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_r82wg",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-03-20",
+      "team_a": "TWIS",
+      "team_b": "FNOP",
+      "players_a": [
+        "Lansu",
+        "MP the King",
+        "Sionnn",
+        "Caloy",
+        "Owl"
+      ],
+      "players_b": [
+        "Ryota",
+        "K1NGKONG",
+        "Super Frince",
+        "Brusko",
+        "Savero"
+      ],
+      "heroes_a": [
+        "Phoveus",
+        "Suyou",
+        "Pharsa",
+        "Khaleed",
+        "Yi Sun-shin"
+      ],
+      "heroes_b": [
+        "Yu Zhong",
+        "Leomord",
+        "Yve",
+        "Gatotkaca",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FNOP",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_r82wg",
+      "game": 3,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-03-21",
+      "team_a": "APBR",
+      "team_b": "OMG",
+      "players_a": [
+        "Kielvj",
+        "Jamespangks",
+        "Aqua",
+        "xNova",
+        "Shizou"
+      ],
+      "players_b": [
+        "Jeymz",
+        "Raizen",
+        "Minguin",
+        "Perkz",
+        "Netskie"
+      ],
+      "heroes_a": [
+        "Sora",
+        "Suyou",
+        "Zetian",
+        "Kalea",
+        "Claude"
+      ],
+      "heroes_b": [
+        "Lapu-Lapu",
+        "Baxia",
+        "Yve",
+        "Marcel",
+        "Hanabi"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "APBR",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_mqdap",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-03-21",
+      "team_a": "APBR",
+      "team_b": "OMG",
+      "players_a": [
+        "Kielvj",
+        "Jamespangks",
+        "Aqua",
+        "xNova",
+        "Shizou"
+      ],
+      "players_b": [
+        "Jeymz",
+        "Raizen",
+        "Minguin",
+        "Perkz",
+        "Netskie"
+      ],
+      "heroes_a": [
+        "Arlott",
+        "Leomord",
+        "Pharsa",
+        "Hilda",
+        "Claude"
+      ],
+      "heroes_b": [
+        "Sora",
+        "Fanny",
+        "Yve",
+        "Chou",
+        "Harith"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "APBR",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_mqdap",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-03-21",
+      "team_a": "RORA",
+      "team_b": "TNC",
+      "players_a": [
+        "Edward",
+        "Demonkite",
+        "Yue",
+        "Light",
+        "Domeng"
+      ],
+      "players_b": [
+        "3MarTzy",
+        "Zaida",
+        "LanceCy",
+        "Ch4knu",
+        "Bennyqt"
+      ],
+      "heroes_a": [
+        "Lapu-Lapu",
+        "Guinevere",
+        "Kimmy",
+        "Hylos",
+        "Freya"
+      ],
+      "heroes_b": [
+        "Phoveus",
+        "Leomord",
+        "Yve",
+        "Marcel",
+        "Moskov"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "RORA",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_ay2a2",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-03-21",
+      "team_a": "RORA",
+      "team_b": "TNC",
+      "players_a": [
+        "Edward",
+        "Demonkite",
+        "Yue",
+        "Light",
+        "Domeng"
+      ],
+      "players_b": [
+        "3MarTzy",
+        "Zaida",
+        "LanceCy",
+        "Ch4knu",
+        "Bennyqt"
+      ],
+      "heroes_a": [
+        "Lapu-Lapu",
+        "Baxia",
+        "Kimmy",
+        "Grock",
+        "Claude"
+      ],
+      "heroes_b": [
+        "Cici",
+        "Guinevere",
+        "Lunox",
+        "Gatotkaca",
+        "Sora"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "RORA",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_ay2a2",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-03-21",
+      "team_a": "TWIS",
+      "team_b": "TLPH",
+      "players_a": [
+        "Lansu",
+        "MP the King",
+        "Sionnn",
+        "Caloy",
+        "Nosia"
+      ],
+      "players_b": [
+        "Sanford",
+        "KarlTzy",
+        "Sanji",
+        "Jaypee",
+        "Daiki"
+      ],
+      "heroes_a": [
+        "Uranus",
+        "Nolan",
+        "Yve",
+        "Khaleed",
+        "Karrie"
+      ],
+      "heroes_b": [
+        "Lapu-Lapu",
+        "Leomord",
+        "Zhuxin",
+        "Hylos",
+        "Granger"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TLPH",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_7pxy9",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-03-21",
+      "team_a": "TWIS",
+      "team_b": "TLPH",
+      "players_a": [
+        "Lansu",
+        "MP the King",
+        "Sionnn",
+        "Caloy",
+        "Nosia"
+      ],
+      "players_b": [
+        "Sanford",
+        "KarlTzy",
+        "Sanji",
+        "Jaypee",
+        "Daiki"
+      ],
+      "heroes_a": [
+        "Alice",
+        "Leomord",
+        "Pharsa",
+        "Hylos",
+        "Claude"
+      ],
+      "heroes_b": [
+        "Sora",
+        "Suyou",
+        "Yve",
+        "Khaleed",
+        "Harith"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TLPH",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_7pxy9",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-03-22",
+      "team_a": "TNC",
+      "team_b": "APBR",
+      "players_a": [
+        "3MarTzy",
+        "Zaida",
+        "LanceCy",
+        "Ch4knu",
+        "Bennyqt"
+      ],
+      "players_b": [
+        "Kielvj",
+        "Jamespangks",
+        "Aqua",
+        "xNova",
+        "Shizou"
+      ],
+      "heroes_a": [
+        "Lapu-Lapu",
+        "Fredrinn",
+        "Yve",
+        "Khaleed",
+        "Karrie"
+      ],
+      "heroes_b": [
+        "Alice",
+        "Suyou",
+        "Valentina",
+        "Marcel",
+        "Harith"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "APBR",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_4ovjj",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-03-22",
+      "team_a": "TNC",
+      "team_b": "APBR",
+      "players_a": [
+        "3MarTzy",
+        "Zaida",
+        "LanceCy",
+        "Ch4knu",
+        "Bennyqt"
+      ],
+      "players_b": [
+        "Kielvj",
+        "Jamespangks",
+        "Aqua",
+        "xNova",
+        "Shizou"
+      ],
+      "heroes_a": [
+        "Phoveus",
+        "Nolan",
+        "Yve",
+        "Kalea",
+        "Harith"
+      ],
+      "heroes_b": [
+        "Esmeralda",
+        "Suyou",
+        "Valentina",
+        "Grock",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TNC",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_4ovjj",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-03-22",
+      "team_a": "TNC",
+      "team_b": "APBR",
+      "players_a": [
+        "3MarTzy",
+        "Zaida",
+        "LanceCy",
+        "Ch4knu",
+        "Bennyqt"
+      ],
+      "players_b": [
+        "Kielvj",
+        "Jamespangks",
+        "Aqua",
+        "xNova",
+        "Shizou"
+      ],
+      "heroes_a": [
+        "Alice",
+        "Leomord",
+        "Zetian",
+        "Grock",
+        "Yi Sun-shin"
+      ],
+      "heroes_b": [
+        "Sora",
+        "Baxia",
+        "Yve",
+        "Marcel",
+        "Moskov"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "APBR",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_4ovjj",
+      "game": 3,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-03-22",
+      "team_a": "FNOP",
+      "team_b": "FLCN",
+      "players_a": [
+        "Kirk",
+        "K1NGKONG",
+        "Super Frince",
+        "Brusko",
+        "Savero"
+      ],
+      "players_b": [
+        "FlapTzy",
+        "KyleTzy",
+        "Hadji",
+        "Owgwen",
+        "Super Marco"
+      ],
+      "heroes_a": [
+        "Sora",
+        "Guinevere",
+        "Lylia",
+        "Kalea",
+        "Yi Sun-shin"
+      ],
+      "heroes_b": [
+        "Lapu-Lapu",
+        "Baxia",
+        "Pharsa",
+        "Khaleed",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FNOP",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_nxtd3",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-03-22",
+      "team_a": "FNOP",
+      "team_b": "FLCN",
+      "players_a": [
+        "Kirk",
+        "K1NGKONG",
+        "Super Frince",
+        "Brusko",
+        "Savero"
+      ],
+      "players_b": [
+        "FlapTzy",
+        "KyleTzy",
+        "Hadji",
+        "Owgwen",
+        "Super Marco"
+      ],
+      "heroes_a": [
+        "Lapu-Lapu",
+        "Leomord",
+        "Valir",
+        "Gloo",
+        "Claude"
+      ],
+      "heroes_b": [
+        "Sora",
+        "Hayabusa",
+        "Valentina",
+        "Chou",
+        "Harith"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FLCN",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_nxtd3",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-03-22",
+      "team_a": "FNOP",
+      "team_b": "FLCN",
+      "players_a": [
+        "Kirk",
+        "K1NGKONG",
+        "Super Frince",
+        "Brusko",
+        "Savero"
+      ],
+      "players_b": [
+        "FlapTzy",
+        "KyleTzy",
+        "Hadji",
+        "Owgwen",
+        "Super Marco"
+      ],
+      "heroes_a": [
+        "Terizla",
+        "Suyou",
+        "Yve",
+        "Chou",
+        "Claude"
+      ],
+      "heroes_b": [
+        "Sora",
+        "Fredrinn",
+        "Kimmy",
+        "Khaleed",
+        "Harith"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FLCN",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_nxtd3",
+      "game": 3,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-03-27",
+      "team_a": "TWIS",
+      "team_b": "OMG",
+      "players_a": [
+        "Lansu",
+        "MP the King",
+        "Sionnn",
+        "Caloy",
+        "Owl"
+      ],
+      "players_b": [
+        "Jeymz",
+        "Raizen",
+        "Minguin",
+        "Perkz",
+        "Netskie"
+      ],
+      "heroes_a": [
+        "Phoveus",
+        "Harley",
+        "Valentina",
+        "Khaleed",
+        "Karrie"
+      ],
+      "heroes_b": [
+        "Cici",
+        "Fredrinn",
+        "Kimmy",
+        "Hilda",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TWIS",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_mwrm0",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-03-27",
+      "team_a": "TWIS",
+      "team_b": "OMG",
+      "players_a": [
+        "Lansu",
+        "MP the King",
+        "Sionnn",
+        "Caloy",
+        "Owl"
+      ],
+      "players_b": [
+        "Jeymz",
+        "Raizen",
+        "Minguin",
+        "Perkz",
+        "Netskie"
+      ],
+      "heroes_a": [
+        "Phoveus",
+        "Leomord",
+        "Valentina",
+        "Khaleed",
+        "Karrie"
+      ],
+      "heroes_b": [
+        "Lapu-Lapu",
+        "Suyou",
+        "Kimmy",
+        "Chip",
+        "Freya"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "OMG",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_mwrm0",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-03-27",
+      "team_a": "TWIS",
+      "team_b": "OMG",
+      "players_a": [
+        "Lansu",
+        "MP the King",
+        "Sionnn",
+        "Caloy",
+        "Owl"
+      ],
+      "players_b": [
+        "Jeymz",
+        "Raizen",
+        "Minguin",
+        "Perkz",
+        "Netskie"
+      ],
+      "heroes_a": [
+        "Gloo",
+        "Harley",
+        "Valentina",
+        "Hilda",
+        "Granger"
+      ],
+      "heroes_b": [
+        "Phoveus",
+        "Leomord",
+        "Vexana",
+        "Khaleed",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TWIS",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_mwrm0",
+      "game": 3,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-03-27",
+      "team_a": "FNOP",
+      "team_b": "TNC",
+      "players_a": [
+        "Ryota",
+        "K1NGKONG",
+        "Super Frince",
+        "Brusko",
+        "Savero"
+      ],
+      "players_b": [
+        "3MarTzy",
+        "Zaida",
+        "Stowm",
+        "Ch4knu",
+        "Bennyqt"
+      ],
+      "heroes_a": [
+        "Hylos",
+        "Leomord",
+        "Kimmy",
+        "Chou",
+        "Sora"
+      ],
+      "heroes_b": [
+        "Phoveus",
+        "Harley",
+        "Yve",
+        "Marcel",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TNC",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_mz6w1",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-03-27",
+      "team_a": "FNOP",
+      "team_b": "TNC",
+      "players_a": [
+        "Ryota",
+        "K1NGKONG",
+        "Super Frince",
+        "Brusko",
+        "Savero"
+      ],
+      "players_b": [
+        "3MarTzy",
+        "Zaida",
+        "Stowm",
+        "Ch4knu",
+        "Bennyqt"
+      ],
+      "heroes_a": [
+        "Phoveus",
+        "Leomord",
+        "Pharsa",
+        "Hilda",
+        "Obsidia"
+      ],
+      "heroes_b": [
+        "Sora",
+        "Harley",
+        "Valentina",
+        "Baxia",
+        "Cici"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TNC",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_mz6w1",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-03-28",
+      "team_a": "FLCN",
+      "team_b": "TLPH",
+      "players_a": [
+        "FlapTzy",
+        "KyleTzy",
+        "Hadji",
+        "Owgwen",
+        "Super Marco"
+      ],
+      "players_b": [
+        "Sanford",
+        "KarlTzy",
+        "Sanji",
+        "Jaypee",
+        "Daiki"
+      ],
+      "heroes_a": [
+        "Phoveus",
+        "Baxia",
+        "Valentina",
+        "Hilda",
+        "Claude"
+      ],
+      "heroes_b": [
+        "Sora",
+        "Fredrinn",
+        "Pharsa",
+        "Khaleed",
+        "Karrie"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FLCN",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_jwv1y",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-03-28",
+      "team_a": "FLCN",
+      "team_b": "TLPH",
+      "players_a": [
+        "FlapTzy",
+        "KyleTzy",
+        "Hadji",
+        "Owgwen",
+        "Super Marco"
+      ],
+      "players_b": [
+        "Sanford",
+        "KarlTzy",
+        "Sanji",
+        "Jaypee",
+        "Daiki"
+      ],
+      "heroes_a": [
+        "Lapu-Lapu",
+        "Fanny",
+        "Zhuxin",
+        "Khaleed",
+        "Harith"
+      ],
+      "heroes_b": [
+        "Yu Zhong",
+        "Harley",
+        "Yve",
+        "Hylos",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TLPH",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_jwv1y",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-03-28",
+      "team_a": "FLCN",
+      "team_b": "TLPH",
+      "players_a": [
+        "FlapTzy",
+        "KyleTzy",
+        "Hadji",
+        "Owgwen",
+        "Super Marco"
+      ],
+      "players_b": [
+        "Sanford",
+        "KarlTzy",
+        "Sanji",
+        "Jaypee",
+        "Daiki"
+      ],
+      "heroes_a": [
+        "Lapu-Lapu",
+        "Fredrinn",
+        "Valir",
+        "Gloo",
+        "Claude"
+      ],
+      "heroes_b": [
+        "Benedetta",
+        "Baxia",
+        "Valentina",
+        "Hylos",
+        "Karrie"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TLPH",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_jwv1y",
+      "game": 3,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-03-28",
+      "team_a": "OMG",
+      "team_b": "TNC",
+      "players_a": [
+        "Jeymz",
+        "Raizen",
+        "Minguin",
+        "Perkz",
+        "Netskie"
+      ],
+      "players_b": [
+        "3MarTzy",
+        "Zaida",
+        "Stowm",
+        "Ch4knu",
+        "Bennyqt"
+      ],
+      "heroes_a": [
+        "Gloo",
+        "Leomord",
+        "Valentina",
+        "Kalea",
+        "Karrie"
+      ],
+      "heroes_b": [
+        "Phoveus",
+        "Suyou",
+        "Yve",
+        "Chou",
+        "Moskov"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "OMG",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_d477c",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-03-28",
+      "team_a": "OMG",
+      "team_b": "TNC",
+      "players_a": [
+        "Jeymz",
+        "Raizen",
+        "Minguin",
+        "Perkz",
+        "Netskie"
+      ],
+      "players_b": [
+        "3MarTzy",
+        "Zaida",
+        "Stowm",
+        "Ch4knu",
+        "Bennyqt"
+      ],
+      "heroes_a": [
+        "Lapu-Lapu",
+        "Fredrinn",
+        "Yve",
+        "Khaleed",
+        "Brody"
+      ],
+      "heroes_b": [
+        "Sora",
+        "Fanny",
+        "Zetian",
+        "Hilda",
+        "Yi Sun-shin"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "OMG",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_d477c",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-03-28",
+      "team_a": "TWIS",
+      "team_b": "RORA",
+      "players_a": [
+        "Lansu",
+        "MP the King",
+        "Sionnn",
+        "Caloy",
+        "Owl"
+      ],
+      "players_b": [
+        "Edward",
+        "Demonkite",
+        "Yue",
+        "Light",
+        "Domeng"
+      ],
+      "heroes_a": [
+        "Gloo",
+        "Harley",
+        "Gord",
+        "Khaleed",
+        "Freya"
+      ],
+      "heroes_b": [
+        "Sora",
+        "Fredrinn",
+        "Zhuxin",
+        "Chou",
+        "Karrie"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "RORA",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_d6g1l",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-03-28",
+      "team_a": "TWIS",
+      "team_b": "RORA",
+      "players_a": [
+        "Lansu",
+        "MP the King",
+        "Sionnn",
+        "Caloy",
+        "Owl"
+      ],
+      "players_b": [
+        "Edward",
+        "Demonkite",
+        "Yue",
+        "Light",
+        "Domeng"
+      ],
+      "heroes_a": [
+        "Alice",
+        "Harley",
+        "Gord",
+        "Kalea",
+        "Yi Sun-shin"
+      ],
+      "heroes_b": [
+        "Sora",
+        "Fredrinn",
+        "Valentina",
+        "Grock",
+        "Harith"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "RORA",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_d6g1l",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-03-29",
+      "team_a": "APBR",
+      "team_b": "TLPH",
+      "players_a": [
+        "Kielvj",
+        "Jamespangks",
+        "Aqua",
+        "xNova",
+        "Shizou"
+      ],
+      "players_b": [
+        "Sanford",
+        "KarlTzy",
+        "Sanji",
+        "Jaypee",
+        "Daiki"
+      ],
+      "heroes_a": [
+        "Sora",
+        "Suyou",
+        "Yve",
+        "Gloo",
+        "Claude"
+      ],
+      "heroes_b": [
+        "Phoveus",
+        "Harley",
+        "Zhuxin",
+        "Hylos",
+        "Moskov"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "APBR",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_92q7f",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-03-29",
+      "team_a": "APBR",
+      "team_b": "TLPH",
+      "players_a": [
+        "Kielvj",
+        "Jamespangks",
+        "Aqua",
+        "xNova",
+        "Shizou"
+      ],
+      "players_b": [
+        "Sanford",
+        "KarlTzy",
+        "Sanji",
+        "Jaypee",
+        "Daiki"
+      ],
+      "heroes_a": [
+        "Phoveus",
+        "Harley",
+        "Pharsa",
+        "Hylos",
+        "Karrie"
+      ],
+      "heroes_b": [
+        "Sora",
+        "Guinevere",
+        "Yve",
+        "Khaleed",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TLPH",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_92q7f",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-03-29",
+      "team_a": "APBR",
+      "team_b": "TLPH",
+      "players_a": [
+        "Kielvj",
+        "Jamespangks",
+        "Aqua",
+        "xNova",
+        "Shizou"
+      ],
+      "players_b": [
+        "Sanford",
+        "KarlTzy",
+        "Sanji",
+        "Jaypee",
+        "Daiki"
+      ],
+      "heroes_a": [
+        "Uranus",
+        "Harley",
+        "Valentina",
+        "Hilda",
+        "Karrie"
+      ],
+      "heroes_b": [
+        "Yu Zhong",
+        "Fredrinn",
+        "Yve",
+        "Chou",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TLPH",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_92q7f",
+      "game": 3,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-03-29",
+      "team_a": "RORA",
+      "team_b": "FLCN",
+      "players_a": [
+        "Edward",
+        "Demonkite",
+        "Yue",
+        "Light",
+        "Domeng"
+      ],
+      "players_b": [
+        "FlapTzy",
+        "KyleTzy",
+        "Hadji",
+        "Owgwen",
+        "Super Marco"
+      ],
+      "heroes_a": [
+        "Lapu-Lapu",
+        "Baxia",
+        "Kimmy",
+        "Gatotkaca",
+        "Freya"
+      ],
+      "heroes_b": [
+        "Sora",
+        "Leomord",
+        "Pharsa",
+        "Kalea",
+        "Karrie"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "RORA",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_sngj4",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-03-29",
+      "team_a": "RORA",
+      "team_b": "FLCN",
+      "players_a": [
+        "Edward",
+        "Demonkite",
+        "Yue",
+        "Light",
+        "Domeng"
+      ],
+      "players_b": [
+        "FlapTzy",
+        "KyleTzy",
+        "Hadji",
+        "Owgwen",
+        "Super Marco"
+      ],
+      "heroes_a": [
+        "Lapu-Lapu",
+        "Fredrinn",
+        "Kimmy",
+        "Khaleed",
+        "Wanwan"
+      ],
+      "heroes_b": [
+        "Sora",
+        "Leomord",
+        "Valentina",
+        "Kalea",
+        "Karrie"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FLCN",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_sngj4",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-03-29",
+      "team_a": "RORA",
+      "team_b": "FLCN",
+      "players_a": [
+        "Edward",
+        "Demonkite",
+        "Yue",
+        "Light",
+        "Domeng"
+      ],
+      "players_b": [
+        "FlapTzy",
+        "KyleTzy",
+        "Hadji",
+        "Owgwen",
+        "Super Marco"
+      ],
+      "heroes_a": [
+        "Lapu-Lapu",
+        "Fredrinn",
+        "Kimmy",
+        "Chip",
+        "Freya"
+      ],
+      "heroes_b": [
+        "Phoveus",
+        "Uranus",
+        "Valentina",
+        "Kaja",
+        "Karrie"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FLCN",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_sngj4",
+      "game": 3,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-04-10",
+      "team_a": "FNOP",
+      "team_b": "APBR",
+      "players_a": [
+        "Kirk",
+        "K1NGKONG",
+        "Super Frince",
+        "Brusko",
+        "Savero"
+      ],
+      "players_b": [
+        "Kielvj",
+        "Jamespangks",
+        "Aqua",
+        "xNova",
+        "Shizou"
+      ],
+      "heroes_a": [
+        "Yu Zhong",
+        "Baxia",
+        "Zhuxin",
+        "Chou",
+        "Yi Sun-shin"
+      ],
+      "heroes_b": [
+        "Lapu-Lapu",
+        "Harley",
+        "Yve",
+        "Gloo",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FNOP",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_zh7yq",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-04-10",
+      "team_a": "FNOP",
+      "team_b": "APBR",
+      "players_a": [
+        "Kirk",
+        "K1NGKONG",
+        "Super Frince",
+        "Brusko",
+        "Savero"
+      ],
+      "players_b": [
+        "Kielvj",
+        "Jamespangks",
+        "Aqua",
+        "xNova",
+        "Shizou"
+      ],
+      "heroes_a": [
+        "Uranus",
+        "Baxia",
+        "Kimmy",
+        "Khaleed",
+        "Yi Sun-shin"
+      ],
+      "heroes_b": [
+        "Gloo",
+        "Leomord",
+        "Zhuxin",
+        "Chou",
+        "Moskov"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FNOP",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_zh7yq",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-04-10",
+      "team_a": "TLPH",
+      "team_b": "OMG",
+      "players_a": [
+        "Sanford",
+        "KarlTzy",
+        "Sanji",
+        "Jaypee",
+        "Daiki"
+      ],
+      "players_b": [
+        "Jeymz",
+        "Raizen",
+        "Hadji",
+        "Perkz",
+        "Netskie"
+      ],
+      "heroes_a": [
+        "Phoveus",
+        "Leomord",
+        "Yve",
+        "Hylos",
+        "Claude"
+      ],
+      "heroes_b": [
+        "Sora",
+        "Fredrinn",
+        "Valentina",
+        "Khaleed",
+        "Hanabi"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TLPH",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_w6ya4",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-04-10",
+      "team_a": "TLPH",
+      "team_b": "OMG",
+      "players_a": [
+        "Sanford",
+        "KarlTzy",
+        "Sanji",
+        "Jaypee",
+        "Daiki"
+      ],
+      "players_b": [
+        "Jeymz",
+        "Raizen",
+        "Minguin",
+        "Perkz",
+        "Netskie"
+      ],
+      "heroes_a": [
+        "Phoveus",
+        "Guinevere",
+        "Pharsa",
+        "Gatotkaca",
+        "Claude"
+      ],
+      "heroes_b": [
+        "Gloo",
+        "Suyou",
+        "Valentina",
+        "Kalea",
+        "Karrie"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TLPH",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_w6ya4",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-04-11",
+      "team_a": "APBR",
+      "team_b": "TWIS",
+      "players_a": [
+        "Kielvj",
+        "Jamespangks",
+        "Aqua",
+        "xNova",
+        "Shizou"
+      ],
+      "players_b": [
+        "Lansu",
+        "MP the King",
+        "Sionnn",
+        "Caloy",
+        "Owl"
+      ],
+      "heroes_a": [
+        "Arlott",
+        "Baxia",
+        "Yve",
+        "Marcel",
+        "Harith"
+      ],
+      "heroes_b": [
+        "Lapu-Lapu",
+        "Harley",
+        "Zhuxin",
+        "Gloo",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TWIS",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_1771d",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-04-11",
+      "team_a": "APBR",
+      "team_b": "TWIS",
+      "players_a": [
+        "Kielvj",
+        "Jamespangks",
+        "Aqua",
+        "xNova",
+        "Shizou"
+      ],
+      "players_b": [
+        "Lansu",
+        "MP the King",
+        "Sionnn",
+        "Caloy",
+        "Owl"
+      ],
+      "heroes_a": [
+        "Uranus",
+        "Fanny",
+        "Valentina",
+        "Kalea",
+        "Obsidia"
+      ],
+      "heroes_b": [
+        "Arlott",
+        "Harley",
+        "Zetian",
+        "Gatotkaca",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TWIS",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_1771d",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-04-11",
+      "team_a": "OMG",
+      "team_b": "FLCN",
+      "players_a": [
+        "Jeymz",
+        "Raizen",
+        "Minguin",
+        "Perkz",
+        "Netskie"
+      ],
+      "players_b": [
+        "FlapTzy",
+        "KyleTzy",
+        "Hadji",
+        "Owgwen",
+        "Super Marco"
+      ],
+      "heroes_a": [
+        "Uranus",
+        "Harley",
+        "Valentina",
+        "Kalea",
+        "Karrie"
+      ],
+      "heroes_b": [
+        "Arlott",
+        "Guinevere",
+        "Pharsa",
+        "Gloo",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FLCN",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_k74g7",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-04-11",
+      "team_a": "OMG",
+      "team_b": "FLCN",
+      "players_a": [
+        "Jeymz",
+        "Raizen",
+        "Minguin",
+        "Perkz",
+        "Netskie"
+      ],
+      "players_b": [
+        "FlapTzy",
+        "KyleTzy",
+        "Hadji",
+        "Owgwen",
+        "Super Marco"
+      ],
+      "heroes_a": [
+        "Phoveus",
+        "Leomord",
+        "Yve",
+        "Khaleed",
+        "Claude"
+      ],
+      "heroes_b": [
+        "Alice",
+        "Harley",
+        "Valentina",
+        "Marcel",
+        "Yi Sun-shin"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FLCN",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_k74g7",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-04-11",
+      "team_a": "TNC",
+      "team_b": "TLPH",
+      "players_a": [
+        "3MarTzy",
+        "Zaida",
+        "Stowm",
+        "Ch4knu",
+        "Bennyqt"
+      ],
+      "players_b": [
+        "Sanford",
+        "KarlTzy",
+        "Sanji",
+        "Jaypee",
+        "Daiki"
+      ],
+      "heroes_a": [
+        "Lapu-Lapu",
+        "Harley",
+        "Lylia",
+        "Chou",
+        "Yi Sun-shin"
+      ],
+      "heroes_b": [
+        "Uranus",
+        "Lancelot",
+        "Zhuxin",
+        "Khaleed",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TLPH",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_mpll3",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-04-11",
+      "team_a": "TNC",
+      "team_b": "TLPH",
+      "players_a": [
+        "3MarTzy",
+        "Zaida",
+        "Stowm",
+        "Ch4knu",
+        "Bennyqt"
+      ],
+      "players_b": [
+        "Sanford",
+        "KarlTzy",
+        "Sanji",
+        "Jaypee",
+        "Daiki"
+      ],
+      "heroes_a": [
+        "Arlott",
+        "Guinevere",
+        "Zhuxin",
+        "Gatotkaca",
+        "Obsidia"
+      ],
+      "heroes_b": [
+        "Uranus",
+        "Harley",
+        "Yve",
+        "Hylos",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TLPH",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_mpll3",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-04-12",
+      "team_a": "FLCN",
+      "team_b": "TWIS",
+      "players_a": [
+        "FlapTzy",
+        "KyleTzy",
+        "Hadji",
+        "Owgwen",
+        "Super Marco"
+      ],
+      "players_b": [
+        "Lansu",
+        "MP the King",
+        "Sionnn",
+        "Caloy",
+        "Owl"
+      ],
+      "heroes_a": [
+        "Alice",
+        "Suyou",
+        "Pharsa",
+        "Marcel",
+        "Yi Sun-shin"
+      ],
+      "heroes_b": [
+        "Phoveus",
+        "Leomord",
+        "Valentina",
+        "Khaleed",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FLCN",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_9bo96",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-04-12",
+      "team_a": "FLCN",
+      "team_b": "TWIS",
+      "players_a": [
+        "FlapTzy",
+        "KyleTzy",
+        "Hadji",
+        "Owgwen",
+        "Super Marco"
+      ],
+      "players_b": [
+        "Lansu",
+        "MP the King",
+        "Sionnn",
+        "Caloy",
+        "Owl"
+      ],
+      "heroes_a": [
+        "Phoveus",
+        "Suyou",
+        "Kimmy",
+        "Kalea",
+        "Claude"
+      ],
+      "heroes_b": [
+        "Gloo",
+        "Yi Sun-shin",
+        "Valentina",
+        "Grock",
+        "Harith"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FLCN",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_9bo96",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-04-12",
+      "team_a": "FNOP",
+      "team_b": "RORA",
+      "players_a": [
+        "Kirk",
+        "K1NGKONG",
+        "Super Frince",
+        "Brusko",
+        "Savero"
+      ],
+      "players_b": [
+        "Edward",
+        "Demonkite",
+        "Yue",
+        "Light",
+        "Domeng"
+      ],
+      "heroes_a": [
+        "Uranus",
+        "Suyou",
+        "Lylia",
+        "Khaleed",
+        "Freya"
+      ],
+      "heroes_b": [
+        "Benedetta",
+        "Guinevere",
+        "Zhuxin",
+        "Grock",
+        "Yi Sun-shin"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FNOP",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_xo1ox",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-04-12",
+      "team_a": "FNOP",
+      "team_b": "RORA",
+      "players_a": [
+        "Kirk",
+        "K1NGKONG",
+        "Super Frince",
+        "Brusko",
+        "Savero"
+      ],
+      "players_b": [
+        "Edward",
+        "Demonkite",
+        "Yue",
+        "Light",
+        "Domeng"
+      ],
+      "heroes_a": [
+        "Alice",
+        "Harley",
+        "Valentina",
+        "Khaleed",
+        "Yi Sun-shin"
+      ],
+      "heroes_b": [
+        "Lapu-Lapu",
+        "Guinevere",
+        "Zhuxin",
+        "Gloo",
+        "Harith"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FNOP",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_xo1ox",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-04-17",
+      "team_a": "TNC",
+      "team_b": "FLCN",
+      "players_a": [
+        "3MarTzy",
+        "Zaida",
+        "LanceCy",
+        "Ch4knu",
+        "Bennyqt"
+      ],
+      "players_b": [
+        "FlapTzy",
+        "KyleTzy",
+        "Hadji",
+        "Owgwen",
+        "Super Marco"
+      ],
+      "heroes_a": [
+        "Sora",
+        "Harley",
+        "Valentina",
+        "Khaleed",
+        "Yi Sun-shin"
+      ],
+      "heroes_b": [
+        "Arlott",
+        "Suyou",
+        "Lylia",
+        "Marcel",
+        "Granger"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FLCN",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_1346c",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-04-17",
+      "team_a": "TNC",
+      "team_b": "FLCN",
+      "players_a": [
+        "3MarTzy",
+        "Zaida",
+        "LanceCy",
+        "Ch4knu",
+        "Bennyqt"
+      ],
+      "players_b": [
+        "FlapTzy",
+        "KyleTzy",
+        "Hadji",
+        "Owgwen",
+        "Super Marco"
+      ],
+      "heroes_a": [
+        "Sora",
+        "Harley",
+        "Valentina",
+        "Gatotkaca",
+        "Claude"
+      ],
+      "heroes_b": [
+        "Uranus",
+        "Suyou",
+        "Pharsa",
+        "Marcel",
+        "Moskov"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FLCN",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_1346c",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-04-17",
+      "team_a": "OMG",
+      "team_b": "FNOP",
+      "players_a": [
+        "Jeymz",
+        "Raizen",
+        "Minguin",
+        "Perkz",
+        "Netskie"
+      ],
+      "players_b": [
+        "Kirk",
+        "K1NGKONG",
+        "Super Frince",
+        "Brusko",
+        "Savero"
+      ],
+      "heroes_a": [
+        "Lapu-Lapu",
+        "Baxia",
+        "Pharsa",
+        "Khaleed",
+        "Karrie"
+      ],
+      "heroes_b": [
+        "Freya",
+        "Nolan",
+        "Zhuxin",
+        "Kalea",
+        "Yi Sun-shin"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FNOP",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_msx3v",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-04-17",
+      "team_a": "OMG",
+      "team_b": "FNOP",
+      "players_a": [
+        "Jeymz",
+        "Raizen",
+        "Minguin",
+        "Perkz",
+        "Netskie"
+      ],
+      "players_b": [
+        "Kirk",
+        "K1NGKONG",
+        "Super Frince",
+        "Brusko",
+        "Savero"
+      ],
+      "heroes_a": [
+        "Valentina",
+        "Harley",
+        "Zetian",
+        "Chou",
+        "Karrie"
+      ],
+      "heroes_b": [
+        "Phoveus",
+        "Baxia",
+        "Valir",
+        "Kalea",
+        "Clint"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FNOP",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_msx3v",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-04-18",
+      "team_a": "TNC",
+      "team_b": "TWIS",
+      "players_a": [
+        "3MarTzy",
+        "Zaida",
+        "LanceCy",
+        "Ch4knu",
+        "Bennyqt"
+      ],
+      "players_b": [
+        "Lansu",
+        "MP the King",
+        "Sionnn",
+        "Caloy",
+        "Owl"
+      ],
+      "heroes_a": [
+        "Uranus",
+        "Hayabusa",
+        "Yve",
+        "Khaleed",
+        "Freya"
+      ],
+      "heroes_b": [
+        "Claude",
+        "Harley",
+        "Zhuxin",
+        "Hilda",
+        "Arlott"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TWIS",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_pyi6w",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-04-18",
+      "team_a": "TNC",
+      "team_b": "TWIS",
+      "players_a": [
+        "3MarTzy",
+        "Zaida",
+        "LanceCy",
+        "Ch4knu",
+        "Bennyqt"
+      ],
+      "players_b": [
+        "Lansu",
+        "MP the King",
+        "Sionnn",
+        "Caloy",
+        "Nosia"
+      ],
+      "heroes_a": [
+        "Alice",
+        "Hayabusa",
+        "Zhuxin",
+        "Marcel",
+        "Karrie"
+      ],
+      "heroes_b": [
+        "Arlott",
+        "Harley",
+        "Yve",
+        "Khaleed",
+        "Granger"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TNC",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_pyi6w",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-04-18",
+      "team_a": "TNC",
+      "team_b": "TWIS",
+      "players_a": [
+        "3MarTzy",
+        "Zaida",
+        "LanceCy",
+        "Ch4knu",
+        "Bennyqt"
+      ],
+      "players_b": [
+        "Lansu",
+        "MP the King",
+        "Sionnn",
+        "Caloy",
+        "Owl"
+      ],
+      "heroes_a": [
+        "Alice",
+        "Suyou",
+        "Zhuxin",
+        "Kalea",
+        "Karrie"
+      ],
+      "heroes_b": [
+        "Phoveus",
+        "Harley",
+        "Yve",
+        "Khaleed",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TWIS",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_pyi6w",
+      "game": 3,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-04-18",
+      "team_a": "FLCN",
+      "team_b": "APBR",
+      "players_a": [
+        "FlapTzy",
+        "KyleTzy",
+        "Hadji",
+        "Owgwen",
+        "Super Marco"
+      ],
+      "players_b": [
+        "Kielvj",
+        "Jamespangks",
+        "Aqua",
+        "xNova",
+        "Shizou"
+      ],
+      "heroes_a": [
+        "Arlott",
+        "Suyou",
+        "Pharsa",
+        "Kalea",
+        "Claude"
+      ],
+      "heroes_b": [
+        "Valentina",
+        "Leomord",
+        "Zetian",
+        "Marcel",
+        "Karrie"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FLCN",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_zehl9",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-04-18",
+      "team_a": "FLCN",
+      "team_b": "APBR",
+      "players_a": [
+        "FlapTzy",
+        "KyleTzy",
+        "Hadji",
+        "Owgwen",
+        "Super Marco"
+      ],
+      "players_b": [
+        "Kielvj",
+        "Jamespangks",
+        "Aqua",
+        "xNova",
+        "Shizou"
+      ],
+      "heroes_a": [
+        "Uranus",
+        "Harley",
+        "Valentina",
+        "Hilda",
+        "Moskov"
+      ],
+      "heroes_b": [
+        "Yu Zhong",
+        "Guinevere",
+        "Pharsa",
+        "Marcel",
+        "Yi Sun-shin"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FLCN",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_zehl9",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-04-18",
+      "team_a": "RORA",
+      "team_b": "OMG",
+      "players_a": [
+        "Edward",
+        "Demonkite",
+        "Yue",
+        "Light",
+        "Domeng"
+      ],
+      "players_b": [
+        "Jeymz",
+        "Raizen",
+        "Minguin",
+        "Perkz",
+        "Netskie"
+      ],
+      "heroes_a": [
+        "Sora",
+        "Suyou",
+        "Valentina",
+        "Grock",
+        "Claude"
+      ],
+      "heroes_b": [
+        "Lapu-Lapu",
+        "Guinevere",
+        "Pharsa",
+        "Kalea",
+        "Karrie"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "RORA",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_z74wg",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-04-18",
+      "team_a": "RORA",
+      "team_b": "OMG",
+      "players_a": [
+        "Edward",
+        "Demonkite",
+        "Yue",
+        "Light",
+        "Domeng"
+      ],
+      "players_b": [
+        "Jeymz",
+        "Raizen",
+        "Minguin",
+        "Perkz",
+        "Netskie"
+      ],
+      "heroes_a": [
+        "Alice",
+        "Suyou",
+        "Kimmy",
+        "Kalea",
+        "Granger"
+      ],
+      "heroes_b": [
+        "Arlott",
+        "Harley",
+        "Valentina",
+        "Gatotkaca",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "OMG",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_z74wg",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-04-18",
+      "team_a": "RORA",
+      "team_b": "OMG",
+      "players_a": [
+        "Edward",
+        "Demonkite",
+        "Yue",
+        "Light",
+        "Domeng"
+      ],
+      "players_b": [
+        "Jeymz",
+        "Raizen",
+        "Minguin",
+        "Perkz",
+        "Netskie"
+      ],
+      "heroes_a": [
+        "Sora",
+        "Leomord",
+        "Valentina",
+        "Grock",
+        "Moskov"
+      ],
+      "heroes_b": [
+        "Alice",
+        "Fanny",
+        "Luo Yi",
+        "Guinevere",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "OMG",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_z74wg",
+      "game": 3,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-04-19",
+      "team_a": "TLPH",
+      "team_b": "FNOP",
+      "players_a": [
+        "Sanford",
+        "KarlTzy",
+        "Sanji",
+        "Jaypee",
+        "Daiki"
+      ],
+      "players_b": [
+        "Kirk",
+        "K1NGKONG",
+        "Super Frince",
+        "Brusko",
+        "Savero"
+      ],
+      "heroes_a": [
+        "Freya",
+        "Fredrinn",
+        "Yve",
+        "Khaleed",
+        "Harith"
+      ],
+      "heroes_b": [
+        "Yu Zhong",
+        "Suyou",
+        "Zhuxin",
+        "Kalea",
+        "Granger"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TLPH",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_bb6lx",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-04-19",
+      "team_a": "TLPH",
+      "team_b": "FNOP",
+      "players_a": [
+        "Sanford",
+        "KarlTzy",
+        "Sanji",
+        "Jaypee",
+        "Daiki"
+      ],
+      "players_b": [
+        "Kirk",
+        "K1NGKONG",
+        "Super Frince",
+        "Brusko",
+        "Savero"
+      ],
+      "heroes_a": [
+        "Uranus",
+        "Suyou",
+        "Zhuxin",
+        "Hylos",
+        "Claude"
+      ],
+      "heroes_b": [
+        "Alice",
+        "Harley",
+        "Luo Yi",
+        "Khaleed",
+        "Karrie"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TLPH",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_bb6lx",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-04-19",
+      "team_a": "APBR",
+      "team_b": "RORA",
+      "players_a": [
+        "Kielvj",
+        "Jamespangks",
+        "Aqua",
+        "xNova",
+        "Shizou"
+      ],
+      "players_b": [
+        "Edward",
+        "Demonkite",
+        "Yue",
+        "Light",
+        "Domeng"
+      ],
+      "heroes_a": [
+        "Sora",
+        "Joy",
+        "Valentina",
+        "Khaleed",
+        "Yi Sun-shin"
+      ],
+      "heroes_b": [
+        "Lapu-Lapu",
+        "Baxia",
+        "Kimmy",
+        "Gatotkaca",
+        "Granger"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "RORA",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_t39li",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-04-19",
+      "team_a": "APBR",
+      "team_b": "RORA",
+      "players_a": [
+        "Kielvj",
+        "Jamespangks",
+        "Aqua",
+        "xNova",
+        "Shizou"
+      ],
+      "players_b": [
+        "Edward",
+        "Demonkite",
+        "Yue",
+        "Light",
+        "Domeng"
+      ],
+      "heroes_a": [
+        "Sora",
+        "Harley",
+        "Valentina",
+        "Khaleed",
+        "Moskov"
+      ],
+      "heroes_b": [
+        "Lapu-Lapu",
+        "Baxia",
+        "Kimmy",
+        "Badang",
+        "Harith"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "RORA",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_t39li",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-04-24",
+      "team_a": "RORA",
+      "team_b": "TLPH",
+      "players_a": [
+        "Edward",
+        "Demonkite",
+        "Yue",
+        "Light",
+        "Domeng"
+      ],
+      "players_b": [
+        "Sanford",
+        "KarlTzy",
+        "Sanji",
+        "Jaypee",
+        "Daiki"
+      ],
+      "heroes_a": [
+        "Lapu-Lapu",
+        "Leomord",
+        "Zhuxin",
+        "Hylos",
+        "Granger"
+      ],
+      "heroes_b": [
+        "Terizla",
+        "Suyou",
+        "Valentina",
+        "Marcel",
+        "Harith"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TLPH",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_fd4ea",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-04-24",
+      "team_a": "RORA",
+      "team_b": "TLPH",
+      "players_a": [
+        "Edward",
+        "Demonkite",
+        "Yue",
+        "Light",
+        "Domeng"
+      ],
+      "players_b": [
+        "Sanford",
+        "KarlTzy",
+        "Sanji",
+        "Jaypee",
+        "Daiki"
+      ],
+      "heroes_a": [
+        "Phoveus",
+        "Harley",
+        "Valentina",
+        "Chou",
+        "Karrie"
+      ],
+      "heroes_b": [
+        "Uranus",
+        "Yi Sun-shin",
+        "Pharsa",
+        "Hylos",
+        "Freya"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TLPH",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_fd4ea",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-04-24",
+      "team_a": "FNOP",
+      "team_b": "TWIS",
+      "players_a": [
+        "Kirk",
+        "K1NGKONG",
+        "Super Frince",
+        "Brusko",
+        "Savero"
+      ],
+      "players_b": [
+        "Lansu",
+        "MP the King",
+        "Sionnn",
+        "Caloy",
+        "Owl"
+      ],
+      "heroes_a": [
+        "Uranus",
+        "Lancelot",
+        "Zhuxin",
+        "Kalea",
+        "Harith"
+      ],
+      "heroes_b": [
+        "Alice",
+        "Harley",
+        "Zetian",
+        "Khaleed",
+        "Moskov"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FNOP",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_shw8i",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-04-24",
+      "team_a": "FNOP",
+      "team_b": "TWIS",
+      "players_a": [
+        "Kirk",
+        "K1NGKONG",
+        "Super Frince",
+        "Brusko",
+        "Savero"
+      ],
+      "players_b": [
+        "Lansu",
+        "MP the King",
+        "Sionnn",
+        "Caloy",
+        "Owl"
+      ],
+      "heroes_a": [
+        "Alice",
+        "Harley",
+        "Valentina",
+        "Marcel",
+        "Bruno"
+      ],
+      "heroes_b": [
+        "Hilda",
+        "Suyou",
+        "Kagura",
+        "Kalea",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FNOP",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_shw8i",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-04-25",
+      "team_a": "OMG",
+      "team_b": "APBR",
+      "players_a": [
+        "Jeymz",
+        "Raizen",
+        "Minguin",
+        "Perkz",
+        "Netskie"
+      ],
+      "players_b": [
+        "Kielvj",
+        "Jamespangks",
+        "Aqua",
+        "xNova",
+        "Shizou"
+      ],
+      "heroes_a": [
+        "Terizla",
+        "Lancelot",
+        "Valentina",
+        "Marcel",
+        "Harith"
+      ],
+      "heroes_b": [
+        "Alice",
+        "Baxia",
+        "Pharsa",
+        "Khaleed",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "OMG",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_ecd20",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-04-25",
+      "team_a": "OMG",
+      "team_b": "APBR",
+      "players_a": [
+        "Jeymz",
+        "Raizen",
+        "Hadji",
+        "Perkz",
+        "Netskie"
+      ],
+      "players_b": [
+        "Kielvj",
+        "Jamespangks",
+        "Aqua",
+        "xNova",
+        "Shizou"
+      ],
+      "heroes_a": [
+        "Arlott",
+        "Baxia",
+        "Zhuxin",
+        "Hylos",
+        "Obsidia"
+      ],
+      "heroes_b": [
+        "Freya",
+        "Leomord",
+        "Lylia",
+        "Khaleed",
+        "Granger"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "APBR",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_ecd20",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-04-25",
+      "team_a": "OMG",
+      "team_b": "APBR",
+      "players_a": [
+        "Jeymz",
+        "Raizen",
+        "Minguin",
+        "Perkz",
+        "Netskie"
+      ],
+      "players_b": [
+        "Kielvj",
+        "Jamespangks",
+        "Aqua",
+        "xNova",
+        "Shizou"
+      ],
+      "heroes_a": [
+        "Yu Zhong",
+        "Harley",
+        "Zhuxin",
+        "Hylos",
+        "Bruno"
+      ],
+      "heroes_b": [
+        "Phoveus",
+        "Lancelot",
+        "Lylia",
+        "Chou",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "OMG",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703232_ecd20",
+      "game": 3,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-04-25",
+      "team_a": "TNC",
+      "team_b": "RORA",
+      "players_a": [
+        "3MarTzy",
+        "Zaida",
+        "LanceCy",
+        "Ch4knu",
+        "Bennyqt"
+      ],
+      "players_b": [
+        "Edward",
+        "Demonkite",
+        "Yue",
+        "Light",
+        "Domeng"
+      ],
+      "heroes_a": [
+        "Dyrroth",
+        "Leomord",
+        "Zhuxin",
+        "Atlas",
+        "Claude"
+      ],
+      "heroes_b": [
+        "Uranus",
+        "Suyou",
+        "Yve",
+        "Kalea",
+        "Karrie"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TNC",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_zmk29",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-04-25",
+      "team_a": "TNC",
+      "team_b": "RORA",
+      "players_a": [
+        "3MarTzy",
+        "Zaida",
+        "LanceCy",
+        "Ch4knu",
+        "Bennyqt"
+      ],
+      "players_b": [
+        "Edward",
+        "Demonkite",
+        "Yue",
+        "Light",
+        "Domeng"
+      ],
+      "heroes_a": [
+        "Uranus",
+        "Suyou",
+        "Valir",
+        "Hylos",
+        "Claude"
+      ],
+      "heroes_b": [
+        "Lapu-Lapu",
+        "Fredrinn",
+        "Valentina",
+        "Khaleed",
+        "Moskov"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TNC",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_zmk29",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-04-25",
+      "team_a": "TLPH",
+      "team_b": "TWIS",
+      "players_a": [
+        "Sanford",
+        "KarlTzy",
+        "Sanji",
+        "Jaypee",
+        "Teddy"
+      ],
+      "players_b": [
+        "Lansu",
+        "MP the King",
+        "Sionnn",
+        "Caloy",
+        "Owl"
+      ],
+      "heroes_a": [
+        "Terizla",
+        "Leomord",
+        "Valentina",
+        "Baxia",
+        "Karrie"
+      ],
+      "heroes_b": [
+        "Uranus",
+        "Suyou",
+        "Zhuxin",
+        "Khaleed",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TLPH",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_zqpeb",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-04-25",
+      "team_a": "TLPH",
+      "team_b": "TWIS",
+      "players_a": [
+        "Sanford",
+        "KarlTzy",
+        "Sanji",
+        "Jaypee",
+        "Daiki"
+      ],
+      "players_b": [
+        "Lansu",
+        "MP the King",
+        "Sionnn",
+        "Caloy",
+        "Owl"
+      ],
+      "heroes_a": [
+        "Terizla",
+        "Leomord",
+        "Zhuxin",
+        "Hylos",
+        "Karrie"
+      ],
+      "heroes_b": [
+        "Phoveus",
+        "Uranus",
+        "Kimmy",
+        "Khaleed",
+        "Yi Sun-shin"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TLPH",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_zqpeb",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-04-26",
+      "team_a": "APBR",
+      "team_b": "TNC",
+      "players_a": [
+        "Kielvj",
+        "Jamespangks",
+        "Aqua",
+        "xNova",
+        "Shizou"
+      ],
+      "players_b": [
+        "3MarTzy",
+        "Zaida",
+        "LanceCy",
+        "Ch4knu",
+        "Bennyqt"
+      ],
+      "heroes_a": [
+        "Uranus",
+        "Harley",
+        "Valentina",
+        "Kaja",
+        "Karrie"
+      ],
+      "heroes_b": [
+        "Dyrroth",
+        "Yi Sun-shin",
+        "Zhuxin",
+        "Hylos",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "APBR",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_tuoyj",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-04-26",
+      "team_a": "APBR",
+      "team_b": "TNC",
+      "players_a": [
+        "Kielvj",
+        "Jamespangks",
+        "Aqua",
+        "xNova",
+        "Shizou"
+      ],
+      "players_b": [
+        "3MarTzy",
+        "Zaida",
+        "LanceCy",
+        "Ch4knu",
+        "Bennyqt"
+      ],
+      "heroes_a": [
+        "Sora",
+        "Harley",
+        "Zhuxin",
+        "Kalea",
+        "Karrie"
+      ],
+      "heroes_b": [
+        "Uranus",
+        "Leomord",
+        "Valentina",
+        "Badang",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TNC",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_tuoyj",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-04-26",
+      "team_a": "APBR",
+      "team_b": "TNC",
+      "players_a": [
+        "Kielvj",
+        "Jamespangks",
+        "Aqua",
+        "xNova",
+        "Shizou"
+      ],
+      "players_b": [
+        "3MarTzy",
+        "Zaida",
+        "LanceCy",
+        "Ch4knu",
+        "Bennyqt"
+      ],
+      "heroes_a": [
+        "Uranus",
+        "Harley",
+        "Zhuxin",
+        "Hilda",
+        "Moskov"
+      ],
+      "heroes_b": [
+        "Terizla",
+        "Leomord",
+        "Valentina",
+        "Badang",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "APBR",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_tuoyj",
+      "game": 3,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-04-26",
+      "team_a": "FLCN",
+      "team_b": "FNOP",
+      "players_a": [
+        "FlapTzy",
+        "KyleTzy",
+        "Hadji",
+        "Owgwen",
+        "Super Marco"
+      ],
+      "players_b": [
+        "Kirk",
+        "K1NGKONG",
+        "Super Frince",
+        "Brusko",
+        "Savero"
+      ],
+      "heroes_a": [
+        "Uranus",
+        "Suyou",
+        "Zetian",
+        "Gatotkaca",
+        "Freya"
+      ],
+      "heroes_b": [
+        "Sora",
+        "Harley",
+        "Lylia",
+        "Kalea",
+        "Bruno"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FLCN",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_87b8g",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-04-26",
+      "team_a": "FLCN",
+      "team_b": "FNOP",
+      "players_a": [
+        "FlapTzy",
+        "KyleTzy",
+        "Hadji",
+        "Owgwen",
+        "Super Marco"
+      ],
+      "players_b": [
+        "Kirk",
+        "K1NGKONG",
+        "Super Frince",
+        "Brusko",
+        "Savero"
+      ],
+      "heroes_a": [
+        "Hilda",
+        "Baxia",
+        "Valentina",
+        "Marcel",
+        "Granger"
+      ],
+      "heroes_b": [
+        "Phoveus",
+        "Harley",
+        "Yve",
+        "Badang",
+        "Moskov"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FNOP",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_87b8g",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-04-26",
+      "team_a": "FLCN",
+      "team_b": "FNOP",
+      "players_a": [
+        "FlapTzy",
+        "KyleTzy",
+        "Hadji",
+        "Owgwen",
+        "Super Marco"
+      ],
+      "players_b": [
+        "Kirk",
+        "K1NGKONG",
+        "Super Frince",
+        "Brusko",
+        "Savero"
+      ],
+      "heroes_a": [
+        "Phoveus",
+        "Guinevere",
+        "Pharsa",
+        "Kalea",
+        "Harith"
+      ],
+      "heroes_b": [
+        "Uranus",
+        "Suyou",
+        "Valentina",
+        "Khaleed",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FLCN",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_87b8g",
+      "game": 3,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-01",
+      "team_a": "OMG",
+      "team_b": "TWIS",
+      "players_a": [
+        "Jeymz",
+        "Raizen",
+        "Minguin",
+        "Perkz",
+        "Netskie"
+      ],
+      "players_b": [
+        "Lansu",
+        "MP the King",
+        "Sionnn",
+        "Caloy",
+        "Nosia"
+      ],
+      "heroes_a": [
+        "Lapu-Lapu",
+        "Harley",
+        "Gord",
+        "Hylos",
+        "Claude"
+      ],
+      "heroes_b": [
+        "Phoveus",
+        "Suyou",
+        "Valentina",
+        "Hilda",
+        "Harith"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "OMG",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_3sssb",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-01",
+      "team_a": "OMG",
+      "team_b": "TWIS",
+      "players_a": [
+        "Jeymz",
+        "Raizen",
+        "Minguin",
+        "Perkz",
+        "Netskie"
+      ],
+      "players_b": [
+        "Lansu",
+        "MP the King",
+        "Sionnn",
+        "Caloy",
+        "Nosia"
+      ],
+      "heroes_a": [
+        "Phoveus",
+        "Leomord",
+        "Zhuxin",
+        "Gatotkaca",
+        "Harith"
+      ],
+      "heroes_b": [
+        "Uranus",
+        "Suyou",
+        "Selena",
+        "Marcel",
+        "Karrie"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "OMG",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_3sssb",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-01",
+      "team_a": "TNC",
+      "team_b": "FNOP",
+      "players_a": [
+        "3MarTzy",
+        "Zaida",
+        "LanceCy",
+        "Ch4knu",
+        "Bennyqt"
+      ],
+      "players_b": [
+        "Kirk",
+        "K1NGKONG",
+        "Super Frince",
+        "Brusko",
+        "Savero"
+      ],
+      "heroes_a": [
+        "Uranus",
+        "Hayabusa",
+        "Valir",
+        "Hylos",
+        "Harith"
+      ],
+      "heroes_b": [
+        "Hilda",
+        "Harley",
+        "Valentina",
+        "Kalea",
+        "Beatrix"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FNOP",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_julmr",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-01",
+      "team_a": "TNC",
+      "team_b": "FNOP",
+      "players_a": [
+        "3MarTzy",
+        "Zaida",
+        "LanceCy",
+        "Ch4knu",
+        "Bennyqt"
+      ],
+      "players_b": [
+        "Kirk",
+        "K1NGKONG",
+        "Super Frince",
+        "Brusko",
+        "Savero"
+      ],
+      "heroes_a": [
+        "Alice",
+        "Suyou",
+        "Valentina",
+        "Marcel",
+        "Moskov"
+      ],
+      "heroes_b": [
+        "Phoveus",
+        "Leomord",
+        "Gord",
+        "Grock",
+        "Freya"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FNOP",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_julmr",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-02",
+      "team_a": "TLPH",
+      "team_b": "FLCN",
+      "players_a": [
+        "Sanford",
+        "KarlTzy",
+        "Sanji",
+        "Jaypee",
+        "Teddy"
+      ],
+      "players_b": [
+        "FlapTzy",
+        "KyleTzy",
+        "Hadji",
+        "Owgwen",
+        "Super Marco"
+      ],
+      "heroes_a": [
+        "Phoveus",
+        "Fredrinn",
+        "Yve",
+        "Gatotkaca",
+        "Karrie"
+      ],
+      "heroes_b": [
+        "Alice",
+        "Leomord",
+        "Pharsa",
+        "Hylos",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TLPH",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_jyjui",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-02",
+      "team_a": "TLPH",
+      "team_b": "FLCN",
+      "players_a": [
+        "Sanford",
+        "KarlTzy",
+        "Sanji",
+        "Jaypee",
+        "Teddy"
+      ],
+      "players_b": [
+        "FlapTzy",
+        "KyleTzy",
+        "Hadji",
+        "Owgwen",
+        "Super Marco"
+      ],
+      "heroes_a": [
+        "Terizla",
+        "Suyou",
+        "Selena",
+        "Gatotkaca",
+        "Moskov"
+      ],
+      "heroes_b": [
+        "Arlott",
+        "Guinevere",
+        "Yve",
+        "Kalea",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FLCN",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_jyjui",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-02",
+      "team_a": "TLPH",
+      "team_b": "FLCN",
+      "players_a": [
+        "Sanford",
+        "KarlTzy",
+        "Sanji",
+        "Jaypee",
+        "Teddy"
+      ],
+      "players_b": [
+        "FlapTzy",
+        "KyleTzy",
+        "Hadji",
+        "Owgwen",
+        "Super Marco"
+      ],
+      "heroes_a": [
+        "Uranus",
+        "Leomord",
+        "Yve",
+        "Khaleed",
+        "Harith"
+      ],
+      "heroes_b": [
+        "Sora",
+        "Suyou",
+        "Valentina",
+        "Kalea",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FLCN",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_jyjui",
+      "game": 3,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-02",
+      "team_a": "TNC",
+      "team_b": "OMG",
+      "players_a": [
+        "3MarTzy",
+        "Zaida",
+        "LanceCy",
+        "Ch4knu",
+        "Bennyqt"
+      ],
+      "players_b": [
+        "Jeymz",
+        "Raizen",
+        "Minguin",
+        "Perkz",
+        "Netskie"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "OMG",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_pmvpg",
+      "game": 1,
+      "picks_verified": false,
+      "reported_heroes_a": [
+        "Gloo",
+        "Harley",
+        "Yve",
+        "Khufra",
+        "Karrie"
+      ],
+      "reported_heroes_b": [
+        "Hylos",
+        "Fanny",
+        "Zhuxin",
+        "Hylos",
+        "Bruno"
+      ],
+      "pick_data_issue": "Published summary has missing or duplicate heroes; excluded from pick counts."
+    },
+    {
+      "date": "2026-05-02",
+      "team_a": "TNC",
+      "team_b": "OMG",
+      "players_a": [
+        "3MarTzy",
+        "Zaida",
+        "LanceCy",
+        "Ch4knu",
+        "Bennyqt"
+      ],
+      "players_b": [
+        "Jeymz",
+        "Raizen",
+        "Minguin",
+        "Perkz",
+        "Netskie"
+      ],
+      "heroes_a": [
+        "Arlott",
+        "Suyou",
+        "Zhuxin",
+        "Gloo",
+        "Harith"
+      ],
+      "heroes_b": [
+        "Yu Zhong",
+        "Harley",
+        "Valentina",
+        "Hylos",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "OMG",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_pmvpg",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-02",
+      "team_a": "RORA",
+      "team_b": "TWIS",
+      "players_a": [
+        "Edward",
+        "Demonkite",
+        "Yue",
+        "Light",
+        "Domeng"
+      ],
+      "players_b": [
+        "Lansu",
+        "MP the King",
+        "Sionnn",
+        "Caloy",
+        "Nosia"
+      ],
+      "heroes_a": [
+        "Thamuz",
+        "Harley",
+        "Pharsa",
+        "Gatotkaca",
+        "Claude"
+      ],
+      "heroes_b": [
+        "Terizla",
+        "Leomord",
+        "Valentina",
+        "Marcel",
+        "Granger"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "RORA",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_yv1sa",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-02",
+      "team_a": "RORA",
+      "team_b": "TWIS",
+      "players_a": [
+        "Edward",
+        "Demonkite",
+        "Yue",
+        "Light",
+        "Domeng"
+      ],
+      "players_b": [
+        "Lansu",
+        "MP the King",
+        "Sionnn",
+        "Tracy",
+        "Nosia"
+      ],
+      "heroes_a": [
+        "Thamuz",
+        "Fredrinn",
+        "Zhuxin",
+        "Badang",
+        "Claude"
+      ],
+      "heroes_b": [
+        "Hilda",
+        "Harley",
+        "Valentina",
+        "Khaleed",
+        "Karrie"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TWIS",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_yv1sa",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-02",
+      "team_a": "RORA",
+      "team_b": "TWIS",
+      "players_a": [
+        "Edward",
+        "Demonkite",
+        "Yue",
+        "Light",
+        "Domeng"
+      ],
+      "players_b": [
+        "Lansu",
+        "MP the King",
+        "Sionnn",
+        "Tracy",
+        "Nosia"
+      ],
+      "heroes_a": [
+        "Terizla",
+        "Suyou",
+        "Valentina",
+        "Hylos",
+        "Harith"
+      ],
+      "heroes_b": [
+        "Alice",
+        "Leomord",
+        "Zhuxin",
+        "Khaleed",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TWIS",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_yv1sa",
+      "game": 3,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-03",
+      "team_a": "TLPH",
+      "team_b": "APBR",
+      "players_a": [
+        "Sanford",
+        "KarlTzy",
+        "Sanji",
+        "Jaypee",
+        "Teddy"
+      ],
+      "players_b": [
+        "Kielvj",
+        "Jamespangks",
+        "Aqua",
+        "xNova",
+        "Shizou"
+      ],
+      "heroes_a": [
+        "Phoveus",
+        "Leomord",
+        "Pharsa",
+        "Chou",
+        "Claude"
+      ],
+      "heroes_b": [
+        "Alice",
+        "Aulus",
+        "Yve",
+        "Hylos",
+        "Harith"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TLPH",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_uco7n",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-03",
+      "team_a": "TLPH",
+      "team_b": "APBR",
+      "players_a": [
+        "Sanford",
+        "KarlTzy",
+        "Sanji",
+        "Jaypee",
+        "Teddy"
+      ],
+      "players_b": [
+        "Kielvj",
+        "Jamespangks",
+        "Aqua",
+        "xNova",
+        "Shizou"
+      ],
+      "heroes_a": [
+        "Phoveus",
+        "Fredrinn",
+        "Yve",
+        "Gatotkaca",
+        "Moskov"
+      ],
+      "heroes_b": [
+        "Terizla",
+        "Leomord",
+        "Pharsa",
+        "Marcel",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "APBR",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_uco7n",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-03",
+      "team_a": "TLPH",
+      "team_b": "APBR",
+      "players_a": [
+        "Sanford",
+        "KarlTzy",
+        "Sanji",
+        "Jaypee",
+        "Teddy"
+      ],
+      "players_b": [
+        "Kielvj",
+        "Jamespangks",
+        "Aqua",
+        "xNova",
+        "Shizou"
+      ],
+      "heroes_a": [
+        "Arlott",
+        "Suyou",
+        "Valentina",
+        "Gatotkaca",
+        "Bruno"
+      ],
+      "heroes_b": [
+        "Uranus",
+        "Leomord",
+        "Pharsa",
+        "Hilda",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TLPH",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_uco7n",
+      "game": 3,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-03",
+      "team_a": "FLCN",
+      "team_b": "RORA",
+      "players_a": [
+        "FlapTzy",
+        "KyleTzy",
+        "Hadji",
+        "Owgwen",
+        "Super Marco"
+      ],
+      "players_b": [
+        "Edward",
+        "Demonkite",
+        "Yue",
+        "Light",
+        "Domeng"
+      ],
+      "heroes_a": [
+        "Sora",
+        "Suyou",
+        "Valentina",
+        "Gloo",
+        "Moskov"
+      ],
+      "heroes_b": [
+        "Arlott",
+        "Harley",
+        "Pharsa",
+        "Marcel",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FLCN",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_d9uss",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-03",
+      "team_a": "FLCN",
+      "team_b": "RORA",
+      "players_a": [
+        "FlapTzy",
+        "KyleTzy",
+        "Hadji",
+        "Owgwen",
+        "Super Marco"
+      ],
+      "players_b": [
+        "Edward",
+        "Demonkite",
+        "Yue",
+        "Light",
+        "Domeng"
+      ],
+      "heroes_a": [
+        "Terizla",
+        "Harley",
+        "Yve",
+        "Kalea",
+        "Claude"
+      ],
+      "heroes_b": [
+        "Phoveus",
+        "Suyou",
+        "Valentina",
+        "Gatotkaca",
+        "Moskov"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FLCN",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_d9uss",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-08",
+      "team_a": "APBR",
+      "team_b": "FNOP",
+      "players_a": [
+        "Kielvj",
+        "Jamespangks",
+        "Aqua",
+        "xNova",
+        "Shizou"
+      ],
+      "players_b": [
+        "Kirk",
+        "K1NGKONG",
+        "Super Frince",
+        "Brusko",
+        "Savero"
+      ],
+      "heroes_a": [
+        "Freya",
+        "Guinevere",
+        "Lylia",
+        "Hilda",
+        "Moskov"
+      ],
+      "heroes_b": [
+        "Arlott",
+        "Harley",
+        "Zhuxin",
+        "Khaleed",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FNOP",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_cdlhh",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-08",
+      "team_a": "APBR",
+      "team_b": "FNOP",
+      "players_a": [
+        "Kielvj",
+        "Jamespangks",
+        "Aqua",
+        "xNova",
+        "Shizou"
+      ],
+      "players_b": [
+        "Kirk",
+        "K1NGKONG",
+        "Super Frince",
+        "Brusko",
+        "Savero"
+      ],
+      "heroes_a": [
+        "Phoveus",
+        "Joy",
+        "Kimmy",
+        "Marcel",
+        "Claude"
+      ],
+      "heroes_b": [
+        "Lapu-Lapu",
+        "Baxia",
+        "Gord",
+        "Kalea",
+        "Clint"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FNOP",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_cdlhh",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-08",
+      "team_a": "OMG",
+      "team_b": "TLPH",
+      "players_a": [
+        "Jeymz",
+        "Raizen",
+        "Minguin",
+        "Perkz",
+        "Netskie"
+      ],
+      "players_b": [
+        "Sanford",
+        "KarlTzy",
+        "Sanji",
+        "Jaypee",
+        "Teddy"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TLPH",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_y88fl",
+      "game": 1,
+      "picks_verified": false,
+      "reported_heroes_a": [
+        "Chou",
+        "Leomord",
+        "Zhuxin",
+        "Chou",
+        "Obsidia"
+      ],
+      "reported_heroes_b": [
+        "Terizla",
+        "Harley",
+        "Pharsa",
+        "Hilda",
+        "Freya"
+      ],
+      "pick_data_issue": "Published summary has missing or duplicate heroes; excluded from pick counts."
+    },
+    {
+      "date": "2026-05-08",
+      "team_a": "OMG",
+      "team_b": "TLPH",
+      "players_a": [
+        "Jeymz",
+        "Raizen",
+        "Minguin",
+        "Perkz",
+        "Netskie"
+      ],
+      "players_b": [
+        "Sanford",
+        "KarlTzy",
+        "Sanji",
+        "Jaypee",
+        "Oheb"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TLPH",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_y88fl",
+      "game": 2,
+      "picks_verified": false,
+      "reported_heroes_a": [
+        "Hylos",
+        "Leomord",
+        "Zhuxin",
+        "Hylos",
+        "Moskov"
+      ],
+      "reported_heroes_b": [
+        "Yu Zhong",
+        "Suyou",
+        "Yve",
+        "Gatotkaca",
+        "Claude"
+      ],
+      "pick_data_issue": "Published summary has missing or duplicate heroes; excluded from pick counts."
+    },
+    {
+      "date": "2026-05-09",
+      "team_a": "TWIS",
+      "team_b": "APBR",
+      "players_a": [
+        "Lansu",
+        "MP the King",
+        "Sionnn",
+        "Tracy",
+        "Nosia"
+      ],
+      "players_b": [
+        "JM",
+        "Jamespangks",
+        "Aqua",
+        "xNova",
+        "Shizou"
+      ],
+      "heroes_a": [
+        "Uranus",
+        "Leomord",
+        "Gord",
+        "Kalea",
+        "Moskov"
+      ],
+      "heroes_b": [
+        "Alice",
+        "Joy",
+        "Valentina",
+        "Baxia",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TWIS",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_ubwd7",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-09",
+      "team_a": "TWIS",
+      "team_b": "APBR",
+      "players_a": [
+        "Lansu",
+        "MP the King",
+        "Sionnn",
+        "Tracy",
+        "Nosia"
+      ],
+      "players_b": [
+        "Kielvj",
+        "Jamespangks",
+        "Chovskrt",
+        "xNova",
+        "Shizou"
+      ],
+      "heroes_a": [
+        "Gloo",
+        "Leomord",
+        "Zhuxin",
+        "Khaleed",
+        "Harith"
+      ],
+      "heroes_b": [
+        "Arlott",
+        "Harley",
+        "Yve",
+        "Gatotkaca",
+        "Granger"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TWIS",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_ubwd7",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-09",
+      "team_a": "FLCN",
+      "team_b": "OMG",
+      "players_a": [
+        "FlapTzy",
+        "KyleTzy",
+        "Hadji",
+        "Owgwen",
+        "Super Marco"
+      ],
+      "players_b": [
+        "Jeymz",
+        "Raizen",
+        "Minguin",
+        "Perkz",
+        "Netskie"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "OMG",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_pzzzm",
+      "game": 1,
+      "picks_verified": false,
+      "reported_heroes_a": [
+        "Uranus",
+        "Suyou",
+        "Luo Yi",
+        "Chou",
+        "Moskov"
+      ],
+      "reported_heroes_b": [
+        "Marcel",
+        "Harley",
+        "Luo Yi",
+        "Marcel",
+        "Claude"
+      ],
+      "pick_data_issue": "Published summary has missing or duplicate heroes; excluded from pick counts."
+    },
+    {
+      "date": "2026-05-09",
+      "team_a": "FLCN",
+      "team_b": "OMG",
+      "players_a": [
+        "FlapTzy",
+        "KyleTzy",
+        "Hadji",
+        "Owgwen",
+        "Super Marco"
+      ],
+      "players_b": [
+        "Jeymz",
+        "Raizen",
+        "Minguin",
+        "Perkz",
+        "Netskie"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FLCN",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_pzzzm",
+      "game": 2,
+      "picks_verified": false,
+      "reported_heroes_a": [
+        "Alice",
+        "Suyou",
+        "Yve",
+        "Kalea",
+        "Claude"
+      ],
+      "reported_heroes_b": [
+        "Marcel",
+        "Fredrinn",
+        "Valentina",
+        "Marcel",
+        "Bruno"
+      ],
+      "pick_data_issue": "Published summary has missing or duplicate heroes; excluded from pick counts."
+    },
+    {
+      "date": "2026-05-09",
+      "team_a": "FLCN",
+      "team_b": "OMG",
+      "players_a": [
+        "FlapTzy",
+        "KyleTzy",
+        "Hadji",
+        "Owgwen",
+        "Super Marco"
+      ],
+      "players_b": [
+        "Jeymz",
+        "Raizen",
+        "Minguin",
+        "Perkz",
+        "Netskie"
+      ],
+      "heroes_a": [
+        "Sora",
+        "Harley",
+        "Pharsa",
+        "Khaleed",
+        "Karrie"
+      ],
+      "heroes_b": [
+        "Valentina",
+        "Suyou",
+        "Zhuxin",
+        "Gatotkaca",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "OMG",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_pzzzm",
+      "game": 3,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-09",
+      "team_a": "TLPH",
+      "team_b": "TNC",
+      "players_a": [
+        "Sanford",
+        "KarlTzy",
+        "Sanji",
+        "Jaypee",
+        "Teddy"
+      ],
+      "players_b": [
+        "3MarTzy",
+        "Zaida",
+        "Stowm",
+        "Ch4knu",
+        "Bennyqt"
+      ],
+      "heroes_a": [
+        "Terizla",
+        "Suyou",
+        "Yve",
+        "Khaleed",
+        "Claude"
+      ],
+      "heroes_b": [
+        "Sora",
+        "Leomord",
+        "Zhuxin",
+        "Hylos",
+        "Harith"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TLPH",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_mmxk5",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-09",
+      "team_a": "TLPH",
+      "team_b": "TNC",
+      "players_a": [
+        "Sanford",
+        "KarlTzy",
+        "Sanji",
+        "Jaypee",
+        "Teddy"
+      ],
+      "players_b": [
+        "3MarTzy",
+        "Zaida",
+        "Stowm",
+        "Ch4knu",
+        "Bennyqt"
+      ],
+      "heroes_a": [
+        "Sora",
+        "Guinevere",
+        "Zhuxin",
+        "Khaleed",
+        "Claude"
+      ],
+      "heroes_b": [
+        "Alice",
+        "Suyou",
+        "Yve",
+        "Gatotkaca",
+        "Karrie"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TLPH",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_mmxk5",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-10",
+      "team_a": "TWIS",
+      "team_b": "FLCN",
+      "players_a": [
+        "Lansu",
+        "MP the King",
+        "Sionnn",
+        "Tracy",
+        "Nosia"
+      ],
+      "players_b": [
+        "FlapTzy",
+        "KyleTzy",
+        "Hadji",
+        "Owgwen",
+        "Super Marco"
+      ],
+      "heroes_a": [
+        "Hilda",
+        "Leomord",
+        "Valentina",
+        "Marcel",
+        "Moskov"
+      ],
+      "heroes_b": [
+        "Terizla",
+        "Suyou",
+        "Yve",
+        "Kalea",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FLCN",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_in95t",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-10",
+      "team_a": "TWIS",
+      "team_b": "FLCN",
+      "players_a": [
+        "Lansu",
+        "MP the King",
+        "Sionnn",
+        "Tracy",
+        "Nosia"
+      ],
+      "players_b": [
+        "FlapTzy",
+        "KyleTzy",
+        "Hadji",
+        "Owgwen",
+        "Super Marco"
+      ],
+      "heroes_a": [
+        "Alice",
+        "Leomord",
+        "Gord",
+        "Marcel",
+        "Claude"
+      ],
+      "heroes_b": [
+        "Lapu-Lapu",
+        "Suyou",
+        "Valentina",
+        "Hilda",
+        "Moskov"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FLCN",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_in95t",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-10",
+      "team_a": "RORA",
+      "team_b": "FNOP",
+      "players_a": [
+        "Edward",
+        "Demonkite",
+        "Yue",
+        "Light",
+        "Domeng"
+      ],
+      "players_b": [
+        "Kirk",
+        "K1NGKONG",
+        "Super Frince",
+        "Brusko",
+        "Savero"
+      ],
+      "heroes_a": [
+        "Phoveus",
+        "Harley",
+        "Kimmy",
+        "Gatotkaca",
+        "Claude"
+      ],
+      "heroes_b": [
+        "Gloo",
+        "Suyou",
+        "Zhuxin",
+        "Khaleed",
+        "Harith"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "RORA",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_eyk9b",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-10",
+      "team_a": "RORA",
+      "team_b": "FNOP",
+      "players_a": [
+        "Edward",
+        "Demonkite",
+        "Yue",
+        "Light",
+        "Domeng"
+      ],
+      "players_b": [
+        "Kirk",
+        "K1NGKONG",
+        "Super Frince",
+        "Brusko",
+        "Savero"
+      ],
+      "heroes_a": [
+        "Arlott",
+        "Suyou",
+        "Valentina",
+        "Gatotkaca",
+        "Harith"
+      ],
+      "heroes_b": [
+        "Hilda",
+        "Harley",
+        "Gord",
+        "Hylos",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FNOP",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_eyk9b",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-10",
+      "team_a": "RORA",
+      "team_b": "FNOP",
+      "players_a": [
+        "Edward",
+        "Demonkite",
+        "Yue",
+        "Light",
+        "Domeng"
+      ],
+      "players_b": [
+        "Kirk",
+        "K1NGKONG",
+        "Super Frince",
+        "Brusko",
+        "Savero"
+      ],
+      "heroes_a": [
+        "Sora",
+        "Fredrinn",
+        "Yve",
+        "Gatotkaca",
+        "Claude"
+      ],
+      "heroes_b": [
+        "Phoveus",
+        "Suyou",
+        "Gord",
+        "Atlas",
+        "Harith"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FNOP",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_eyk9b",
+      "game": 3,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-15",
+      "team_a": "FLCN",
+      "team_b": "TNC",
+      "players_a": [
+        "FlapTzy",
+        "KyleTzy",
+        "Hadji",
+        "Owgwen",
+        "Super Marco"
+      ],
+      "players_b": [
+        "3MarTzy",
+        "Zaida",
+        "LanceCy",
+        "Ch4knu",
+        "Bennyqt"
+      ],
+      "heroes_a": [
+        "Lapu-Lapu",
+        "Guinevere",
+        "Valentina",
+        "Hilda",
+        "Claude"
+      ],
+      "heroes_b": [
+        "Terizla",
+        "Harley",
+        "Zhuxin",
+        "Marcel",
+        "Yi Sun-shin"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FLCN",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_0nby4",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-15",
+      "team_a": "FLCN",
+      "team_b": "TNC",
+      "players_a": [
+        "FlapTzy",
+        "KyleTzy",
+        "Hadji",
+        "Owgwen",
+        "Super Marco"
+      ],
+      "players_b": [
+        "3MarTzy",
+        "Zaida",
+        "LanceCy",
+        "Ch4knu",
+        "Bennyqt"
+      ],
+      "heroes_a": [
+        "Sora",
+        "Guinevere",
+        "Pharsa",
+        "Kalea",
+        "Moskov"
+      ],
+      "heroes_b": [
+        "Alice",
+        "Suyou",
+        "Zhuxin",
+        "Khaleed",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FLCN",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_0nby4",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-15",
+      "team_a": "FNOP",
+      "team_b": "OMG",
+      "players_a": [
+        "Kirk",
+        "K1NGKONG",
+        "Super Frince",
+        "Brusko",
+        "Savero"
+      ],
+      "players_b": [
+        "Jeymz",
+        "Raizen",
+        "Minguin",
+        "Perkz",
+        "Netskie"
+      ],
+      "heroes_a": [
+        "Terizla",
+        "Harley",
+        "Gord",
+        "Kaja",
+        "Claude"
+      ],
+      "heroes_b": [
+        "Hilda",
+        "Lancelot",
+        "Zhuxin",
+        "Khaleed",
+        "Harith"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FNOP",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_c6mfe",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-15",
+      "team_a": "FNOP",
+      "team_b": "OMG",
+      "players_a": [
+        "Kirk",
+        "K1NGKONG",
+        "Super Frince",
+        "Brusko",
+        "Savero"
+      ],
+      "players_b": [
+        "Jeymz",
+        "Raizen",
+        "Minguin",
+        "Perkz",
+        "Netskie"
+      ],
+      "heroes_a": [
+        "Hilda",
+        "Suyou",
+        "Zhuxin",
+        "Hylos",
+        "Moskov"
+      ],
+      "heroes_b": [
+        "Alice",
+        "Fanny",
+        "Yve",
+        "Grock",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "OMG",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_c6mfe",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-15",
+      "team_a": "FNOP",
+      "team_b": "OMG",
+      "players_a": [
+        "Kirk",
+        "K1NGKONG",
+        "Super Frince",
+        "Brusko",
+        "Savero"
+      ],
+      "players_b": [
+        "Jeymz",
+        "Raizen",
+        "Minguin",
+        "Perkz",
+        "Netskie"
+      ],
+      "heroes_a": [
+        "Lapu-Lapu",
+        "Baxia",
+        "Valentina",
+        "Chou",
+        "Obsidia"
+      ],
+      "heroes_b": [
+        "Arlott",
+        "Harley",
+        "Luo Yi",
+        "Hylos",
+        "Bruno"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FNOP",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_c6mfe",
+      "game": 3,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-16",
+      "team_a": "TWIS",
+      "team_b": "TNC",
+      "players_a": [
+        "Lansu",
+        "MP the King",
+        "Sionnn",
+        "Tracy",
+        "Nosia"
+      ],
+      "players_b": [
+        "3MarTzy",
+        "Zaida",
+        "Stowm",
+        "Ch4knu",
+        "Bennyqt"
+      ],
+      "heroes_a": [
+        "Hilda",
+        "Suyou",
+        "Gord",
+        "Chou",
+        "Claude"
+      ],
+      "heroes_b": [
+        "Sora",
+        "Nolan",
+        "Valentina",
+        "Gloo",
+        "Harith"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TNC",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_8supp",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-16",
+      "team_a": "TWIS",
+      "team_b": "TNC",
+      "players_a": [
+        "Lansu",
+        "MP the King",
+        "Sionnn",
+        "Tracy",
+        "Nosia"
+      ],
+      "players_b": [
+        "3MarTzy",
+        "Zaida",
+        "Stowm",
+        "Ch4knu",
+        "Bennyqt"
+      ],
+      "heroes_a": [
+        "Alice",
+        "Suyou",
+        "Selena",
+        "Baxia",
+        "Claude"
+      ],
+      "heroes_b": [
+        "Phoveus",
+        "Guinevere",
+        "Valentina",
+        "Atlas",
+        "Moskov"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TWIS",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_8supp",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-16",
+      "team_a": "TWIS",
+      "team_b": "TNC",
+      "players_a": [
+        "Lansu",
+        "MP the King",
+        "Sionnn",
+        "Tracy",
+        "Nosia"
+      ],
+      "players_b": [
+        "3MarTzy",
+        "Zaida",
+        "Stowm",
+        "Ch4knu",
+        "Bennyqt"
+      ],
+      "heroes_a": [
+        "Alice",
+        "Harley",
+        "Gord",
+        "Hilda",
+        "Claude"
+      ],
+      "heroes_b": [
+        "Uranus",
+        "Saber",
+        "Yve",
+        "Khaleed",
+        "Harith"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TWIS",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_8supp",
+      "game": 3,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-16",
+      "team_a": "APBR",
+      "team_b": "FLCN",
+      "players_a": [
+        "Kielvj",
+        "Jamespangks",
+        "Aqua",
+        "xNova",
+        "Shizou"
+      ],
+      "players_b": [
+        "FlapTzy",
+        "KyleTzy",
+        "Hadji",
+        "Owgwen",
+        "Super Marco"
+      ],
+      "heroes_a": [
+        "Alice",
+        "Harley",
+        "Gord",
+        "Hylos",
+        "Irithel"
+      ],
+      "heroes_b": [
+        "Phoveus",
+        "Hayabusa",
+        "Valentina",
+        "Khaleed",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FLCN",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_c6p72",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-16",
+      "team_a": "APBR",
+      "team_b": "FLCN",
+      "players_a": [
+        "Kielvj",
+        "Jamespangks",
+        "Aqua",
+        "JM",
+        "Shizou"
+      ],
+      "players_b": [
+        "FlapTzy",
+        "KyleTzy",
+        "Hadji",
+        "Owgwen",
+        "Super Marco"
+      ],
+      "heroes_a": [
+        "Uranus",
+        "Harley",
+        "Zhuxin",
+        "Marcel",
+        "Granger"
+      ],
+      "heroes_b": [
+        "Arlott",
+        "Fredrinn",
+        "Valentina",
+        "Gloo",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FLCN",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_c6p72",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-16",
+      "team_a": "OMG",
+      "team_b": "RORA",
+      "players_a": [
+        "Jeymz",
+        "Raizen",
+        "Minguin",
+        "Perkz",
+        "Netskie"
+      ],
+      "players_b": [
+        "Edward",
+        "Demonkite",
+        "Yue",
+        "Light",
+        "Domeng"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "OMG",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_3dd6s",
+      "game": 1,
+      "picks_verified": false,
+      "reported_heroes_a": [
+        "Marcel",
+        "Fredrinn",
+        "Selena",
+        "Marcel",
+        "Claude"
+      ],
+      "reported_heroes_b": [
+        "Arlott",
+        "Suyou",
+        "Zhuxin",
+        "Gloo",
+        "Clint"
+      ],
+      "pick_data_issue": "Published summary has missing or duplicate heroes; excluded from pick counts."
+    },
+    {
+      "date": "2026-05-16",
+      "team_a": "OMG",
+      "team_b": "RORA",
+      "players_a": [
+        "Jeymz",
+        "Raizen",
+        "Minguin",
+        "Perkz",
+        "Netskie"
+      ],
+      "players_b": [
+        "Edward",
+        "Demonkite",
+        "Yue",
+        "Light",
+        "Domeng"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "RORA",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_3dd6s",
+      "game": 2,
+      "picks_verified": false,
+      "reported_heroes_a": [
+        "Gatotkaca",
+        "Suyou",
+        "Selena",
+        "Gatotkaca",
+        "Claude"
+      ],
+      "reported_heroes_b": [
+        "Hilda",
+        "Harley",
+        "Gord",
+        "Kalea",
+        "Clint"
+      ],
+      "pick_data_issue": "Published summary has missing or duplicate heroes; excluded from pick counts."
+    },
+    {
+      "date": "2026-05-16",
+      "team_a": "OMG",
+      "team_b": "RORA",
+      "players_a": [
+        "Jeymz",
+        "Raizen",
+        "Minguin",
+        "Perkz",
+        "Netskie"
+      ],
+      "players_b": [
+        "Edward",
+        "Demonkite",
+        "Yue",
+        "Light",
+        "Domeng"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "RORA",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_3dd6s",
+      "game": 3,
+      "picks_verified": false,
+      "reported_heroes_a": [
+        "Kalea",
+        "Leomord",
+        "Zhuxin",
+        "Kalea",
+        "Irithel"
+      ],
+      "reported_heroes_b": [
+        "Gloo",
+        "Suyou",
+        "Kimmy",
+        "Belerick",
+        "Claude"
+      ],
+      "pick_data_issue": "Published summary has missing or duplicate heroes; excluded from pick counts."
+    },
+    {
+      "date": "2026-05-17",
+      "team_a": "FNOP",
+      "team_b": "TLPH",
+      "players_a": [
+        "Kirk",
+        "K1NGKONG",
+        "Super Frince",
+        "Brusko",
+        "Savero"
+      ],
+      "players_b": [
+        "Sanford",
+        "KarlTzy",
+        "Sanji",
+        "Jaypee",
+        "Teddy"
+      ],
+      "heroes_a": [
+        "Phoveus",
+        "Guinevere",
+        "Gord",
+        "Grock",
+        "Clint"
+      ],
+      "heroes_b": [
+        "Terizla",
+        "Suyou",
+        "Yve",
+        "Marcel",
+        "Harith"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TLPH",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_woug7",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-17",
+      "team_a": "FNOP",
+      "team_b": "TLPH",
+      "players_a": [
+        "Kirk",
+        "K1NGKONG",
+        "Super Frince",
+        "Brusko",
+        "Savero"
+      ],
+      "players_b": [
+        "Sanford",
+        "KarlTzy",
+        "Sanji",
+        "Jaypee",
+        "Teddy"
+      ],
+      "heroes_a": [
+        "Sora",
+        "Suyou",
+        "Zhuxin",
+        "Gatotkaca",
+        "Claude"
+      ],
+      "heroes_b": [
+        "Benedetta",
+        "Guinevere",
+        "Gord",
+        "Marcel",
+        "Freya"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TLPH",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_woug7",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-17",
+      "team_a": "RORA",
+      "team_b": "APBR",
+      "players_a": [
+        "Edward",
+        "Demonkite",
+        "Yue",
+        "Light",
+        "Domeng"
+      ],
+      "players_b": [
+        "Kielvj",
+        "Jamespangks",
+        "Chovskrt",
+        "xNova",
+        "Shizou"
+      ],
+      "heroes_a": [
+        "Uranus",
+        "Harley",
+        "Lylia",
+        "Grock",
+        "Claude"
+      ],
+      "heroes_b": [
+        "Phoveus",
+        "Guinevere",
+        "Zhuxin",
+        "Khaleed",
+        "Moskov"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "APBR",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_hdqgr",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-17",
+      "team_a": "RORA",
+      "team_b": "APBR",
+      "players_a": [
+        "Edward",
+        "Demonkite",
+        "Yue",
+        "Light",
+        "Domeng"
+      ],
+      "players_b": [
+        "Kielvj",
+        "Jamespangks",
+        "Chovskrt",
+        "xNova",
+        "Shizou"
+      ],
+      "heroes_a": [
+        "Phoveus",
+        "Harley",
+        "Valentina",
+        "Gatotkaca",
+        "Claude"
+      ],
+      "heroes_b": [
+        "Lapu-Lapu",
+        "Leomord",
+        "Selena",
+        "Marcel",
+        "Moskov"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "RORA",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_hdqgr",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-17",
+      "team_a": "RORA",
+      "team_b": "APBR",
+      "players_a": [
+        "Edward",
+        "Demonkite",
+        "Yue",
+        "Light",
+        "Domeng"
+      ],
+      "players_b": [
+        "Kielvj",
+        "Jamespangks",
+        "Chovskrt",
+        "xNova",
+        "Shizou"
+      ],
+      "heroes_a": [
+        "Lapu-Lapu",
+        "Fredrinn",
+        "Zhuxin",
+        "Badang",
+        "Granger"
+      ],
+      "heroes_b": [
+        "Phoveus",
+        "Fanny",
+        "Valentina",
+        "Atlas",
+        "Harith"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "RORA",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773667703233_hdqgr",
+      "game": 3,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-27",
+      "team_a": "FNOP",
+      "team_b": "RORA",
+      "players_a": [
+        "Kirk",
+        "K1NGKONG",
+        "Super Frince",
+        "Brusko",
+        "Savero"
+      ],
+      "players_b": [
+        "Edward",
+        "Demonkite",
+        "Yue",
+        "Light",
+        "Domeng"
+      ],
+      "heroes_a": [
+        "Gloo",
+        "Harley",
+        "Gord",
+        "Marcel",
+        "Bruno"
+      ],
+      "heroes_b": [
+        "Benedetta",
+        "Guinevere",
+        "Valentina",
+        "Khaleed",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "RORA",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773669931075_eaoa5",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-27",
+      "team_a": "FNOP",
+      "team_b": "RORA",
+      "players_a": [
+        "Kirk",
+        "K1NGKONG",
+        "Super Frince",
+        "Brusko",
+        "Savero"
+      ],
+      "players_b": [
+        "Edward",
+        "Demonkite",
+        "Yue",
+        "Light",
+        "Domeng"
+      ],
+      "heroes_a": [
+        "Phoveus",
+        "Leomord",
+        "Valentina",
+        "Claude",
+        "Chou"
+      ],
+      "heroes_b": [
+        "Hilda",
+        "Harley",
+        "Gord",
+        "Clint",
+        "Gatotkaca"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FNOP",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773669931075_eaoa5",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-27",
+      "team_a": "FNOP",
+      "team_b": "RORA",
+      "players_a": [
+        "Kirk",
+        "K1NGKONG",
+        "Super Frince",
+        "Brusko",
+        "Savero"
+      ],
+      "players_b": [
+        "Edward",
+        "Demonkite",
+        "Yue",
+        "Light",
+        "Domeng"
+      ],
+      "heroes_a": [
+        "Paquito",
+        "Baxia",
+        "Zetian",
+        "Belerick",
+        "Harith"
+      ],
+      "heroes_b": [
+        "Alice",
+        "Suyou",
+        "Zhuxin",
+        "Chou",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "RORA",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773669931075_eaoa5",
+      "game": 3,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-27",
+      "team_a": "FNOP",
+      "team_b": "RORA",
+      "players_a": [
+        "Kirk",
+        "K1NGKONG",
+        "Super Frince",
+        "Brusko",
+        "Savero"
+      ],
+      "players_b": [
+        "Edward",
+        "Demonkite",
+        "Yue",
+        "Light",
+        "Domeng"
+      ],
+      "heroes_a": [
+        "Terizla",
+        "Leomord",
+        "Luo Yi",
+        "Marcel",
+        "Claude"
+      ],
+      "heroes_b": [
+        "Benedetta",
+        "Baxia",
+        "Valentina",
+        "Chou",
+        "Moskov"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FNOP",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773669931075_eaoa5",
+      "game": 4,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-27",
+      "team_a": "FNOP",
+      "team_b": "RORA",
+      "players_a": [
+        "Kirk",
+        "K1NGKONG",
+        "Super Frince",
+        "Brusko",
+        "Savero"
+      ],
+      "players_b": [
+        "Edward",
+        "Demonkite",
+        "Yue",
+        "Light",
+        "Domeng"
+      ],
+      "heroes_a": [
+        "Phoveus",
+        "Baxia",
+        "Gord",
+        "Hylos",
+        "Karrie"
+      ],
+      "heroes_b": [
+        "Lapu-Lapu",
+        "Fredrinn",
+        "Valentina",
+        "Marcel",
+        "Granger"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FNOP",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773669931075_eaoa5",
+      "game": 5,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-27",
+      "team_a": "OMG",
+      "team_b": "TWIS",
+      "players_a": [
+        "Jeymz",
+        "Raizen",
+        "Minguin",
+        "Perkz",
+        "Netskie"
+      ],
+      "players_b": [
+        "Lansu",
+        "MP the King",
+        "Sionnn",
+        "Tracy",
+        "Nosia"
+      ],
+      "heroes_a": [
+        "Sora",
+        "Harley",
+        "Valentina",
+        "Hilda",
+        "Clint"
+      ],
+      "heroes_b": [
+        "Gloo",
+        "Suyou",
+        "Selena",
+        "Baxia",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TWIS",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773669931075_9gie0",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-27",
+      "team_a": "OMG",
+      "team_b": "TWIS",
+      "players_a": [
+        "Jeymz",
+        "Raizen",
+        "Minguin",
+        "Perkz",
+        "Netskie"
+      ],
+      "players_b": [
+        "Lansu",
+        "MP the King",
+        "Sionnn",
+        "Tracy",
+        "Nosia"
+      ],
+      "heroes_a": [
+        "Terizla",
+        "Suyou",
+        "Yve",
+        "Gloo",
+        "Harith"
+      ],
+      "heroes_b": [
+        "Arlott",
+        "Leomord",
+        "Zhuxin",
+        "Guinevere",
+        "Moskov"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "OMG",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773669931075_9gie0",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-27",
+      "team_a": "OMG",
+      "team_b": "TWIS",
+      "players_a": [
+        "Jeymz",
+        "Raizen",
+        "Minguin",
+        "Perkz",
+        "Netskie"
+      ],
+      "players_b": [
+        "Lansu",
+        "MP the King",
+        "Sionnn",
+        "Tracy",
+        "Nosia"
+      ],
+      "heroes_a": [
+        "Alice",
+        "Leomord",
+        "Gord",
+        "Kalea",
+        "Claude"
+      ],
+      "heroes_b": [
+        "Uranus",
+        "Suyou",
+        "Selena",
+        "Hylos",
+        "Harith"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "OMG",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773669931075_9gie0",
+      "game": 3,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-27",
+      "team_a": "OMG",
+      "team_b": "TWIS",
+      "players_a": [
+        "Jeymz",
+        "Raizen",
+        "Minguin",
+        "Perkz",
+        "Netskie"
+      ],
+      "players_b": [
+        "Lansu",
+        "MP the King",
+        "Sionnn",
+        "Tracy",
+        "Nosia"
+      ],
+      "heroes_a": [
+        "Sora",
+        "Suyou",
+        "Zhuxin",
+        "Khaleed",
+        "Harith"
+      ],
+      "heroes_b": [
+        "Gloo",
+        "Leomord",
+        "Gord",
+        "Guinevere",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "OMG",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773669931075_9gie0",
+      "game": 4,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-28",
+      "team_a": "FLCN",
+      "team_b": "FNOP",
+      "players_a": [
+        "FlapTzy",
+        "KyleTzy",
+        "Hadji",
+        "Owgwen",
+        "Super Marco"
+      ],
+      "players_b": [
+        "Kirk",
+        "K1NGKONG",
+        "Super Frince",
+        "Brusko",
+        "Savero"
+      ],
+      "heroes_a": [
+        "Arlott",
+        "Guinevere",
+        "Valentina",
+        "Gloo",
+        "Roger"
+      ],
+      "heroes_b": [
+        "Alice",
+        "Leomord",
+        "Luo Yi",
+        "Kalea",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FNOP",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773669931075_j2020",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-28",
+      "team_a": "FLCN",
+      "team_b": "FNOP",
+      "players_a": [
+        "FlapTzy",
+        "KyleTzy",
+        "Hadji",
+        "Owgwen",
+        "Super Marco"
+      ],
+      "players_b": [
+        "Kirk",
+        "K1NGKONG",
+        "Super Frince",
+        "Brusko",
+        "Savero"
+      ],
+      "heroes_a": [
+        "Alice",
+        "Suyou",
+        "Pharsa",
+        "Hilda",
+        "Claude"
+      ],
+      "heroes_b": [
+        "Paquito",
+        "Leomord",
+        "Zhuxin",
+        "Marcel",
+        "Yi Sun-shin"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FNOP",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773669931075_j2020",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-28",
+      "team_a": "FLCN",
+      "team_b": "FNOP",
+      "players_a": [
+        "FlapTzy",
+        "KyleTzy",
+        "Hadji",
+        "Owgwen",
+        "Super Marco"
+      ],
+      "players_b": [
+        "Kirk",
+        "K1NGKONG",
+        "Super Frince",
+        "Brusko",
+        "Savero"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FNOP",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773669931075_j2020",
+      "game": 3,
+      "picks_verified": false,
+      "reported_heroes_a": [
+        "Arlott",
+        "Baxia",
+        "Gord",
+        "Gloo",
+        "Harith"
+      ],
+      "reported_heroes_b": [
+        "Paquito",
+        "Baxia",
+        "Gloo",
+        "Khaleed",
+        "Claude"
+      ],
+      "pick_data_issue": "Published summary has missing or duplicate heroes; excluded from pick counts."
+    },
+    {
+      "date": "2026-05-28",
+      "team_a": "TLPH",
+      "team_b": "OMG",
+      "players_a": [
+        "Sanford",
+        "KarlTzy",
+        "Sanji",
+        "Jaypee",
+        "Teddy"
+      ],
+      "players_b": [
+        "Jeymz",
+        "Raizen",
+        "Minguin",
+        "Perkz",
+        "Netskie"
+      ],
+      "heroes_a": [
+        "Phoveus",
+        "Harley",
+        "Yve",
+        "Gatotkaca",
+        "Karrie"
+      ],
+      "heroes_b": [
+        "Yu Zhong",
+        "Leomord",
+        "Zhuxin",
+        "Hylos",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TLPH",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773669931075_xvtao",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-28",
+      "team_a": "TLPH",
+      "team_b": "OMG",
+      "players_a": [
+        "Sanford",
+        "KarlTzy",
+        "Sanji",
+        "Jaypee",
+        "Teddy"
+      ],
+      "players_b": [
+        "Jeymz",
+        "Raizen",
+        "Minguin",
+        "Perkz",
+        "Netskie"
+      ],
+      "heroes_a": [
+        "Paquito",
+        "Suyou",
+        "Yve",
+        "Hylos",
+        "Claude"
+      ],
+      "heroes_b": [
+        "Hilda",
+        "Harley",
+        "Zhuxin",
+        "Kaja",
+        "Karrie"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TLPH",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773669931075_xvtao",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-28",
+      "team_a": "TLPH",
+      "team_b": "OMG",
+      "players_a": [
+        "Sanford",
+        "KarlTzy",
+        "Sanji",
+        "Jaypee",
+        "Teddy"
+      ],
+      "players_b": [
+        "Jeymz",
+        "Raizen",
+        "Minguin",
+        "Perkz",
+        "Netskie"
+      ],
+      "heroes_a": [
+        "Paquito",
+        "Harley",
+        "Yve",
+        "Gloo",
+        "Claude"
+      ],
+      "heroes_b": [
+        "Yu Zhong",
+        "Suyou",
+        "Zhuxin",
+        "Gatotkaca",
+        "Harith"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TLPH",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773669931075_xvtao",
+      "game": 3,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-29",
+      "team_a": "FNOP",
+      "team_b": "TLPH",
+      "players_a": [
+        "Kirk",
+        "K1NGKONG",
+        "Super Frince",
+        "Brusko",
+        "Savero"
+      ],
+      "players_b": [
+        "Sanford",
+        "KarlTzy",
+        "Sanji",
+        "Jaypee",
+        "Teddy"
+      ],
+      "heroes_a": [
+        "Edith",
+        "Leomord",
+        "Yve",
+        "Chou",
+        "Claude"
+      ],
+      "heroes_b": [
+        "Paquito",
+        "Baxia",
+        "Kimmy",
+        "Hylos",
+        "Harith"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TLPH",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773669931075_ynoiu",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-29",
+      "team_a": "FNOP",
+      "team_b": "TLPH",
+      "players_a": [
+        "Kirk",
+        "K1NGKONG",
+        "Hate",
+        "Brusko",
+        "Savero"
+      ],
+      "players_b": [
+        "Sanford",
+        "KarlTzy",
+        "Sanji",
+        "Santi Sucre",
+        "Teddy"
+      ],
+      "heroes_a": [
+        "Paquito",
+        "Leomord",
+        "Valentina",
+        "Chou",
+        "Claude"
+      ],
+      "heroes_b": [
+        "Benedetta",
+        "Baxia",
+        "Kimmy",
+        "Hilda",
+        "Harith"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TLPH",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773669931075_ynoiu",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-29",
+      "team_a": "FNOP",
+      "team_b": "TLPH",
+      "players_a": [
+        "Kirk",
+        "K1NGKONG",
+        "Super Frince",
+        "Brusko",
+        "Savero"
+      ],
+      "players_b": [
+        "Sanford",
+        "KarlTzy",
+        "Sanji",
+        "Jaypee",
+        "Teddy"
+      ],
+      "heroes_a": [
+        "Paquito",
+        "Suyou",
+        "Zhuxin",
+        "Khaleed",
+        "Moskov"
+      ],
+      "heroes_b": [
+        "Yu Zhong",
+        "Leomord",
+        "Valentina",
+        "Gatotkaca",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FNOP",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773669931075_ynoiu",
+      "game": 3,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-29",
+      "team_a": "FNOP",
+      "team_b": "TLPH",
+      "players_a": [
+        "Kirk",
+        "K1NGKONG",
+        "Super Frince",
+        "Brusko",
+        "Savero"
+      ],
+      "players_b": [
+        "Sanford",
+        "KarlTzy",
+        "Sanji",
+        "Jaypee",
+        "Teddy"
+      ],
+      "heroes_a": [
+        "Lapu-Lapu",
+        "Baxia",
+        "Luo Yi",
+        "Atlas",
+        "Claude"
+      ],
+      "heroes_b": [
+        "Phoveus",
+        "Lancelot",
+        "Yve",
+        "Chou",
+        "Karrie"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TLPH",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773669931075_ynoiu",
+      "game": 4,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-29",
+      "team_a": "FLCN",
+      "team_b": "OMG",
+      "players_a": [
+        "FlapTzy",
+        "KyleTzy",
+        "Hadji",
+        "Owgwen",
+        "Super Marco"
+      ],
+      "players_b": [
+        "Jeymz",
+        "Raizen",
+        "Minguin",
+        "Perkz",
+        "Netskie"
+      ],
+      "heroes_a": [
+        "Lapu-Lapu",
+        "Fredrinn",
+        "Gord",
+        "Marcel",
+        "Moskov"
+      ],
+      "heroes_b": [
+        "Phoveus",
+        "Harley",
+        "Valentina",
+        "Gloo",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FLCN",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773669931075_mgczb",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-29",
+      "team_a": "FLCN",
+      "team_b": "OMG",
+      "players_a": [
+        "FlapTzy",
+        "KyleTzy",
+        "Hadji",
+        "Owgwen",
+        "Super Marco"
+      ],
+      "players_b": [
+        "Jeymz",
+        "Raizen",
+        "Minguin",
+        "Perkz",
+        "Netskie"
+      ],
+      "heroes_a": [
+        "Benedetta",
+        "Baxia",
+        "Zhuxin",
+        "Gloo",
+        "Obsidia"
+      ],
+      "heroes_b": [
+        "Paquito",
+        "Lancelot",
+        "Yve",
+        "Atlas",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "OMG",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773669931075_mgczb",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-29",
+      "team_a": "FLCN",
+      "team_b": "OMG",
+      "players_a": [
+        "FlapTzy",
+        "KyleTzy",
+        "Hadji",
+        "Owgwen",
+        "Super Marco"
+      ],
+      "players_b": [
+        "Jeymz",
+        "Raizen",
+        "Minguin",
+        "Perkz",
+        "Netskie"
+      ],
+      "heroes_a": [
+        "Paquito",
+        "Suyou",
+        "Yve",
+        "Atlas",
+        "Harith"
+      ],
+      "heroes_b": [
+        "Sora",
+        "Baxia",
+        "Zhuxin",
+        "Gloo",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FLCN",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773669931075_mgczb",
+      "game": 3,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-29",
+      "team_a": "FLCN",
+      "team_b": "OMG",
+      "players_a": [
+        "FlapTzy",
+        "KyleTzy",
+        "Hadji",
+        "Owgwen",
+        "Super Marco"
+      ],
+      "players_b": [
+        "Jeymz",
+        "Raizen",
+        "Minguin",
+        "Perkz",
+        "Netskie"
+      ],
+      "heroes_a": [
+        "Lapu-Lapu",
+        "Fredrinn",
+        "Yve",
+        "Hylos",
+        "Karrie"
+      ],
+      "heroes_b": [
+        "Alice",
+        "Suyou",
+        "Kimmy",
+        "Khaleed",
+        "Freya"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FLCN",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773669931075_mgczb",
+      "game": 4,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-30",
+      "team_a": "FNOP",
+      "team_b": "FLCN",
+      "players_a": [
+        "Kirk",
+        "K1NGKONG",
+        "Super Frince",
+        "Brusko",
+        "Savero"
+      ],
+      "players_b": [
+        "FlapTzy",
+        "KyleTzy",
+        "Hadji",
+        "Owgwen",
+        "Super Marco"
+      ],
+      "heroes_a": [
+        "Alice",
+        "Harley",
+        "Zhuxin",
+        "Gatotkaca",
+        "Claude"
+      ],
+      "heroes_b": [
+        "Arlott",
+        "Suyou",
+        "Valentina",
+        "Kalea",
+        "Harith"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FNOP",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773669931075_5auo2",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-30",
+      "team_a": "FNOP",
+      "team_b": "FLCN",
+      "players_a": [
+        "Kirk",
+        "K1NGKONG",
+        "Super Frince",
+        "Brusko",
+        "Savero"
+      ],
+      "players_b": [
+        "FlapTzy",
+        "KyleTzy",
+        "Hadji",
+        "Owgwen",
+        "Super Marco"
+      ],
+      "heroes_a": [
+        "Paquito",
+        "Leomord",
+        "Valir",
+        "Hylos",
+        "Harith"
+      ],
+      "heroes_b": [
+        "Esmeralda",
+        "Suyou",
+        "Valentina",
+        "Kalea",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FLCN",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773669931075_5auo2",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-30",
+      "team_a": "FNOP",
+      "team_b": "FLCN",
+      "players_a": [
+        "Kirk",
+        "K1NGKONG",
+        "Super Frince",
+        "Brusko",
+        "Savero"
+      ],
+      "players_b": [
+        "FlapTzy",
+        "KyleTzy",
+        "Hadji",
+        "Owgwen",
+        "Super Marco"
+      ],
+      "heroes_a": [
+        "Yu Zhong",
+        "Leomord",
+        "Zhuxin",
+        "Gatotkaca",
+        "Claude"
+      ],
+      "heroes_b": [
+        "Terizla",
+        "Suyou",
+        "Valentina",
+        "Kalea",
+        "Moskov"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FNOP",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773669931075_5auo2",
+      "game": 3,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-30",
+      "team_a": "FNOP",
+      "team_b": "FLCN",
+      "players_a": [
+        "Kirk",
+        "K1NGKONG",
+        "Super Frince",
+        "Brusko",
+        "Savero"
+      ],
+      "players_b": [
+        "FlapTzy",
+        "KyleTzy",
+        "Hadji",
+        "Owgwen",
+        "Super Marco"
+      ],
+      "heroes_a": [
+        "Paquito",
+        "Lancelot",
+        "Valentina",
+        "Gatotkaca",
+        "Moskov"
+      ],
+      "heroes_b": [
+        "Esmeralda",
+        "Suyou",
+        "Yve",
+        "Khufra",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FLCN",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773669931075_5auo2",
+      "game": 4,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-30",
+      "team_a": "FNOP",
+      "team_b": "FLCN",
+      "players_a": [
+        "Kirk",
+        "K1NGKONG",
+        "Super Frince",
+        "Brusko",
+        "Savero"
+      ],
+      "players_b": [
+        "FlapTzy",
+        "KyleTzy",
+        "Hadji",
+        "Owgwen",
+        "Super Marco"
+      ],
+      "heroes_a": [
+        "Lapu-Lapu",
+        "Leomord",
+        "Zhuxin",
+        "Kalea",
+        "Karrie"
+      ],
+      "heroes_b": [
+        "Alice",
+        "Suyou",
+        "Yve",
+        "Gloo",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FLCN",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773669931075_5auo2",
+      "game": 5,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-30",
+      "team_a": "FNOP",
+      "team_b": "FLCN",
+      "players_a": [
+        "Kirk",
+        "K1NGKONG",
+        "Super Frince",
+        "Brusko",
+        "Savero"
+      ],
+      "players_b": [
+        "FlapTzy",
+        "KyleTzy",
+        "Hadji",
+        "Owgwen",
+        "Super Marco"
+      ],
+      "heroes_a": [
+        "Alice",
+        "Leomord",
+        "Zhuxin",
+        "Gatotkaca",
+        "Claude"
+      ],
+      "heroes_b": [
+        "Lapu-Lapu",
+        "Guinevere",
+        "Yve",
+        "Hilda",
+        "Moskov"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FLCN",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773669931075_5auo2",
+      "game": 6,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-31",
+      "team_a": "TLPH",
+      "team_b": "FLCN",
+      "players_a": [
+        "Sanford",
+        "KarlTzy",
+        "Sanji",
+        "Jaypee",
+        "Teddy"
+      ],
+      "players_b": [
+        "FlapTzy",
+        "KyleTzy",
+        "Hadji",
+        "Owgwen",
+        "Super Marco"
+      ],
+      "heroes_a": [
+        "Paquito",
+        "Fredrinn",
+        "Kimmy",
+        "Marcel",
+        "Karrie"
+      ],
+      "heroes_b": [
+        "Hilda",
+        "Leomord",
+        "Yve",
+        "Gloo",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TLPH",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773669931075_jbuw5",
+      "game": 1,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-31",
+      "team_a": "TLPH",
+      "team_b": "FLCN",
+      "players_a": [
+        "Sanford",
+        "KarlTzy",
+        "Sanji",
+        "Jaypee",
+        "Teddy"
+      ],
+      "players_b": [
+        "FlapTzy",
+        "KyleTzy",
+        "Hadji",
+        "Owgwen",
+        "Super Marco"
+      ],
+      "heroes_a": [
+        "Paquito",
+        "Fredrinn",
+        "Gord",
+        "Gloo",
+        "Harith"
+      ],
+      "heroes_b": [
+        "Esmeralda",
+        "Suyou",
+        "Zhuxin",
+        "Badang",
+        "Claude"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TLPH",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773669931075_jbuw5",
+      "game": 2,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-31",
+      "team_a": "TLPH",
+      "team_b": "FLCN",
+      "players_a": [
+        "Sanford",
+        "KarlTzy",
+        "Sanji",
+        "Jaypee",
+        "Teddy"
+      ],
+      "players_b": [
+        "FlapTzy",
+        "KyleTzy",
+        "Hadji",
+        "Owgwen",
+        "Super Marco"
+      ],
+      "heroes_a": [
+        "Phoveus",
+        "Harley",
+        "Zhuxin",
+        "Hylos",
+        "Claude"
+      ],
+      "heroes_b": [
+        "Lapu-Lapu",
+        "Fredrinn",
+        "Yve",
+        "Hilda",
+        "Karrie"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FLCN",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773669931075_jbuw5",
+      "game": 3,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-31",
+      "team_a": "TLPH",
+      "team_b": "FLCN",
+      "players_a": [
+        "Sanford",
+        "KarlTzy",
+        "Sanji",
+        "Jaypee",
+        "Teddy"
+      ],
+      "players_b": [
+        "FlapTzy",
+        "KyleTzy",
+        "Hadji",
+        "Owgwen",
+        "Super Marco"
+      ],
+      "heroes_a": [
+        "Yu Zhong",
+        "Yi Sun-shin",
+        "Zhuxin",
+        "Gloo",
+        "Freya"
+      ],
+      "heroes_b": [
+        "Phoveus",
+        "Fredrinn",
+        "Lylia",
+        "Atlas",
+        "Karrie"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "FLCN",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773669931075_jbuw5",
+      "game": 4,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-31",
+      "team_a": "TLPH",
+      "team_b": "FLCN",
+      "players_a": [
+        "Sanford",
+        "KarlTzy",
+        "Sanji",
+        "Jaypee",
+        "Teddy"
+      ],
+      "players_b": [
+        "FlapTzy",
+        "KyleTzy",
+        "Hadji",
+        "Owgwen",
+        "Super Marco"
+      ],
+      "heroes_a": [
+        "Paquito",
+        "Leomord",
+        "Zhuxin",
+        "Hylos",
+        "Claude"
+      ],
+      "heroes_b": [
+        "Esmeralda",
+        "Suyou",
+        "Yve",
+        "Guinevere",
+        "Harith"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TLPH",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773669931075_jbuw5",
+      "game": 5,
+      "picks_verified": true
+    },
+    {
+      "date": "2026-05-31",
+      "team_a": "TLPH",
+      "team_b": "FLCN",
+      "players_a": [
+        "Sanford",
+        "KarlTzy",
+        "Sanji",
+        "Jaypee",
+        "Teddy"
+      ],
+      "players_b": [
+        "FlapTzy",
+        "KyleTzy",
+        "Hadji",
+        "Owgwen",
+        "Super Marco"
+      ],
+      "heroes_a": [
+        "Phoveus",
+        "Harley",
+        "Zhuxin",
+        "Chou",
+        "Claude"
+      ],
+      "heroes_b": [
+        "Lapu-Lapu",
+        "Guinevere",
+        "Yve",
+        "Hylos",
+        "Moskov"
+      ],
+      "season": "MPL Philippines Season 17",
+      "winner": "TLPH",
+      "series_url": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17/match/match_1773669931075_jbuw5",
+      "game": 6,
+      "picks_verified": true
+    }
+  ]
+}

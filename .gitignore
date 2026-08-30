@@ -4,7 +4,12 @@ __pycache__/
 .pytest_cache/
 .streamlit/secrets.toml
 
-# Generated artifacts (rebuild with train_model.py)
-data/processed/
-models/
-
+# Commit the small saved prediction files needed by a fresh cloud checkout.
+# Keep other generated files, locks, backups, and machine-specific queues out.
+/data/processed/*
+!/data/processed/context.json
+!/data/processed/mpl_ph_s17_player_games.json
+!/data/processed/mpl_ph_s18_player_games.json
+!/data/processed/live_snapshot.json
+/models/*
+!/models/player_elo_model.json

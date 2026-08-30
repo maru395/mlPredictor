@@ -27,6 +27,39 @@ python -m streamlit run app.py
 
 Streamlit will print a local URL, normally `http://localhost:8501`. Open it and select Team 1 and Team 2. Automatic meta adjustment is enabled by default; a draft is not required. Schedule discovery starts when the app is opened; game data is collected 24 hours after the app first observes a match marked Completed.
 
+## Deploy to Streamlit Community Cloud
+
+Community Cloud starts from the files in your GitHub repository, not the files on your PC. See [Streamlit's file organization guide](https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/file-organization).
+
+**Fix for "An artifact is missing":** the original `.gitignore` excluded all of `models/` and `data/processed/`. The updated rules allow these five small saved files while continuing to ignore locks, collection queues, backup snapshots, and other generated outputs:
+
+```text
+models/player_elo_model.json
+data/processed/context.json
+data/processed/mpl_ph_s17_player_games.json
+data/processed/mpl_ph_s18_player_games.json
+data/processed/live_snapshot.json
+```
+
+The first four files are required to start the app. `live_snapshot.json` is optional, but including it preserves the latest already-collected games and their matching player ratings. Without it, the app starts from the original S17/S18 imports. Keep `app.py`, `mlbb_predictor/`, `download_recent_data.py`, `download_player_data.py`, `requirements.txt`, `ui/matchdesk.css`, `.streamlit/config.toml`, and the existing `config/` files in the repository too. Raw datasets are not needed to serve the saved predictor.
+
+For this existing checkout, run these commands in PowerShell. They upload the deployment fix and saved files; do not rerun the download/training scripts when the saved files already exist:
+
+```powershell
+cd C:\Users\maru\ml
+git add .gitignore app.py README.md tests/test_deployment.py
+git add models/player_elo_model.json data/processed/context.json data/processed/mpl_ph_s17_player_games.json data/processed/mpl_ph_s18_player_games.json data/processed/live_snapshot.json
+git diff --cached --stat
+git commit -m "Include saved prediction files for Streamlit deployment"
+git push
+```
+
+Check that the files appear on GitHub in the branch used by your Streamlit app, preserving the exact folder names. The entrypoint remains `app.py` and Python dependencies come from `requirements.txt`. If the old error remains, use your Streamlit workspace's app menu > **Reboot**, then confirm. See [Streamlit's reboot instructions](https://docs.streamlit.io/deploy/streamlit-community-cloud/manage-your-app/reboot-your-app). Rebooting interrupts active users briefly.
+
+If you use GitHub's upload page instead of Git, upload the listed files into their matching repository folders, plus the updated `.gitignore` and `app.py`. Do not upload `.venv`, secrets, locks, or your local collection queue.
+
+This change ships a startup snapshot; it is not cloud persistence. The app still writes new collection results and tier edits to its running server's local files, not back to GitHub. Keep a separate durable backup of important changes, and do not rely on the worker running while the hosting service has stopped or suspended the app. A public deployment also shares the current tier/settings controls among visitors; this fix does not add administrator authentication.
+
 ## Match desk interface
 
 The predictor uses an editorial scoreboard layout, with the forecast above the optional controls. Both teams' single-game probabilities, their player-Elo baselines, the meta change in percentage points, and starter coverage appear together. An exactly even prediction is labeled **Even matchup**, not assigned an arbitrary favorite.

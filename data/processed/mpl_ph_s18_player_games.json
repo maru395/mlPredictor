@@ -1,0 +1,1497 @@
+{
+  "season": "MPL Philippines Season 18",
+  "scope": "Nine submitted regular-season series, August 21\u201328, 2026",
+  "source": "https://mldb.gg/event/mpl-philippines-season-18",
+  "series": 9,
+  "games": 21,
+  "supplied_data": "data\\manual\\mpl_ph_s18_aug21_28.json",
+  "verified_ban_games": 17,
+  "games_with_valid_lineups": 19,
+  "games_with_valid_picks": 19,
+  "method": "Published game winners, actual players and played heroes. Supplied hero lists are stored as bans, with per-game verification flags where the published draft is available. Player/hero order is paired, not lane order.",
+  "rows": [
+    {
+      "date": "2026-08-21",
+      "series_started_at": "2026-08-21T09:09:12+00:00",
+      "season": "MPL Philippines Season 18",
+      "team_a": "RORA",
+      "team_b": "FNOP",
+      "players_a": [
+        "Koyl",
+        "Light",
+        "Domeng",
+        "Yue",
+        "Nathzz"
+      ],
+      "players_b": [
+        "Kirk",
+        "Savero",
+        "Super Frince",
+        "Super Yoshi",
+        "K1NGKONG"
+      ],
+      "heroes_a": [
+        "Hirara",
+        "Belerick",
+        "Claude",
+        "Rafaela",
+        "Alice"
+      ],
+      "heroes_b": [
+        "Barats",
+        "Melissa",
+        "Novaria",
+        "Mathilda",
+        "Nolan"
+      ],
+      "lineups_verified": true,
+      "picks_verified": true,
+      "winner": "FNOP",
+      "series_url": "https://mldb.gg/match/MPL_Philippines_Season_18-RORAvsONIC-3453",
+      "game": 1,
+      "bans_verified": true,
+      "bans_a": [
+        "Selena",
+        "Fanny",
+        "Marcel",
+        "Lylia",
+        "Valentina"
+      ],
+      "bans_b": [
+        "Freya",
+        "Atlas",
+        "Uranus",
+        "Eudora",
+        "Kaja"
+      ],
+      "draft_source": "https://mldb.gg/match/MPL_Philippines_Season_18-RORAvsONIC-3453?load_draft=false&game_seq=1",
+      "supplied_hero_lists_verified_as": "bans",
+      "source_players_a": [
+        "Koyl",
+        "Light",
+        "Domeng",
+        "Yue",
+        "Nathzz"
+      ],
+      "source_players_b": [
+        "Kirk",
+        "Savero",
+        "SuperFrince",
+        "SUPERYOSHI",
+        "K1NGKONG"
+      ]
+    },
+    {
+      "date": "2026-08-21",
+      "series_started_at": "2026-08-21T09:09:12+00:00",
+      "season": "MPL Philippines Season 18",
+      "team_a": "RORA",
+      "team_b": "FNOP",
+      "players_a": [
+        "Domeng",
+        "Koyl",
+        "Light",
+        "Nathzz",
+        "Yue"
+      ],
+      "players_b": [
+        "Kirk",
+        "K1NGKONG",
+        "Super Yoshi",
+        "Super Frince",
+        "Savero"
+      ],
+      "heroes_a": [
+        "Melissa",
+        "Nolan",
+        "Belerick",
+        "Carmilla",
+        "Lylia"
+      ],
+      "heroes_b": [
+        "Barats",
+        "Hirara",
+        "Kaja",
+        "Aurora",
+        "Beatrix"
+      ],
+      "lineups_verified": true,
+      "picks_verified": true,
+      "winner": "FNOP",
+      "series_url": "https://mldb.gg/match/MPL_Philippines_Season_18-RORAvsONIC-3453",
+      "game": 2,
+      "bans_verified": true,
+      "bans_a": [
+        "Selena",
+        "Fanny",
+        "Marcel",
+        "Claude",
+        "Eudora"
+      ],
+      "bans_b": [
+        "Freya",
+        "Atlas",
+        "Uranus",
+        "Alice",
+        "Novaria"
+      ],
+      "draft_source": "https://mldb.gg/match/MPL_Philippines_Season_18-RORAvsONIC-3453?load_draft=false&game_seq=2",
+      "supplied_hero_lists_verified_as": "bans",
+      "source_players_a": [
+        "Domeng",
+        "Koyl",
+        "Light",
+        "Nathzz",
+        "Yue"
+      ],
+      "source_players_b": [
+        "Kirk",
+        "K1NGKONG",
+        "SUPERYOSHI",
+        "SuperFrince",
+        "Savero"
+      ]
+    },
+    {
+      "date": "2026-08-21",
+      "series_started_at": "2026-08-21T11:37:11+00:00",
+      "season": "MPL Philippines Season 18",
+      "team_a": "TLPH",
+      "team_b": "FLCN",
+      "players_a": [
+        "Jaypee",
+        "KarlTzy",
+        "Sanji",
+        "Teddy",
+        "Sanford"
+      ],
+      "players_b": [
+        "Hadji",
+        "Owgwen",
+        "KyleTzy",
+        "Super Marco",
+        "FlapTzy"
+      ],
+      "heroes_a": [
+        "Rafaela",
+        "Paquito",
+        "Novaria",
+        "Clint",
+        "Uranus"
+      ],
+      "heroes_b": [
+        "Eudora",
+        "Marcel",
+        "Hirara",
+        "Brody",
+        "Belerick"
+      ],
+      "lineups_verified": true,
+      "picks_verified": true,
+      "winner": "TLPH",
+      "series_url": "https://mldb.gg/match/MPL_Philippines_Season_18-TLPHvsFLCN-3452",
+      "game": 1,
+      "bans_verified": true,
+      "bans_a": [
+        "Fanny",
+        "Selena",
+        "Melissa",
+        "Mathilda",
+        "Ruby"
+      ],
+      "bans_b": [
+        "Freya",
+        "Atlas",
+        "Barats",
+        "Gloo",
+        "Gatotkaca"
+      ],
+      "draft_source": "https://mldb.gg/match/MPL_Philippines_Season_18-TLPHvsFLCN-3452?load_draft=false&game_seq=1",
+      "supplied_hero_lists_verified_as": "bans",
+      "source_players_a": [
+        "Jaypee",
+        "KarlTzy",
+        "Sanji",
+        "Teddy",
+        "Sanford"
+      ],
+      "source_players_b": [
+        "Hadji",
+        "Owgwen",
+        "Kyle",
+        "SuperMarco",
+        "Flap"
+      ]
+    },
+    {
+      "date": "2026-08-21",
+      "series_started_at": "2026-08-21T11:37:11+00:00",
+      "season": "MPL Philippines Season 18",
+      "team_a": "TLPH",
+      "team_b": "FLCN",
+      "players_a": [
+        "Sanford",
+        "KarlTzy",
+        "Jaypee",
+        "Sanji",
+        "Teddy"
+      ],
+      "players_b": [
+        "FlapTzy",
+        "Hadji",
+        "KyleTzy",
+        "Super Marco",
+        "Owgwen"
+      ],
+      "heroes_a": [
+        "Carmilla",
+        "Hirara",
+        "Badang",
+        "Selena",
+        "Moskov"
+      ],
+      "heroes_b": [
+        "Barats",
+        "Rafaela",
+        "Fanny",
+        "Claude",
+        "Belerick"
+      ],
+      "lineups_verified": true,
+      "picks_verified": true,
+      "winner": "FLCN",
+      "series_url": "https://mldb.gg/match/MPL_Philippines_Season_18-TLPHvsFLCN-3452",
+      "game": 2,
+      "bans_verified": true,
+      "bans_a": [
+        "Freya",
+        "Paquito",
+        "Marcel",
+        "Gloo",
+        "Eudora"
+      ],
+      "bans_b": [
+        "Atlas",
+        "Melissa",
+        "Mathilda",
+        "Uranus",
+        "Brody"
+      ],
+      "draft_source": "https://mldb.gg/match/MPL_Philippines_Season_18-TLPHvsFLCN-3452?load_draft=false&game_seq=2",
+      "supplied_hero_lists_verified_as": "bans",
+      "source_players_a": [
+        "Sanford",
+        "KarlTzy",
+        "Jaypee",
+        "Sanji",
+        "Teddy"
+      ],
+      "source_players_b": [
+        "Flap",
+        "Hadji",
+        "Kyle",
+        "SuperMarco",
+        "Owgwen"
+      ]
+    },
+    {
+      "date": "2026-08-21",
+      "series_started_at": "2026-08-21T11:37:11+00:00",
+      "season": "MPL Philippines Season 18",
+      "team_a": "TLPH",
+      "team_b": "FLCN",
+      "players_a": [
+        "Sanford",
+        "KarlTzy",
+        "Sanji",
+        "Jaypee",
+        "Teddy"
+      ],
+      "players_b": [
+        "FlapTzy",
+        "KyleTzy",
+        "Owgwen",
+        "Super Marco",
+        "Hadji"
+      ],
+      "heroes_a": [
+        "Atlas",
+        "Harley",
+        "Novaria",
+        "Marcel",
+        "Clint"
+      ],
+      "heroes_b": [
+        "Barats",
+        "Hirara",
+        "Rafaela",
+        "Brody",
+        "Valentina"
+      ],
+      "lineups_verified": true,
+      "picks_verified": true,
+      "winner": "FLCN",
+      "series_url": "https://mldb.gg/match/MPL_Philippines_Season_18-TLPHvsFLCN-3452",
+      "game": 3,
+      "bans_verified": true,
+      "bans_a": [
+        "Fanny",
+        "Melissa",
+        "Selena",
+        "Eudora",
+        "Gloo"
+      ],
+      "bans_b": [
+        "Freya",
+        "Paquito",
+        "Uranus",
+        "Terizla",
+        "Ruby"
+      ],
+      "draft_source": "https://mldb.gg/match/MPL_Philippines_Season_18-TLPHvsFLCN-3452?load_draft=false&game_seq=3",
+      "supplied_hero_lists_verified_as": "bans",
+      "source_players_a": [
+        "Sanford",
+        "KarlTzy",
+        "Sanji",
+        "Jaypee",
+        "Teddy"
+      ],
+      "source_players_b": [
+        "Flap",
+        "Kyle",
+        "Owgwen",
+        "SuperMarco",
+        "Hadji"
+      ]
+    },
+    {
+      "date": "2026-08-22",
+      "series_started_at": "2026-08-22T06:33:28+00:00",
+      "season": "MPL Philippines Season 18",
+      "team_a": "APBR",
+      "team_b": "TWIS",
+      "players_a": [
+        "JamesPangks",
+        "LanceCy",
+        "JIMPINKMAN",
+        "Escalera",
+        "Shizou"
+      ],
+      "players_b": [
+        "Sionnn",
+        "Tracy",
+        "Sensui",
+        "Lansu",
+        "Bennyqt"
+      ],
+      "heroes_a": [
+        "Hirara",
+        "Eudora",
+        "Esmeralda",
+        "Gatotkaca",
+        "Harith"
+      ],
+      "heroes_b": [
+        "Selena",
+        "Belerick",
+        "Nolan",
+        "Dyrroth",
+        "Karrie"
+      ],
+      "lineups_verified": true,
+      "picks_verified": true,
+      "winner": "TWIS",
+      "series_url": "https://mldb.gg/match/MPL_Philippines_Season_18-APBRvsTWIS-3451",
+      "game": 1,
+      "bans_verified": true,
+      "bans_a": [
+        "Atlas",
+        "Paquito",
+        "Marcel",
+        "Uranus",
+        "Ruby"
+      ],
+      "bans_b": [
+        "Freya",
+        "Melissa",
+        "Barats",
+        "Kaja",
+        "Gloo"
+      ],
+      "draft_source": "https://mldb.gg/match/MPL_Philippines_Season_18-APBRvsTWIS-3451?load_draft=false&game_seq=1",
+      "supplied_hero_lists_verified_as": "bans",
+      "source_players_a": [
+        "JamesPangks",
+        "LanceCy",
+        "JMPINKMAN",
+        "Escalera",
+        "Shizou"
+      ],
+      "source_players_b": [
+        "Sionnn",
+        "Tracyyy",
+        "Sensu1",
+        "Lansu",
+        "Bennyqt"
+      ]
+    },
+    {
+      "date": "2026-08-22",
+      "series_started_at": "2026-08-22T06:33:28+00:00",
+      "season": "MPL Philippines Season 18",
+      "team_a": "APBR",
+      "team_b": "TWIS",
+      "players_a": [
+        "Escalera",
+        "JamesPangks",
+        "JIMPINKMAN",
+        "LanceCy",
+        "Shizou"
+      ],
+      "players_b": [
+        "Bennyqt",
+        "Lansu",
+        "Sionnn",
+        "Sensui",
+        "Tracy"
+      ],
+      "heroes_a": [
+        "Belerick",
+        "Paquito",
+        "Esmeralda",
+        "Vexana",
+        "Claude"
+      ],
+      "heroes_b": [
+        "Moskov",
+        "Dyrroth",
+        "Valentina",
+        "Hirara",
+        "Mathilda"
+      ],
+      "lineups_verified": true,
+      "picks_verified": true,
+      "winner": "APBR",
+      "series_url": "https://mldb.gg/match/MPL_Philippines_Season_18-APBRvsTWIS-3451",
+      "game": 2,
+      "bans_verified": true,
+      "bans_a": [
+        "Atlas",
+        "Selena",
+        "Marcel",
+        "Novaria",
+        "Eudora"
+      ],
+      "bans_b": [
+        "Freya",
+        "Melissa",
+        "Barats",
+        "Rafaela",
+        "Zhuxin"
+      ],
+      "draft_source": "https://mldb.gg/match/MPL_Philippines_Season_18-APBRvsTWIS-3451?load_draft=false&game_seq=2",
+      "supplied_hero_lists_verified_as": "bans",
+      "source_players_a": [
+        "Escalera",
+        "JamesPangks",
+        "JMPINKMAN",
+        "LanceCy",
+        "Shizou"
+      ],
+      "source_players_b": [
+        "Bennyqt",
+        "Lansu",
+        "Sionnn",
+        "Sensu1",
+        "Tracyyy"
+      ]
+    },
+    {
+      "date": "2026-08-22",
+      "series_started_at": "2026-08-22T06:33:28+00:00",
+      "season": "MPL Philippines Season 18",
+      "team_a": "APBR",
+      "team_b": "TWIS",
+      "players_a": [
+        "JIMPINKMAN",
+        "LanceCy",
+        "Shizou",
+        "JamesPangks",
+        "Escalera"
+      ],
+      "players_b": [
+        "Sensui",
+        "Tracy",
+        "Bennyqt",
+        "Lansu",
+        "Sionnn"
+      ],
+      "heroes_a": [
+        "Barats",
+        "Eudora",
+        "Clint",
+        "Paquito",
+        "Rafaela"
+      ],
+      "heroes_b": [
+        "Hirara",
+        "Gatotkaca",
+        "Hanabi",
+        "Carmilla",
+        "Novaria"
+      ],
+      "lineups_verified": true,
+      "picks_verified": true,
+      "winner": "APBR",
+      "series_url": "https://mldb.gg/match/MPL_Philippines_Season_18-APBRvsTWIS-3451",
+      "game": 3,
+      "bans_verified": true,
+      "bans_a": [
+        "Selena",
+        "Atlas",
+        "Marcel",
+        "Esmeralda",
+        "Gloo"
+      ],
+      "bans_b": [
+        "Freya",
+        "Melissa",
+        "Belerick",
+        "Mathilda",
+        "Claude"
+      ],
+      "draft_source": "https://mldb.gg/match/MPL_Philippines_Season_18-APBRvsTWIS-3451?load_draft=false&game_seq=3",
+      "supplied_hero_lists_verified_as": "bans",
+      "source_players_a": [
+        "JMPINKMAN",
+        "LanceCy",
+        "Shizou",
+        "JamesPangks",
+        "Escalera"
+      ],
+      "source_players_b": [
+        "Sensu1",
+        "Tracyyy",
+        "Bennyqt",
+        "Lansu",
+        "Sionnn"
+      ]
+    },
+    {
+      "date": "2026-08-22",
+      "series_started_at": "2026-08-22T09:07:45+00:00",
+      "season": "MPL Philippines Season 18",
+      "team_a": "OMG",
+      "team_b": "TLPH",
+      "players_a": [
+        "Perkz",
+        "Louis",
+        "Minguin",
+        "Raizen",
+        "Cull"
+      ],
+      "players_b": [
+        "Sanford",
+        "KarlTzy",
+        "Sanji",
+        "Jaypee",
+        "Teddy"
+      ],
+      "heroes_a": [
+        "Atlas",
+        "Dyrroth",
+        "Eudora",
+        "Ling",
+        "Brody"
+      ],
+      "heroes_b": [
+        "Uranus",
+        "Harley",
+        "Novaria",
+        "Mathilda",
+        "Clint"
+      ],
+      "lineups_verified": true,
+      "picks_verified": true,
+      "winner": "TLPH",
+      "series_url": "https://mldb.gg/match/MPL_Philippines_Season_18-OMGvsTLPH-3450",
+      "game": 1,
+      "bans_verified": true,
+      "bans_a": [
+        "Marcel",
+        "Melissa",
+        "Hirara",
+        "Claude",
+        "Hanzo"
+      ],
+      "bans_b": [
+        "Freya",
+        "Paquito",
+        "Fanny",
+        "Nolan",
+        "Hayabusa"
+      ],
+      "draft_source": "https://mldb.gg/match/MPL_Philippines_Season_18-OMGvsTLPH-3450?load_draft=false&game_seq=1",
+      "supplied_hero_lists_verified_as": "bans",
+      "source_players_a": [
+        "Perkziva",
+        "Louis",
+        "Minguin",
+        "Raizen",
+        "Cull"
+      ],
+      "source_players_b": [
+        "Sanford",
+        "KarlTzy",
+        "Sanji",
+        "Jaypee",
+        "Teddy"
+      ]
+    },
+    {
+      "date": "2026-08-22",
+      "series_started_at": "2026-08-22T09:07:45+00:00",
+      "season": "MPL Philippines Season 18",
+      "team_a": "OMG",
+      "team_b": "TLPH",
+      "players_a": [
+        "Louis",
+        "Raizen",
+        "Minguin",
+        "Perkz",
+        "Cull"
+      ],
+      "players_b": [
+        "Sanford",
+        "KarlTzy",
+        "Teddy",
+        "Sanji",
+        "Jaypee"
+      ],
+      "heroes_a": [
+        "Barats",
+        "Hirara",
+        "Valentina",
+        "Angela",
+        "Clint"
+      ],
+      "heroes_b": [
+        "Belerick",
+        "Paquito",
+        "Claude",
+        "Novaria",
+        "Rafaela"
+      ],
+      "lineups_verified": true,
+      "picks_verified": true,
+      "winner": "TLPH",
+      "series_url": "https://mldb.gg/match/MPL_Philippines_Season_18-OMGvsTLPH-3450",
+      "game": 2,
+      "bans_verified": true,
+      "bans_a": [
+        "Freya",
+        "Marcel",
+        "Uranus",
+        "Esmeralda",
+        "Phoveus"
+      ],
+      "bans_b": [
+        "Fanny",
+        "Melissa",
+        "Atlas",
+        "Mathilda",
+        "Kaja"
+      ],
+      "draft_source": "https://mldb.gg/match/MPL_Philippines_Season_18-OMGvsTLPH-3450?load_draft=false&game_seq=2",
+      "supplied_hero_lists_verified_as": "bans",
+      "source_players_a": [
+        "Louis",
+        "Raizen",
+        "Minguin",
+        "Perkziva",
+        "Cull"
+      ],
+      "source_players_b": [
+        "Sanford",
+        "KarlTzy",
+        "Teddy",
+        "Sanji",
+        "Jaypee"
+      ]
+    },
+    {
+      "date": "2026-08-22",
+      "series_started_at": "2026-08-22T11:29:26+00:00",
+      "season": "MPL Philippines Season 18",
+      "team_a": "FLCN",
+      "team_b": "TNC",
+      "players_a": [
+        "KyleTzy",
+        "Owgwen",
+        "Hadji",
+        "FlapTzy",
+        "Super Marco"
+      ],
+      "players_b": [
+        "Zehn",
+        "Zaida",
+        "Jowm",
+        "Ryota",
+        "Vin"
+      ],
+      "heroes_a": [
+        "Nolan",
+        "Rafaela",
+        "Vexana",
+        "Belerick",
+        "Paquito"
+      ],
+      "heroes_b": [
+        "Gloo",
+        "Hirara",
+        "Claude",
+        "Alice",
+        "Angela"
+      ],
+      "lineups_verified": true,
+      "picks_verified": true,
+      "winner": "FLCN",
+      "series_url": "https://mldb.gg/match/MPL_Philippines_Season_18-FLCNvsTNC-3449",
+      "game": 1,
+      "bans_verified": true,
+      "bans_a": [
+        "Atlas",
+        "Melissa",
+        "Barats",
+        "Eudora",
+        "Novaria"
+      ],
+      "bans_b": [
+        "Freya",
+        "Marcel",
+        "Fanny",
+        "Moskov",
+        "Lylia"
+      ],
+      "draft_source": "https://mldb.gg/match/MPL_Philippines_Season_18-FLCNvsTNC-3449?load_draft=false&game_seq=1",
+      "supplied_hero_lists_verified_as": "bans",
+      "source_players_a": [
+        "Kyle",
+        "Owgwen",
+        "Hadji",
+        "Flap",
+        "SuperMarco"
+      ],
+      "source_players_b": [
+        "Zehn",
+        "Zaida",
+        "Jowm",
+        "Ryota",
+        "Vinnn"
+      ]
+    },
+    {
+      "date": "2026-08-22",
+      "series_started_at": "2026-08-22T11:29:26+00:00",
+      "season": "MPL Philippines Season 18",
+      "team_a": "FLCN",
+      "team_b": "TNC",
+      "players_a": [
+        "Hadji",
+        "KyleTzy",
+        "FlapTzy",
+        "Super Marco",
+        "Owgwen"
+      ],
+      "players_b": [
+        "Ryota",
+        "Jowm",
+        "Zaida",
+        "Vin",
+        "Zehn"
+      ],
+      "heroes_a": [
+        "Rafaela",
+        "Paquito",
+        "Lapu-Lapu",
+        "Moskov",
+        "Belerick"
+      ],
+      "heroes_b": [
+        "Barats",
+        "Brody",
+        "Hirara",
+        "Lylia",
+        "Badang"
+      ],
+      "lineups_verified": true,
+      "picks_verified": true,
+      "winner": "FLCN",
+      "series_url": "https://mldb.gg/match/MPL_Philippines_Season_18-FLCNvsTNC-3449",
+      "game": 2,
+      "bans_verified": true,
+      "bans_a": [
+        "Freya",
+        "Melissa",
+        "Uranus",
+        "Mathilda",
+        "Valentina"
+      ],
+      "bans_b": [
+        "Marcel",
+        "Atlas",
+        "Fanny",
+        "Nolan",
+        "Hanabi"
+      ],
+      "draft_source": "https://mldb.gg/match/MPL_Philippines_Season_18-FLCNvsTNC-3449?load_draft=false&game_seq=2",
+      "supplied_hero_lists_verified_as": "bans",
+      "source_players_a": [
+        "Hadji",
+        "Kyle",
+        "Flap",
+        "SuperMarco",
+        "Owgwen"
+      ],
+      "source_players_b": [
+        "Ryota",
+        "Jowm",
+        "Zaida",
+        "Vinnn",
+        "Zehn"
+      ]
+    },
+    {
+      "date": "2026-08-23",
+      "series_started_at": "2026-08-23T09:00:25+00:00",
+      "season": "MPL Philippines Season 18",
+      "team_a": "APBR",
+      "team_b": "FNOP",
+      "players_a": [
+        "Shizou",
+        "JIMPINKMAN",
+        "LanceCy",
+        "Escalera",
+        "JamesPangks"
+      ],
+      "players_b": [
+        "Savero",
+        "Super Yoshi",
+        "Kirk",
+        "Super Frince",
+        "K1NGKONG"
+      ],
+      "heroes_a": [
+        "Melissa",
+        "Esmeralda",
+        "Mathilda",
+        "Gatotkaca",
+        "Lukas"
+      ],
+      "heroes_b": [
+        "Brody",
+        "Kaja",
+        "Belerick",
+        "Novaria",
+        "Hirara"
+      ],
+      "lineups_verified": true,
+      "picks_verified": true,
+      "winner": "FNOP",
+      "series_url": "https://mldb.gg/match/MPL_Philippines_Season_18-ONICvsAPBR-3448",
+      "game": 1,
+      "bans_verified": true,
+      "bans_a": [
+        "Marcel",
+        "Selena",
+        "Barats",
+        "Aurora",
+        "Eudora"
+      ],
+      "bans_b": [
+        "Freya",
+        "Atlas",
+        "Uranus",
+        "Paquito",
+        "Nolan"
+      ],
+      "draft_source": "https://mldb.gg/match/MPL_Philippines_Season_18-ONICvsAPBR-3448?load_draft=false&game_seq=1",
+      "supplied_hero_lists_verified_as": "bans",
+      "source_players_a": [
+        "Shizou",
+        "JMPINKMAN",
+        "LanceCy",
+        "Escalera",
+        "JamesPangks"
+      ],
+      "source_players_b": [
+        "Savero",
+        "SUPERYOSHI",
+        "Kirk",
+        "SuperFrince",
+        "K1NGKONG"
+      ]
+    },
+    {
+      "date": "2026-08-23",
+      "series_started_at": "2026-08-23T09:00:25+00:00",
+      "season": "MPL Philippines Season 18",
+      "team_a": "APBR",
+      "team_b": "FNOP",
+      "players_a": [
+        "Shizou",
+        "JIMPINKMAN",
+        "Escalera",
+        "LanceCy",
+        "JamesPangks"
+      ],
+      "players_b": [
+        "Kirk",
+        "K1NGKONG",
+        "Super Yoshi",
+        "Super Frince",
+        "Savero"
+      ],
+      "heroes_a": [
+        "Melissa",
+        "Esmeralda",
+        "Belerick",
+        "Rafaela",
+        "Suyou"
+      ],
+      "heroes_b": [
+        "Barats",
+        "Hirara",
+        "Kaja",
+        "Vexana",
+        "Beatrix"
+      ],
+      "lineups_verified": true,
+      "picks_verified": true,
+      "winner": "FNOP",
+      "series_url": "https://mldb.gg/match/MPL_Philippines_Season_18-ONICvsAPBR-3448",
+      "game": 2,
+      "bans_verified": true,
+      "bans_a": [
+        "Marcel",
+        "Selena",
+        "Atlas",
+        "Aurora",
+        "Eudora"
+      ],
+      "bans_b": [
+        "Freya",
+        "Uranus",
+        "Paquito",
+        "Mathilda",
+        "Nolan"
+      ],
+      "draft_source": "https://mldb.gg/match/MPL_Philippines_Season_18-ONICvsAPBR-3448?load_draft=false&game_seq=2",
+      "supplied_hero_lists_verified_as": "bans",
+      "source_players_a": [
+        "Shizou",
+        "JMPINKMAN",
+        "Escalera",
+        "LanceCy",
+        "JamesPangks"
+      ],
+      "source_players_b": [
+        "Kirk",
+        "K1NGKONG",
+        "SUPERYOSHI",
+        "SuperFrince",
+        "Savero"
+      ]
+    },
+    {
+      "date": "2026-08-23",
+      "series_started_at": "2026-08-23T11:30:50+00:00",
+      "season": "MPL Philippines Season 18",
+      "team_a": "TNC",
+      "team_b": "RORA",
+      "players_a": [
+        "Zaida",
+        "Vin",
+        "Ryota",
+        "Jowm",
+        "Zehn"
+      ],
+      "players_b": [
+        "Nathzz",
+        "Koyl",
+        "Light",
+        "Yue",
+        "Domeng"
+      ],
+      "heroes_a": [
+        "Paquito",
+        "Rafaela",
+        "Edith",
+        "Claude",
+        "Belerick"
+      ],
+      "heroes_b": [
+        "Uranus",
+        "Hirara",
+        "Kaja",
+        "Cecilion",
+        "Brody"
+      ],
+      "lineups_verified": true,
+      "picks_verified": true,
+      "winner": "TNC",
+      "series_url": "https://mldb.gg/match/MPL_Philippines_Season_18-TNCvsRORA-3447",
+      "game": 1,
+      "bans_verified": true,
+      "bans_a": [
+        "Atlas",
+        "Marcel",
+        "Melissa",
+        "Vexana",
+        "Aurora"
+      ],
+      "bans_b": [
+        "Freya",
+        "Selena",
+        "Fanny",
+        "Barats",
+        "Esmeralda"
+      ],
+      "draft_source": "https://mldb.gg/match/MPL_Philippines_Season_18-TNCvsRORA-3447?load_draft=false&game_seq=1",
+      "supplied_hero_lists_verified_as": "bans",
+      "source_players_a": [
+        "Zaida",
+        "Vinnn",
+        "Ryota",
+        "Jowm",
+        "Zehn"
+      ],
+      "source_players_b": [
+        "Nathzz",
+        "Koyl",
+        "Light",
+        "Yue",
+        "Domeng"
+      ]
+    },
+    {
+      "date": "2026-08-23",
+      "series_started_at": "2026-08-23T11:30:50+00:00",
+      "season": "MPL Philippines Season 18",
+      "team_a": "TNC",
+      "team_b": "RORA",
+      "players_a": [
+        "Zehn",
+        "Zaida",
+        "Jowm",
+        "Ryota",
+        "Vin"
+      ],
+      "players_b": [
+        "Domeng",
+        "Light",
+        "Nathzz",
+        "Koyl",
+        "Yue"
+      ],
+      "heroes_a": [
+        "Marcel",
+        "Hirara",
+        "Brody",
+        "Arlott",
+        "Lylia"
+      ],
+      "heroes_b": [
+        "Melissa",
+        "Mathilda",
+        "Esmeralda",
+        "Suyou",
+        "Zhuxin"
+      ],
+      "lineups_verified": true,
+      "picks_verified": true,
+      "winner": "RORA",
+      "series_url": "https://mldb.gg/match/MPL_Philippines_Season_18-TNCvsRORA-3447",
+      "game": 2,
+      "bans_verified": true,
+      "bans_a": [
+        "Freya",
+        "Atlas",
+        "Fanny",
+        "Harley",
+        "Nolan"
+      ],
+      "bans_b": [
+        "Selena",
+        "Barats",
+        "Paquito",
+        "Uranus",
+        "Ruby"
+      ],
+      "draft_source": "https://mldb.gg/match/MPL_Philippines_Season_18-TNCvsRORA-3447?load_draft=false&game_seq=2",
+      "supplied_hero_lists_verified_as": "bans",
+      "source_players_a": [
+        "Zehn",
+        "Zaida",
+        "Jowm",
+        "Ryota",
+        "Vinnn"
+      ],
+      "source_players_b": [
+        "Domeng",
+        "Light",
+        "Nathzz",
+        "Koyl",
+        "Yue"
+      ]
+    },
+    {
+      "date": "2026-08-23",
+      "series_started_at": "2026-08-23T11:30:50+00:00",
+      "season": "MPL Philippines Season 18",
+      "team_a": "TNC",
+      "team_b": "RORA",
+      "players_a": [
+        "Jowm",
+        "Zaida",
+        "Zehn",
+        "Vin",
+        "Ryota"
+      ],
+      "players_b": [
+        "Nathzz",
+        "Yue",
+        "Koyl",
+        "Domeng",
+        "Light"
+      ],
+      "heroes_a": [
+        "Melissa",
+        "Hirara",
+        "Gloo",
+        "Angela",
+        "Belerick"
+      ],
+      "heroes_b": [
+        "Barats",
+        "Vexana",
+        "Harley",
+        "Granger",
+        "Rafaela"
+      ],
+      "lineups_verified": true,
+      "picks_verified": true,
+      "winner": "TNC",
+      "series_url": "https://mldb.gg/match/MPL_Philippines_Season_18-TNCvsRORA-3447",
+      "game": 3,
+      "bans_verified": true,
+      "bans_a": [
+        "Atlas",
+        "Uranus",
+        "Fanny",
+        "Claude",
+        "Moskov"
+      ],
+      "bans_b": [
+        "Freya",
+        "Paquito",
+        "Selena",
+        "Mathilda",
+        "Lylia"
+      ],
+      "draft_source": "https://mldb.gg/match/MPL_Philippines_Season_18-TNCvsRORA-3447?load_draft=false&game_seq=3",
+      "supplied_hero_lists_verified_as": "bans",
+      "source_players_a": [
+        "Jowm",
+        "Zaida",
+        "Zehn",
+        "Vinnn",
+        "Ryota"
+      ],
+      "source_players_b": [
+        "Nathzz",
+        "Yue",
+        "Koyl",
+        "Domeng",
+        "Light"
+      ]
+    },
+    {
+      "date": "2026-08-28",
+      "series_started_at": "2026-08-28T09:00:00+00:00",
+      "season": "MPL Philippines Season 18",
+      "team_a": "APBR",
+      "team_b": "TLPH",
+      "players_a": [
+        "Shizou",
+        "Escalera",
+        "JIMPINKMAN",
+        "JamesPangks",
+        "LanceCy"
+      ],
+      "players_b": [
+        "Jaypee",
+        "Teddy",
+        "Sanford",
+        "Sanji",
+        "KarlTzy"
+      ],
+      "heroes_a": [
+        "Moskov",
+        "Belerick",
+        "Esmeralda",
+        "Hirara",
+        "Mathilda"
+      ],
+      "heroes_b": [
+        "Minotaur",
+        "Clint",
+        "Atlas",
+        "Selena",
+        "Suyou"
+      ],
+      "lineups_verified": true,
+      "picks_verified": true,
+      "winner": "TLPH",
+      "series_url": "https://mldb.gg/match/MPL_Philippines_Season_18-APBRvsTLPH-3446",
+      "game": 1,
+      "bans_verified": false,
+      "bans_a": [
+        "Harley",
+        "Marcel",
+        "Paquito",
+        "Dyrroth",
+        "Uranus"
+      ],
+      "bans_b": [
+        "Melissa",
+        "Rafaela",
+        "Freya",
+        "Valentina",
+        "Lylia"
+      ],
+      "draft_source": "https://mldb.gg/match/MPL_Philippines_Season_18-APBRvsTLPH-3446?load_draft=false&game_seq=1",
+      "supplied_hero_lists_verified_as": "unverified; treated as reported bans, not picks",
+      "source_players_a": [
+        "Shizou",
+        "Escalera",
+        "JMPINKMAN",
+        "Jamespangks",
+        "LanceCy"
+      ],
+      "source_players_b": [
+        "Jaypee",
+        "Teddyqt",
+        "Sanford",
+        "Sanji",
+        "KarlTzy"
+      ]
+    },
+    {
+      "date": "2026-08-28",
+      "series_started_at": "2026-08-28T09:00:00+00:00",
+      "season": "MPL Philippines Season 18",
+      "team_a": "APBR",
+      "team_b": "TLPH",
+      "players_a": [
+        "JamesPangks",
+        "JIMPINKMAN",
+        "Escalera",
+        "Shizou",
+        "LanceCy"
+      ],
+      "players_b": [
+        "KarlTzy",
+        "Sanji",
+        "Sanford",
+        "Teddy",
+        "Jaypee"
+      ],
+      "heroes_a": [
+        "Harley",
+        "Barats",
+        "Mathilda",
+        "Brody",
+        "Valentina"
+      ],
+      "heroes_b": [
+        "Hirara",
+        "Novaria",
+        "Carmilla",
+        "Paquito",
+        "Belerick"
+      ],
+      "lineups_verified": true,
+      "picks_verified": true,
+      "winner": "TLPH",
+      "series_url": "https://mldb.gg/match/MPL_Philippines_Season_18-APBRvsTLPH-3446",
+      "game": 2,
+      "bans_verified": false,
+      "bans_a": [
+        "Freya",
+        "Marcel",
+        "Selena",
+        "Atlas",
+        "Minotaur"
+      ],
+      "bans_b": [
+        "Rafaela",
+        "Uranus",
+        "Melissa",
+        "Eudora",
+        "Suyou"
+      ],
+      "draft_source": "https://mldb.gg/match/MPL_Philippines_Season_18-APBRvsTLPH-3446?load_draft=false&game_seq=2",
+      "supplied_hero_lists_verified_as": "unverified; treated as reported bans, not picks",
+      "source_players_a": [
+        "Jamespangks",
+        "JMPINKMAN",
+        "Escalera",
+        "Shizou",
+        "LanceCy"
+      ],
+      "source_players_b": [
+        "KarlTzy",
+        "Sanji",
+        "Sanford",
+        "Teddyqt",
+        "Jaypee"
+      ]
+    },
+    {
+      "date": "2026-08-28",
+      "series_started_at": "2026-08-28T11:30:00+00:00",
+      "season": "MPL Philippines Season 18",
+      "team_a": "TWIS",
+      "team_b": "FNOP",
+      "players_a": [
+        "Sensui",
+        "Sionnn",
+        "Tracy",
+        "Bennyqt"
+      ],
+      "players_b": [
+        "Super Yoshi",
+        "Kirk",
+        "K1NGKONG",
+        "Savero"
+      ],
+      "lineups_verified": false,
+      "picks_verified": false,
+      "winner": "FNOP",
+      "series_url": "https://mldb.gg/match/MPL_Philippines_Season_18-TWPHvsONPH-3445",
+      "game": 1,
+      "bans_verified": false,
+      "bans_a": [
+        "Fanny",
+        "Kaja",
+        "Barats",
+        "Brody",
+        "Novaria"
+      ],
+      "bans_b": [
+        "Freya",
+        "Marcel",
+        "Atlas",
+        "Paquito",
+        "Nolan"
+      ],
+      "draft_source": "https://mldb.gg/match/MPL_Philippines_Season_18-TWPHvsONPH-3445?load_draft=false&game_seq=1",
+      "supplied_hero_lists_verified_as": "unverified; treated as reported bans, not picks",
+      "lineup_data_issue": "Published record has fewer than five players per side; excluded from player Elo.",
+      "reported_heroes_a": [
+        "Suyou",
+        "Selena",
+        "Gatotkaca",
+        "Melissa"
+      ],
+      "reported_heroes_b": [
+        "Mathilda",
+        "Belerick",
+        "Hirara",
+        "Claude"
+      ],
+      "pick_data_issue": "Published record has fewer than five played heroes per side; excluded from pick counts.",
+      "source_players_a": [
+        "Sensu1",
+        "Sionnn",
+        "Tracyyy",
+        "Bennyqt"
+      ],
+      "source_players_b": [
+        "SUPERYOSHI",
+        "Kirk",
+        "K1NGKONG",
+        "Savero"
+      ]
+    },
+    {
+      "date": "2026-08-28",
+      "series_started_at": "2026-08-28T11:30:00+00:00",
+      "season": "MPL Philippines Season 18",
+      "team_a": "TWIS",
+      "team_b": "FNOP",
+      "players_a": [
+        "Bennyqt",
+        "Tracy",
+        "Sionnn",
+        "Sensui"
+      ],
+      "players_b": [
+        "Super Frince",
+        "Savero",
+        "K1NGKONG",
+        "Kirk"
+      ],
+      "lineups_verified": false,
+      "picks_verified": false,
+      "winner": "FNOP",
+      "series_url": "https://mldb.gg/match/MPL_Philippines_Season_18-TWPHvsONPH-3445",
+      "game": 2,
+      "bans_verified": false,
+      "bans_a": [
+        "Fanny",
+        "Kaja",
+        "Selena",
+        "Brody",
+        "Atlas"
+      ],
+      "bans_b": [
+        "Freya",
+        "Marcel",
+        "Uranus",
+        "Rafaela",
+        "Mathilda"
+      ],
+      "draft_source": "https://mldb.gg/match/MPL_Philippines_Season_18-TWPHvsONPH-3445?load_draft=false&game_seq=2",
+      "supplied_hero_lists_verified_as": "unverified; treated as reported bans, not picks",
+      "lineup_data_issue": "Published record has fewer than five players per side; excluded from player Elo.",
+      "reported_heroes_a": [
+        "Melissa",
+        "Belerick",
+        "Vexana",
+        "Paquito"
+      ],
+      "reported_heroes_b": [
+        "Novaria",
+        "Claude",
+        "Hirara",
+        "Barats"
+      ],
+      "pick_data_issue": "Published record has fewer than five played heroes per side; excluded from pick counts.",
+      "source_players_a": [
+        "Bennyqt",
+        "Tracyyy",
+        "Sionnn",
+        "Sensu1"
+      ],
+      "source_players_b": [
+        "SuperFrince",
+        "Savero",
+        "K1NGKONG",
+        "Kirk"
+      ]
+    }
+  ]
+}
