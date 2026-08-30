@@ -76,7 +76,21 @@ Presentation lives in `mlbb_predictor/ui.py`, `ui/matchdesk.css`, and `.streamli
 
 No API key or Kaggle login is needed for new S18 matches. The collector reads the public [MLDB MPL PH S18 match schedule](https://mldb.gg/event/mpl-philippines-season-18), including upcoming, live and completed statuses.
 
-1. Keep the Streamlit server running on an awake, internet-connected PC. No terminal commands are needed for each match.
+### Data check when the site opens
+
+Each new browser session shows **Checking the match schedule and loading data...** before the predictor is loaded. With collection enabled, the app joins an existing check or requests one from the shared background worker. Any matches already eligible under the 24-hour rule can be collected before the first prediction; the model and matching history are then read together.
+
+- A successful check less than five minutes old can be reused across visitors, unless a scheduled check or game-data update is already due.
+- Team changes, tab interactions, and automatic page reruns do not trigger another opening check in the same browser session.
+- The page waits at most 15 seconds for collection. If it takes longer, saved predictions are shown and the worker continues; the page's revision watcher loads the new snapshot when ready.
+- Source errors, incomplete collections, and paused collection are reported without claiming that saved data is newly downloaded. Existing source retry backoff is respected.
+- Opening does **not** bypass the 24-hour wait after first observed completion. If cloud storage loses the completion queue, a newly observed match starts a new timer. This feature does not add durable storage or update GitHub automatically.
+
+For the deployed app, push the changed `app.py`, `mlbb_predictor/collection_service.py`, and new `mlbb_predictor/startup.py` alongside the existing model/data files. Reboot the deployed app if needed to load the new worker code. Offline UI tests intentionally disable network checks.
+
+### Background collection
+
+1. For local use, keep the Streamlit server running on an awake, internet-connected PC. For a deployed app, the cloud server must be running; your PC can be off. No terminal commands are needed for each match.
 2. In **Data collection**, leave **Automatically collect new matches** enabled and click **Save collection settings**. The policy is one day after first observed completion; the old 30-minute interval has been removed.
 3. Use **Check schedule now** to refresh the match list, even when automatic checks are paused. It still respects the 24-hour delay. Upcoming matches, completion-observation times, collection/retry times, errors and roster-review alerts appear in that tab.
 4. Predictions, player ratings, recent favorite picks and meta fit refresh together after successful collection. An open page checks for newly published data every ten seconds.

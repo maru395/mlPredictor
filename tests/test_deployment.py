@@ -82,7 +82,7 @@ class DeploymentTests(unittest.TestCase):
                 result = subprocess.run(["git", "check-ignore", "--no-index", "--quiet", name], cwd=ROOT)
                 self.assertEqual(result.returncode, 0)
 
-    def run_isolated_app(self, *, omit=(), missing=None):
+    def run_isolated_app(self, *, omit=(), missing=None, opening_outcome=None):
         try:
             import streamlit  # noqa: F401
         except ImportError:
@@ -102,6 +102,41 @@ with patch('urllib.request.urlopen', side_effect=AssertionError('Unexpected star
     app = AppTest.from_file('app.py').run(timeout=30)
 assert not app.exception, str(app.exception)
 """
+            if opening_outcome is not None:
+                script = """
+from pathlib import Path
+from unittest.mock import patch
+from streamlit.testing.v1 import AppTest
+from mlbb_predictor.live_data import load_prediction_state
+class FakeService:
+    running = pending = False
+    last_error = None
+    calls = 0
+    def refresh_on_open(self):
+        self.calls += 1
+        return OUTCOME
+    def stop(self):
+        pass
+service = FakeService()
+def load_after_check(*args, **kwargs):
+    assert service.calls >= 1, 'Prediction was read before the opening check'
+    return load_prediction_state(*args, **kwargs)
+with patch('mlbb_predictor.collection_service.CollectionService', return_value=service), patch('mlbb_predictor.live_data.load_prediction_state', side_effect=load_after_check), patch('urllib.request.urlopen', side_effect=AssertionError('Unexpected real network')):
+    app = AppTest.from_file('app.py').run(timeout=30)
+    assert not app.exception, str(app.exception)
+    assert service.calls == 1
+    assert app.session_state['opening_data_checked']
+    if OUTCOME['state'] == 'timeout':
+        assert any('still running' in item.value for item in app.info)
+    if OUTCOME['state'] == 'error':
+        assert any('opening data check could not finish' in item.value for item in app.warning)
+    app.selectbox(key='predict_team_b').set_value('RORA').run()
+    assert not app.exception, str(app.exception)
+    assert service.calls == 1, 'Widget rerun requested another opening check'
+    another = AppTest.from_file('app.py').run(timeout=30)
+    assert not another.exception, str(another.exception)
+    assert service.calls == 2, 'New browser session did not request its data check'
+""".replace("OUTCOME", repr(opening_outcome))
             if missing:
                 script += f"""
 assert any('missing required' in item.value for item in app.error)
@@ -117,7 +152,7 @@ assert not (Path.cwd() / 'data/raw').exists()
 """
             result = subprocess.run(
                 [sys.executable, "-c", script], cwd=checkout,
-                env={**os.environ, "MLBB_OFFLINE_TEST_MODE": "1"},
+                env={**os.environ, "MLBB_OFFLINE_TEST_MODE": "0" if opening_outcome is not None else "1"},
                 capture_output=True, text=True, timeout=60,
             )
             self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
@@ -136,6 +171,15 @@ assert not (Path.cwd() / 'data/raw').exists()
     def test_missing_tiers_does_not_silently_use_neutral_defaults(self):
         name = "config/meta_tiers.json"
         self.run_isolated_app(omit=(name,), missing=name)
+
+    def test_opening_check_precedes_prediction_and_runs_once_per_session(self):
+        self.run_isolated_app(opening_outcome={"state": "success"})
+
+    def test_opening_timeout_still_renders_saved_predictor(self):
+        self.run_isolated_app(opening_outcome={"state": "timeout"})
+
+    def test_opening_source_failure_still_renders_saved_predictor(self):
+        self.run_isolated_app(opening_outcome={"state": "error", "error": "offline"})
 
 
 if __name__ == "__main__":

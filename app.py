@@ -11,6 +11,7 @@ import streamlit as st
 from mlbb_predictor.context import read_context_data
 from mlbb_predictor.collector import load_settings, read_json, save_settings, status_path, utc_now
 from mlbb_predictor.collection_service import CollectionService, next_check
+from mlbb_predictor.startup import startup_notice
 from mlbb_predictor.data import display_name
 from mlbb_predictor.history import recent_player_picks, recent_team_picks, series_key, valid_lineups, valid_picks
 from mlbb_predictor.live_data import data_revision, load_prediction_state
@@ -121,6 +122,22 @@ if missing_artifacts:
 st.html(ROOT / "ui" / "matchdesk.css")
 
 collection_service = None if OFFLINE_TEST_MODE else get_collection_service()
+if collection_service is not None and not hasattr(collection_service, "refresh_on_open"):
+    # Replace a pre-upgrade cached worker during Streamlit's hot reload.
+    collection_service.stop()
+    get_collection_service.clear()
+    collection_service = get_collection_service()
+# A new browser session checks once. Widget reruns and fragment refreshes must
+# not download again. The shared service coalesces concurrent visitors.
+if collection_service is not None and not st.session_state.get("opening_data_checked", False):
+    with st.spinner("Checking the match schedule and loading data...", show_time=True):
+        opening_result = collection_service.refresh_on_open()
+    st.session_state["opening_data_checked"] = True
+    notice_kind, notice_text = startup_notice(opening_result)
+    getattr(st, notice_kind)(notice_text)
+
+# Read the revision only after the opening check, so a newly published model
+# and its matching history are used together on the first prediction.
 loaded_revision = data_revision(ROOT, offline=OFFLINE_TEST_MODE)
 try:
     player_model, metrics, player_game_payload, player_games = load_current_prediction_data(loaded_revision, OFFLINE_TEST_MODE)
@@ -792,6 +809,8 @@ def collection_status_panel():
 
 with collection_tab:
     st.subheader("Automatic MPL PH data collection")
+    st.caption("Opening the app checks for due data before showing predictions. Recent checks are shared for five minutes; "
+               "the opening wait is capped at 15 seconds, after which saved data remains usable while collection continues.")
     st.write("Collect each Season 18 match one day after the app first sees it marked Completed on MLDB. "
              "Player Elo, last-10-series favorites, and automatic meta fit update together after collection.")
     st.warning("MLDB exposes scheduled start times and completion status, but no reliable finish timestamp was found. "
