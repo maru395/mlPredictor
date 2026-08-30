@@ -1,0 +1,280 @@
+{
+  "as_of": "2026-08-28",
+  "league": "MPL Philippines",
+  "season": "Season 18",
+  "sources": {
+    "official_teams": "https://ph-mpl.com/teams",
+    "standings": "https://en.wikipedia.org/wiki/2026_MPL_Philippines_season"
+  },
+  "teams": [
+    {
+      "code": "APBR",
+      "name": "AP BREN",
+      "official_name": "AP BREN",
+      "official_url": "https://ph-mpl.com/team/apbr",
+      "model_code": "APBR",
+      "context_code": "APBR",
+      "cold_start": true,
+      "model_note": "Cold start: the current rebuilt roster is not treated as the old Falcons AP.Bren lineup.",
+      "summary": "A rebuilt Season 18 lineup centered on JamesPangks and Shizou, with Escalera joining as the veteran roamer.",
+      "roster": [
+        {"player": "JIMPINKMAN", "role": "EXP Lane", "status": "Main"},
+        {"player": "JamesPangks", "role": "Jungle", "status": "Main"},
+        {"player": "LanceCy", "role": "Mid Lane", "status": "Main"},
+        {"player": "Shizou", "role": "Gold Lane", "status": "Main"},
+        {"player": "Escalera", "role": "Roam", "status": "Main"},
+        {"player": "Allen", "role": "EXP Lane", "status": "Substitute"}
+      ],
+      "staff": [
+        {"name": "Adi", "role": "Manager"},
+        {"name": "Bitoy", "role": "Head Coach"},
+        {"name": "Yobabz", "role": "Assistant Coach"}
+      ],
+      "achievements": [
+        "Snapdragon Pro Series Season 5 APAC Challenge Finals — 1st",
+        "MPL Philippines Season 13 — 2nd",
+        "M5 World Championship — 1st",
+        "MPL Philippines Season 12 — 1st",
+        "M2 World Championship — 1st",
+        "MPL Philippines Season 6 — 1st",
+        "MPL Philippines Season 2 — 2nd",
+        "MLBB Mid Season Cup 2024 — 2nd"
+      ],
+      "standing": {"position": 6, "matches_won": 1, "matches_lost": 2, "games_won": 2, "games_lost": 5, "game_diff": -3}
+    },
+    {
+      "code": "RORA",
+      "name": "Aurora Gaming PH",
+      "official_name": "Aurora Gaming",
+      "official_url": "https://ph-mpl.com/team/rora",
+      "model_code": "RORA",
+      "context_code": "RORA",
+      "cold_start": false,
+      "model_note": "Historical rating uses Aurora Gaming's MPL PH Season 14 results.",
+      "summary": "Aurora entered Season 18 with Nathzz and Koyl taking the EXP and jungle roles alongside Yue, Domengkite, and Light.",
+      "roster": [
+        {"player": "Nathzz", "role": "EXP Lane", "status": "Main"},
+        {"player": "Koyl", "role": "Jungle", "status": "Main"},
+        {"player": "Yue", "role": "Mid Lane", "status": "Main"},
+        {"player": "Domengkite", "role": "Gold Lane", "status": "Main", "history_alias": "Domeng"},
+        {"player": "Light", "role": "Roam", "status": "Main"},
+        {"player": "Yecs", "role": "Gold Lane", "status": "Substitute / Analyst"}
+      ],
+      "staff": [
+        {"name": "Rada", "role": "Manager"},
+        {"name": "Master The Basics", "role": "Head Coach"},
+        {"name": "Dex Star", "role": "Assistant Coach"}
+      ],
+      "achievements": [
+        "M7 World Championship — 1st",
+        "MPL Philippines Season 16 — 2nd",
+        "MPL Philippines Season 15 — 4th",
+        "M6 World Championship — 12th–14th",
+        "MPL Philippines Season 14 — 2nd"
+      ],
+      "standing": {"position": 8, "matches_won": 0, "matches_lost": 2, "games_won": 1, "games_lost": 4, "game_diff": -3}
+    },
+    {
+      "code": "FNOP",
+      "name": "Fnatic ONIC PH",
+      "official_name": "ONIC PH",
+      "official_url": "https://ph-mpl.com/team/onic",
+      "model_code": "FNOP",
+      "context_code": "FNOP",
+      "cold_start": false,
+      "model_note": "Historical rating uses Fnatic ONIC/ONIC Philippines Season 13–14 results.",
+      "summary": "Official Season 18 listings use ONIC PH. Pheww and Haze lead a roster built around Kirk, K1NGKONG, Super Frince, Savero, and starting roamer Super Yoshi.",
+      "roster": [
+        {"player": "Kirk", "role": "EXP Lane", "status": "Main"},
+        {"player": "K1NGKONG", "role": "Jungle", "status": "Main"},
+        {"player": "Super Frince", "role": "Mid Lane", "status": "Main"},
+        {"player": "Savero", "role": "Gold Lane", "status": "Main"},
+        {"player": "Super Yoshi", "role": "Roam", "status": "Main"},
+        {"player": "Dann", "role": "EXP Lane", "status": "Substitute"},
+        {"player": "Brusko", "role": "Roam", "status": "Substitute"}
+      ],
+      "staff": [
+        {"name": "Pheww", "role": "Head Coach"},
+        {"name": "Haze", "role": "Assistant Coach"}
+      ],
+      "achievements": [
+        "MPL Philippines Season 17 — 3rd",
+        "MLBB Mid Season Cup 2025 — 3rd",
+        "MPL Philippines Season 15 — 2nd",
+        "ESL Snapdragon Pro Series Mobile Masters 2025 — 1st",
+        "M6 World Championship — 1st",
+        "MPL Philippines Season 14 — 1st",
+        "M3 World Championship — 2nd",
+        "MPL Philippines Season 8 — 2nd"
+      ],
+      "standing": {"position": 1, "matches_won": 3, "matches_lost": 0, "games_won": 6, "games_lost": 0, "game_diff": 6}
+    },
+    {
+      "code": "OMG",
+      "name": "Smart Omega",
+      "official_name": "Smart Omega",
+      "official_url": "https://ph-mpl.com/team/omg",
+      "model_code": "OMG",
+      "context_code": "OMG",
+      "cold_start": false,
+      "model_note": "Historical rating uses Omega Esports/Smart Omega Season 13–14 results.",
+      "summary": "Smart Omega's Season 18 roster combines the experienced Raizen–Minguin–Perkz core with Louis and rookie gold laner Cull.",
+      "roster": [
+        {"player": "Louis", "role": "EXP Lane", "status": "Main"},
+        {"player": "Raizen", "role": "Jungle", "status": "Main"},
+        {"player": "Minguin", "role": "Mid Lane", "status": "Main"},
+        {"player": "Cull", "role": "Gold Lane", "status": "Main"},
+        {"player": "Perkziva", "role": "Roam", "status": "Main", "history_alias": "Perkz"},
+        {"player": "Peuder", "role": "Roam", "status": "Substitute"}
+      ],
+      "staff": [
+        {"name": "Rianne", "role": "Manager"},
+        {"name": "Wurahhhh", "role": "Head Coach"},
+        {"name": "Lembot", "role": "Assistant Coach"}
+      ],
+      "achievements": [
+        "MPL Philippines Season 16 — 7th",
+        "MPL Philippines Season 14 — 5th–6th",
+        "MPL Philippines Season 12 — 5th–6th",
+        "MPL Philippines Season 11 — 5th–6th",
+        "MPL Philippines Season 10 — 5th–6th",
+        "MLBB Southeast Asia Cup 2022 — 3rd",
+        "MPL Philippines Season 9 — 2nd",
+        "MPL Philippines Season 8 — 3rd",
+        "M2 World Championship — 5th–6th",
+        "MPL Philippines Season 6 — 2nd"
+      ],
+      "standing": {"position": 5, "matches_won": 0, "matches_lost": 1, "games_won": 0, "games_lost": 2, "game_diff": -2}
+    },
+    {
+      "code": "FLCN",
+      "name": "Team Falcons PH",
+      "official_name": "Team Falcons",
+      "official_url": "https://ph-mpl.com/team/flcn",
+      "model_code": "FCAP",
+      "context_code": "FCAP",
+      "cold_start": false,
+      "model_note": "Historical rating and comfort use Falcons AP.Bren because Flap, Kyle, Super Marco, and Owgwen provide direct roster continuity.",
+      "summary": "The Season 17 runner-up retained its veteran core for Season 18, with Hadji in mid and the Flap–Kyle–Super Marco–Owgwen quartet intact.",
+      "roster": [
+        {"player": "Flap", "role": "EXP Lane", "status": "Main", "history_alias": "FlapTzy"},
+        {"player": "Kyle", "role": "Jungle", "status": "Main", "history_alias": "KyleTzy"},
+        {"player": "Hadji", "role": "Mid Lane", "status": "Main"},
+        {"player": "Super Marco", "role": "Gold Lane", "status": "Main"},
+        {"player": "Owgwen", "role": "Roam", "status": "Main"},
+        {"player": "Ferdz", "role": "EXP Lane", "status": "Substitute"}
+      ],
+      "staff": [
+        {"name": "Ducky", "role": "Head Coach"},
+        {"name": "Moody", "role": "Assistant Coach"},
+        {"name": "VR3N", "role": "Analyst"}
+      ],
+      "achievements": [
+        "MPL Philippines Season 17 — 2nd",
+        "MPL Philippines Season 16 — 5th–6th",
+        "MPL Philippines Season 15 — 3rd",
+        "ESL Snapdragon Pro Series Mobile Masters 2025 — 3rd–4th"
+      ],
+      "standing": {"position": 3, "matches_won": 2, "matches_lost": 0, "games_won": 4, "games_lost": 1, "game_diff": 3}
+    },
+    {
+      "code": "TLPH",
+      "name": "Team Liquid PH",
+      "official_name": "Team Liquid PH",
+      "official_url": "https://ph-mpl.com/team/tlph",
+      "model_code": "TLPH",
+      "context_code": "TLPH",
+      "cold_start": false,
+      "model_note": "Historical rating connects ECHO and Team Liquid PH franchise continuity.",
+      "summary": "The three-time defending MPL PH champion kept the Sanford–KarlTzy–Sanji–Jaypee core, with Teddy and Daiki covering gold lane.",
+      "roster": [
+        {"player": "Sanford", "role": "EXP Lane", "status": "Main"},
+        {"player": "KarlTzy", "role": "Jungle", "status": "Main"},
+        {"player": "Sanji", "role": "Mid Lane", "status": "Main"},
+        {"player": "Teddy", "role": "Gold Lane", "status": "Main"},
+        {"player": "Jaypee", "role": "Roam", "status": "Main"},
+        {"player": "Daiki", "role": "Gold Lane", "status": "Substitute"}
+      ],
+      "staff": [
+        {"name": "Mitch", "role": "Manager"},
+        {"name": "Aeon", "role": "Head Coach"},
+        {"name": "SN4P", "role": "Assistant Coach"}
+      ],
+      "achievements": [
+        "MPL Philippines Season 17 — 1st",
+        "M7 World Championship — 4th",
+        "MPL Philippines Season 16 — 1st",
+        "MLBB Mid Season Cup 2025 — 1st",
+        "MPL Philippines Season 15 — 1st",
+        "MPL Philippines Season 14 — 5th–6th",
+        "MLBB Mid Season Cup 2024 — 3rd–4th",
+        "MPL Philippines Season 13 — 1st"
+      ],
+      "standing": {"position": 2, "matches_won": 2, "matches_lost": 1, "games_won": 5, "games_lost": 2, "game_diff": 3}
+    },
+    {
+      "code": "TNC",
+      "name": "TNC Pro Team",
+      "official_name": "TNC Pro Team",
+      "official_url": "https://ph-mpl.com/team/tnc",
+      "model_code": "TNC",
+      "context_code": "TNC",
+      "cold_start": false,
+      "model_note": "Historical rating uses TNC Pro Team Season 13–14 results.",
+      "summary": "TNC rebuilt around Zaida, adding Ryota, Vin, Jowm, and Zehn to its Season 18 starting five.",
+      "roster": [
+        {"player": "Ryota", "role": "EXP Lane", "status": "Main"},
+        {"player": "Zaida", "role": "Jungle", "status": "Main"},
+        {"player": "Vin", "role": "Mid Lane", "status": "Main"},
+        {"player": "Jowm", "role": "Gold Lane", "status": "Main"},
+        {"player": "Zehn", "role": "Roam", "status": "Main"},
+        {"player": "Yeyeniya", "role": "Gold Lane", "status": "Substitute"}
+      ],
+      "staff": [
+        {"name": "Dredd", "role": "Manager"},
+        {"name": "E2MAX", "role": "Head Coach"},
+        {"name": "FindingHito", "role": "Assistant Coach"}
+      ],
+      "achievements": [
+        "MPL Philippines Season 16 — 3rd",
+        "MPL Philippines Season 15 — 5th–6th",
+        "MPL Philippines Season 13 — 8th",
+        "MPL Philippines Season 12 — 8th",
+        "MPL Philippines Season 11 — 8th",
+        "MPL Philippines Season 10 — 8th",
+        "MPL Philippines Season 9 — 3rd",
+        "MPL Philippines Season 8 — 7th–8th"
+      ],
+      "standing": {"position": 4, "matches_won": 1, "matches_lost": 1, "games_won": 2, "games_lost": 3, "game_diff": -1}
+    },
+    {
+      "code": "TWIS",
+      "name": "Twisted Minds PH",
+      "official_name": "Twisted Minds PH",
+      "official_url": "https://ph-mpl.com/team/twis",
+      "model_code": "TWIS",
+      "context_code": "TWIS",
+      "cold_start": true,
+      "model_note": "Cold start: Twisted Minds entered after the historical S13–14 training period.",
+      "summary": "Twisted Minds refreshed its Season 18 lineup with Bennyqt and Sensui, while Tracyyy leads the team from roam.",
+      "roster": [
+        {"player": "Lansu", "role": "EXP Lane", "status": "Main"},
+        {"player": "Sensui", "role": "Jungle", "status": "Main"},
+        {"player": "Sionnn", "role": "Mid Lane", "status": "Main"},
+        {"player": "Bennyqt", "role": "Gold Lane", "status": "Main"},
+        {"player": "Tracyyy", "role": "Roam", "status": "Main", "history_alias": "Tracy"},
+        {"player": "Kurtt", "role": "Mid Lane", "status": "Substitute"}
+      ],
+      "staff": [
+        {"name": "Lexie", "role": "Manager"},
+        {"name": "Lyrick", "role": "Head Coach"},
+        {"name": "Coach Eson", "role": "Assistant Coach"}
+      ],
+      "achievements": [
+        "MPL Philippines Season 16 — 5th–6th",
+        "MPL Philippines Season 15 — 5th–6th"
+      ],
+      "standing": {"position": 7, "matches_won": 0, "matches_lost": 2, "games_won": 1, "games_lost": 4, "game_diff": -3}
+    }
+  ]
+}

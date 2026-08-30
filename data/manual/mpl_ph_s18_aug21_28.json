@@ -1,0 +1,74 @@
+{
+  "season": "MPL Philippines Season 18",
+  "source": "User-supplied series results and hero lists",
+  "date_note": "Year 2026 follows the existing Season 18 dataset; checked against published match dates.",
+  "hero_list_status": "Verify against published bans before use. These are not assumed to be played picks.",
+  "series": [
+    {
+      "date": "2026-08-21", "team_a": "RORA", "team_b": "FNOP", "score_a": 0, "score_b": 2,
+      "games": [
+        {"RORA": ["Selena", "Fanny", "Marcel", "Lylia", "Valentina"], "FNOP": ["Freya", "Atlas", "Uranus", "Eudora", "Kaja"]},
+        {"RORA": ["Selena", "Fanny", "Marcel", "Claude", "Eudora"], "FNOP": ["Freya", "Atlas", "Uranus", "Alice", "Novaria"]}
+      ]
+    },
+    {
+      "date": "2026-08-21", "team_a": "TLPH", "team_b": "FLCN", "score_a": 1, "score_b": 2,
+      "games": [
+        {"TLPH": ["Fanny", "Selena", "Melissa", "Mathilda", "Ruby"], "FLCN": ["Freya", "Atlas", "Barats", "Gloo", "Gatotkaca"]},
+        {"FLCN": ["Atlas", "Melissa", "Mathilda", "Uranus", "Brody"], "TLPH": ["Freya", "Paquito", "Marcel", "Gloo", "Eudora"]},
+        {"TLPH": ["Fanny", "Melissa", "Selena", "Eudora", "Gloo"], "FLCN": ["Freya", "Paquito", "Uranus", "Terizla", "Ruby"]}
+      ]
+    },
+    {
+      "date": "2026-08-22", "team_a": "APBR", "team_b": "TWIS", "score_a": 2, "score_b": 1,
+      "games": [
+        {"APBR": ["Atlas", "Paquito", "Marcel", "Uranus", "Ruby"], "TWIS": ["Freya", "Melissa", "Barats", "Kaja", "Gloo"]},
+        {"APBR": ["Atlas", "Selena", "Marcel", "Novaria", "Eudora"], "TWIS": ["Freya", "Melissa", "Barats", "Rafaela", "Zhuxin"]},
+        {"APBR": ["Selena", "Atlas", "Marcel", "Esmeralda", "Gloo"], "TWIS": ["Freya", "Melissa", "Belerick", "Mathilda", "Claude"]}
+      ]
+    },
+    {
+      "date": "2026-08-22", "team_a": "OMG", "team_b": "TLPH", "score_a": 0, "score_b": 2,
+      "games": [
+        {"OMG": ["Marcel", "Melissa", "Hirara", "Claude", "Hanzo"], "TLPH": ["Freya", "Paquito", "Fanny", "Nolan", "Hayabusa"]},
+        {"TLPH": ["Fanny", "Melissa", "Atlas", "Mathilda", "Kaja"], "OMG": ["Freya", "Marcel", "Uranus", "Esmeralda", "Phoveus"]}
+      ]
+    },
+    {
+      "date": "2026-08-22", "team_a": "FLCN", "team_b": "TNC", "score_a": 2, "score_b": 0,
+      "games": [
+        {"FLCN": ["Atlas", "Melissa", "Barats", "Eudora", "Novaria"], "TNC": ["Freya", "Marcel", "Fanny", "Moskov", "Lylia"]},
+        {"TNC": ["Marcel", "Atlas", "Fanny", "Nolan", "Hanabi"], "FLCN": ["Freya", "Melissa", "Uranus", "Mathilda", "Valentina"]}
+      ]
+    },
+    {
+      "date": "2026-08-23", "team_a": "FNOP", "team_b": "APBR", "score_a": 2, "score_b": 0,
+      "games": [
+        {"APBR": ["Marcel", "Selena", "Barats", "Aurora", "Eudora"], "FNOP": ["Freya", "Atlas", "Uranus", "Paquito", "Nolan"]},
+        {"APBR": ["Marcel", "Selena", "Atlas", "Aurora", "Eudora"], "FNOP": ["Freya", "Uranus", "Paquito", "Mathilda", "Nolan"]}
+      ]
+    },
+    {
+      "date": "2026-08-23", "team_a": "TNC", "team_b": "RORA", "score_a": 2, "score_b": 1,
+      "games": [
+        {"TNC": ["Atlas", "Marcel", "Melissa", "Vexana", "Aurora"], "RORA": ["Freya", "Selena", "Fanny", "Barats", "Esmeralda"]},
+        {"RORA": ["Selena", "Barats", "Paquito", "Uranus", "Ruby"], "TNC": ["Freya", "Atlas", "Fanny", "Harley", "Nolan"]},
+        {"TNC": ["Atlas", "Uranus", "Fanny", "Claude", "Moskov"], "RORA": ["Freya", "Paquito", "Selena", "Mathilda", "Lylia"]}
+      ]
+    },
+    {
+      "date": "2026-08-28", "team_a": "APBR", "team_b": "TLPH", "score_a": 0, "score_b": 2,
+      "games": [
+        {"APBR": ["Harley", "Marcel", "Paquito", "Dyrroth", "Uranus"], "TLPH": ["Melissa", "Rafaela", "Freya", "Valentina", "Lylia"]},
+        {"TLPH": ["Rafaela", "Uranus", "Melissa", "Eudora", "Suyou"], "APBR": ["Freya", "Marcel", "Selena", "Atlas", "Minotaur"]}
+      ]
+    },
+    {
+      "date": "2026-08-28", "team_a": "TWIS", "team_b": "FNOP", "score_a": 0, "score_b": 2,
+      "games": [
+        {"TWIS": ["Fanny", "Kaja", "Barats", "Brody", "Novaria"], "FNOP": ["Freya", "Marcel", "Atlas", "Paquito", "Nolan"]},
+        {"TWIS": ["Fanny", "Kaja", "Selena", "Brody", "Atlas"], "FNOP": ["Freya", "Marcel", "Uranus", "Rafaela", "Mathilda"]}
+      ]
+    }
+  ]
+}

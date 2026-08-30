@@ -1,0 +1,204 @@
+/* Editorial scoreboard aesthetic, not a third-party design-system skin.
+   The app's native color-scheme drives light-dark(), including theme changes.
+   No scripts, web fonts, image downloads, or continuously running motion. */
+[data-testid="stApp"] {
+  --desk-accent: light-dark(#08766a, #65d6c2);
+  --desk-accent-ink: light-dark(#f6faf9, #122220);
+  --desk-paper: light-dark(#f4f7f6, #111c1c);
+  --desk-surface: light-dark(#e9efed, #192827);
+  --desk-ink: light-dark(#172b29, #e7f0ed);
+  --desk-muted: light-dark(#526861, #acc2bb);
+  --desk-line: light-dark(#c7d6d0, #3b524b);
+  --desk-control-line: light-dark(#718a7e, #617e73);
+  --desk-radius: 12px;
+  --desk-display: "Bahnschrift", "Aptos Display", "Segoe UI", sans-serif;
+}
+
+[data-testid="stMainBlockContainer"] {
+  max-width: 1220px;
+  padding: 2.5rem 2.5rem 3rem;
+}
+
+[data-testid="stApp"] h1,
+[data-testid="stApp"] h2,
+[data-testid="stApp"] h3 {
+  font-family: var(--desk-display);
+  letter-spacing: -0.035em;
+  font-weight: 600;
+}
+
+[data-testid="stApp"] h3 { font-size: 1.35rem; padding-top: 1rem; }
+[data-testid="stCaptionContainer"] { color: var(--desk-muted); }
+[data-testid="stCaptionContainer"] p { line-height: 1.6; }
+
+.matchdesk-masthead { padding: 0 0 1.5rem; color: var(--desk-ink); }
+.matchdesk-masthead .matchdesk-league {
+  margin: 0 0 .55rem;
+  color: var(--desk-accent);
+  font-size: .75rem;
+  font-weight: 700;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+.matchdesk-masthead h1 { margin: 0; padding: 0; font-size: clamp(1.85rem, 3.3vw, 2.65rem); line-height: 1.12; }
+.matchdesk-masthead .matchdesk-intro { margin: .65rem 0 0; color: var(--desk-muted); font-size: .95rem; }
+
+.matchdesk-data-strip {
+  display: grid;
+  grid-template-columns: 1.1fr .6fr 1fr 1fr;
+  gap: 1rem;
+  padding: 1rem 0;
+  margin: 0 0 .35rem;
+  border-top: 1px solid var(--desk-line);
+  border-bottom: 1px solid var(--desk-line);
+}
+.matchdesk-data-strip dt { color: var(--desk-muted); font-size: .76rem; }
+.matchdesk-data-strip dd { margin: .2rem 0 0; font-size: .92rem; font-weight: 600; font-variant-numeric: tabular-nums; }
+
+/* Use semantic roles: Streamlit 1.62 uses React Aria tabs rather than
+   BaseWeb tab-list attributes, and the tab triggers are not always buttons. */
+[data-testid="stTabs"] [role="tablist"] {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: .5rem;
+  width: 100%;
+  box-sizing: border-box;
+  padding: .6rem;
+  margin: .25rem 0 .5rem;
+  overflow: visible;
+  background: var(--desk-surface);
+  border: 1px solid var(--desk-control-line);
+  border-radius: var(--desk-radius);
+}
+[data-testid="stTabs"] [role="tab"] {
+  display: flex;
+  flex: 1 1 auto;
+  align-items: center;
+  justify-content: center;
+  min-height: 50px;
+  height: auto;
+  white-space: nowrap;
+  padding: .8rem 1rem;
+  color: var(--desk-ink);
+  background: var(--desk-paper);
+  border: 1px solid var(--desk-control-line);
+  border-radius: 8px;
+  cursor: pointer;
+}
+[data-testid="stTabs"] [role="tab"] p {
+  margin: 0;
+  color: inherit;
+  font-size: .98rem;
+  font-weight: 650;
+  line-height: 1.35;
+  text-align: center;
+}
+[data-testid="stTabs"] [role="tab"]:hover {
+  color: var(--desk-accent);
+  border-color: var(--desk-accent);
+}
+[data-testid="stTabs"] [role="tab"][aria-selected="true"] {
+  color: var(--desk-accent-ink);
+  background: var(--desk-accent);
+  border-color: var(--desk-accent);
+  box-shadow: inset 0 -3px 0 var(--desk-accent-ink);
+}
+[data-testid="stTabs"] [role="tab"]:is(:focus-visible, [data-focus-visible]) {
+  outline: 2px solid var(--desk-accent);
+  outline-offset: 3px;
+}
+/* Filled tabs replace the single-row moving underline, which cannot wrap. */
+[data-testid="stTabs"] [role="tablist"]::after,
+[data-testid="stTabs"] .react-aria-SelectionIndicator { display: none; }
+[data-testid="stTabs"] [role="tabpanel"] { padding-top: 1.25rem; }
+
+.st-key-matchup_controls { padding: .2rem 0 .4rem; }
+.st-key-matchup_controls [data-testid="stWidgetLabel"] p { font-size: .82rem; color: var(--desk-muted); }
+.st-key-matchup_controls [data-baseweb="select"] { font-size: 1rem; font-weight: 600; }
+.st-key-matchup_controls [data-baseweb="select"] > div { min-height: 52px; }
+.matchdesk-selector-versus { padding-top: 2.45rem; text-align: center; color: var(--desk-muted); font-size: .72rem; font-weight: 700; }
+
+.matchdesk-forecast {
+  color: var(--desk-ink);
+  border: 1px solid var(--desk-line);
+  border-top: 3px solid var(--desk-accent);
+  border-radius: var(--desk-radius);
+  margin: .1rem 0 .3rem;
+  overflow: hidden;
+}
+.matchdesk-forecast-heading { padding: 1.25rem 1.7rem .7rem; }
+.matchdesk-forecast-heading h2 { margin: 0; padding: 0; font-size: 1.4rem; line-height: 1.3; }
+.matchdesk-forecast-heading p { margin: .2rem 0 0; color: var(--desk-muted); font-size: .8rem; }
+.matchdesk-scoreboard { display: grid; grid-template-columns: 1fr 3.5rem 1fr; padding: .75rem 1.7rem 1.2rem; }
+.matchdesk-side { min-width: 0; }
+.matchdesk-side:last-child { text-align: right; }
+.matchdesk-teamcode { color: var(--desk-muted); font: 600 .8rem var(--desk-display); letter-spacing: .08em; }
+.matchdesk-side h3 { margin: .35rem 0 0; padding: 0 !important; font-size: clamp(1rem, 2vw, 1.25rem) !important; line-height: 1.3; min-height: 1.6em; }
+.matchdesk-chance { font: 600 clamp(3.4rem, 7vw, 5.7rem)/1.12 var(--desk-display); font-variant-numeric: tabular-nums; letter-spacing: -.055em; margin: .4rem 0 .2rem; }
+.matchdesk-chance span { font-size: .42em; margin-left: .12em; vertical-align: .12em; letter-spacing: -.02em; }
+.is-leading .matchdesk-chance { color: var(--desk-accent); }
+.matchdesk-shift { margin: 0 0 1.15rem; color: var(--desk-muted); font-size: .83rem; font-variant-numeric: tabular-nums; }
+.matchdesk-versus { display: flex; align-items: center; justify-content: center; color: var(--desk-muted); font: 600 .75rem var(--desk-display); }
+.matchdesk-baseline { display: flex; justify-content: space-between; gap: 1rem; padding: .3rem 0; font-size: .8rem; }
+.matchdesk-baseline span { color: var(--desk-muted); }
+.matchdesk-baseline strong { font-variant-numeric: tabular-nums; font-weight: 600; }
+.matchdesk-coverage { font-size: .74rem; color: var(--desk-muted); margin: .6rem 0 0; }
+.matchdesk-forecast-foot { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .5rem; padding: .85rem 1.7rem; background: var(--desk-surface); color: var(--desk-muted); font-size: .78rem; }
+.matchdesk-forecast-foot strong { color: var(--desk-ink); font-weight: 600; }
+
+[data-testid="stExpander"] { border-color: var(--desk-line); border-radius: var(--desk-radius); box-shadow: none; }
+[data-testid="stExpander"] details summary { min-height: 48px; }
+[data-testid="stExpander"] details summary:hover { color: var(--desk-accent); }
+[data-testid="stForm"] { padding: 1.25rem; border-color: var(--desk-line); border-radius: var(--desk-radius); }
+[data-testid="stMetric"] { padding: .3rem 0 .6rem; }
+[data-testid="stMetricLabel"] p { color: var(--desk-muted); font-size: .8rem; }
+[data-testid="stMetricValue"] { font-family: var(--desk-display); font-size: 1.9rem; font-variant-numeric: tabular-nums; letter-spacing: -.035em; }
+[data-testid="stDataFrame"] { border-radius: 8px; }
+[data-testid="stButton"] button, [data-testid="stFormSubmitButton"] button, [data-testid="stLinkButton"] a { min-height: 44px; transition: transform 140ms ease, border-color 140ms ease; }
+[data-testid="stButton"] button:hover:not(:disabled), [data-testid="stFormSubmitButton"] button:hover:not(:disabled) { transform: translateY(-1px); }
+[data-testid="stApp"] button[kind="primary"], [data-testid="stApp"] button[kind="primaryFormSubmit"] { color: var(--desk-accent-ink); background: var(--desk-accent); border-color: var(--desk-accent); }
+[data-testid="stApp"] button[kind="primary"]:disabled { opacity: .6; }
+[data-testid="stApp"] :is(button, a, input, summary, [role="tab"]):focus-visible { outline: 2px solid var(--desk-accent); outline-offset: 3px; }
+
+.matchdesk-roster { list-style: none; padding: .75rem 0 1rem !important; margin: 0 !important; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: .5rem; }
+.matchdesk-roster li { margin: 0; padding: 0; min-width: 0; }
+.matchdesk-roster span { display: block; color: var(--desk-muted); font-size: .7rem; }
+.matchdesk-roster strong { display: block; margin-top: .15rem; font-size: .82rem; font-weight: 600; overflow-wrap: anywhere; }
+.matchdesk-tier-summary { display: grid; grid-template-columns: repeat(6, 1fr); gap: .75rem; margin: .25rem 0 1rem; }
+.matchdesk-tier-summary > div { padding: 1rem; background: var(--desk-surface); border-radius: 8px; }
+.matchdesk-tier-summary dt { color: var(--desk-accent); font: 600 1.65rem var(--desk-display); }
+.matchdesk-tier-summary dt span { font: 400 .8rem "Segoe UI", sans-serif; color: var(--desk-muted); }
+.matchdesk-tier-summary dd { margin: .3rem 0 0; font-size: .94rem; font-variant-numeric: tabular-nums; }
+.matchdesk-tier-summary dd span { color: var(--desk-muted); font-size: .75rem; }
+.matchdesk-footnote { border-top: 1px solid var(--desk-line); padding-top: 1.25rem; margin-top: 2rem; color: var(--desk-muted); font-size: .78rem; line-height: 1.65; }
+
+@media (max-width: 900px) {
+  [data-testid="stMainBlockContainer"] { padding-inline: 1.5rem; }
+  .matchdesk-baseline { gap: .5rem; }
+}
+@media (max-width: 640px) {
+  [data-testid="stMainBlockContainer"] { padding: 1.75rem 1rem 2rem; }
+  .matchdesk-data-strip { grid-template-columns: 1fr 1fr; row-gap: .85rem; }
+  [data-testid="stTabs"] [role="tablist"] { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  [data-testid="stTabs"] [role="tab"] { min-width: 0; white-space: normal; padding: .75rem .5rem; }
+  [data-testid="stTabs"] [role="tab"]:last-child:nth-child(odd) { grid-column: 1 / -1; }
+  .matchdesk-selector-versus { display: none; }
+  .st-key-matchup_controls [data-testid="stColumn"]:nth-child(2) { display: none; }
+  .matchdesk-forecast-heading { padding: 1rem 1rem .5rem; }
+  .matchdesk-forecast-heading h2 { font-size: 1.18rem; }
+  .matchdesk-scoreboard { padding: .6rem 1rem 1rem; grid-template-columns: 1fr 1.5rem 1fr; }
+  .matchdesk-chance { font-size: clamp(2.1rem, 10vw, 4rem); }
+  .matchdesk-side h3 { min-height: 2.6em; overflow-wrap: anywhere; }
+  .matchdesk-baseline { display: block; padding: .3rem 0; }
+  .matchdesk-baseline strong { display: block; }
+  .matchdesk-forecast-foot { padding: .75rem 1rem; }
+  .matchdesk-shift { font-size: .75rem; min-height: 2.6em; margin-bottom: .5rem; }
+  .matchdesk-coverage { line-height: 1.45; }
+  .matchdesk-tier-summary { grid-template-columns: repeat(3, 1fr); }
+  .matchdesk-roster { gap: .4rem; }
+  .matchdesk-roster strong { font-size: .78rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  [data-testid="stApp"] *, [data-testid="stApp"] *::before, [data-testid="stApp"] *::after { scroll-behavior: auto !important; transition: none !important; animation: none !important; }
+}

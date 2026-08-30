@@ -1,0 +1,28 @@
+# Native widgets, menus, tables, and the match desk share the same palette.
+# Leave base unset so Streamlit's light / dark / system setting remains usable.
+[theme]
+font = "Segoe UI, sans-serif"
+headingFont = "Bahnschrift, Segoe UI, sans-serif"
+baseRadius = "0.5rem"
+buttonRadius = "0.5rem"
+showWidgetBorder = true
+
+[theme.light]
+primaryColor = "#08766a"
+backgroundColor = "#f4f7f6"
+secondaryBackgroundColor = "#e9efed"
+textColor = "#172b29"
+borderColor = "#718a7e"
+dataframeBorderColor = "#c7d6d0"
+dataframeHeaderBackgroundColor = "#e3ebe7"
+linkColor = "#08766a"
+
+[theme.dark]
+primaryColor = "#65d6c2"
+backgroundColor = "#111c1c"
+secondaryBackgroundColor = "#192827"
+textColor = "#e7f0ed"
+borderColor = "#617e73"
+dataframeBorderColor = "#3b524b"
+dataframeHeaderBackgroundColor = "#21352f"
+linkColor = "#65d6c2"

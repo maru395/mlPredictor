@@ -1,0 +1,117 @@
+{
+  "season": "MPL Philippines Season 17",
+  "scope": "Regular season and playoffs",
+  "series": 64,
+  "games": 169,
+  "total_picks": 1690,
+  "source": "https://strivemlbb.com/tournament/mobile-legends-professional-league-philippines/s17",
+  "method": "Aggregated from every completed game draft on the 64 Season 17 series pages.",
+  "team_games": {
+    "APBR": 34,
+    "RORA": 40,
+    "FNOP": 51,
+    "OMG": 45,
+    "FLCN": 53,
+    "TLPH": 46,
+    "TNC": 32,
+    "TWIS": 37
+  },
+  "teams": {
+    "APBR": [
+      {"hero": "Claude", "picks": 11},
+      {"hero": "Harley", "picks": 10},
+      {"hero": "Valentina", "picks": 10},
+      {"hero": "Marcel", "picks": 9},
+      {"hero": "Leomord", "picks": 7},
+      {"hero": "Moskov", "picks": 7},
+      {"hero": "Pharsa", "picks": 6},
+      {"hero": "Sora", "picks": 6},
+      {"hero": "Uranus", "picks": 6},
+      {"hero": "Yve", "picks": 6}
+    ],
+    "RORA": [
+      {"hero": "Lapu-Lapu", "picks": 14},
+      {"hero": "Claude", "picks": 13},
+      {"hero": "Valentina", "picks": 12},
+      {"hero": "Kimmy", "picks": 10},
+      {"hero": "Zhuxin", "picks": 10},
+      {"hero": "Fredrinn", "picks": 9},
+      {"hero": "Gatotkaca", "picks": 9},
+      {"hero": "Grock", "picks": 9},
+      {"hero": "Suyou", "picks": 9},
+      {"hero": "Harley", "picks": 8}
+    ],
+    "FNOP": [
+      {"hero": "Claude", "picks": 18},
+      {"hero": "Leomord", "picks": 15},
+      {"hero": "Zhuxin", "picks": 14},
+      {"hero": "Harley", "picks": 12},
+      {"hero": "Kalea", "picks": 11},
+      {"hero": "Suyou", "picks": 10},
+      {"hero": "Baxia", "picks": 9},
+      {"hero": "Khaleed", "picks": 9},
+      {"hero": "Phoveus", "picks": 9},
+      {"hero": "Gord", "picks": 8}
+    ],
+    "OMG": [
+      {"hero": "Claude", "picks": 17},
+      {"hero": "Zhuxin", "picks": 14},
+      {"hero": "Valentina", "picks": 12},
+      {"hero": "Harley", "picks": 11},
+      {"hero": "Hylos", "picks": 10},
+      {"hero": "Leomord", "picks": 9},
+      {"hero": "Khaleed", "picks": 8},
+      {"hero": "Marcel", "picks": 8},
+      {"hero": "Suyou", "picks": 8},
+      {"hero": "Harith", "picks": 7}
+    ],
+    "FLCN": [
+      {"hero": "Claude", "picks": 21},
+      {"hero": "Suyou", "picks": 21},
+      {"hero": "Valentina", "picks": 17},
+      {"hero": "Kalea", "picks": 14},
+      {"hero": "Yve", "picks": 13},
+      {"hero": "Pharsa", "picks": 11},
+      {"hero": "Lapu-Lapu", "picks": 10},
+      {"hero": "Moskov", "picks": 10},
+      {"hero": "Gloo", "picks": 9},
+      {"hero": "Guinevere", "picks": 9}
+    ],
+    "TLPH": [
+      {"hero": "Claude", "picks": 19},
+      {"hero": "Yve", "picks": 18},
+      {"hero": "Hylos", "picks": 13},
+      {"hero": "Zhuxin", "picks": 11},
+      {"hero": "Khaleed", "picks": 10},
+      {"hero": "Phoveus", "picks": 10},
+      {"hero": "Suyou", "picks": 10},
+      {"hero": "Gatotkaca", "picks": 9},
+      {"hero": "Karrie", "picks": 9},
+      {"hero": "Leomord", "picks": 9}
+    ],
+    "TNC": [
+      {"hero": "Yve", "picks": 9},
+      {"hero": "Zhuxin", "picks": 9},
+      {"hero": "Claude", "picks": 8},
+      {"hero": "Valentina", "picks": 8},
+      {"hero": "Harley", "picks": 7},
+      {"hero": "Sora", "picks": 7},
+      {"hero": "Suyou", "picks": 7},
+      {"hero": "Alice", "picks": 6},
+      {"hero": "Harith", "picks": 6},
+      {"hero": "Leomord", "picks": 6}
+    ],
+    "TWIS": [
+      {"hero": "Claude", "picks": 17},
+      {"hero": "Khaleed", "picks": 15},
+      {"hero": "Leomord", "picks": 13},
+      {"hero": "Harley", "picks": 12},
+      {"hero": "Valentina", "picks": 10},
+      {"hero": "Suyou", "picks": 9},
+      {"hero": "Gloo", "picks": 8},
+      {"hero": "Hilda", "picks": 8},
+      {"hero": "Phoveus", "picks": 8},
+      {"hero": "Alice", "picks": 7}
+    ]
+  }
+}

@@ -1,0 +1,172 @@
+no,week,date,match,game,game_length,blue_team,blue_explaner,blue_jungler,blue_midlaner,blue_goldlaner,blue_roamer,red_team,red_explaner,red_jungler,red_midlaner,red_goldlaner,red_roamer,result
+1,1,aug-16,1,1,16,OMG,Edith,Ling,Aurora,Harith,Hylos,TNC,Terizla,Nolan,Zhask,Roger,Chou,BLUE
+2,1,aug-16,1,2,18,TNC,Terizla,Alpha,Aurora,Karrie,Tigreal,OMG,Ruby,Hanzo,Vexana,Roger,Minotaur,RED
+3,1,aug-16,2,1,15,RORA,Edith,Ling,Zhask,Bruno,Mathilda,BLCK,Cici,Martis,Terizla,Harith,Angela,BLUE
+4,1,aug-16,2,2,15,BLCK,Terizla,Nolan,Aurora,Moskov,Jawhead,RORA,Edith,Fanny,Valentina,Claude,Grock,RED
+5,1,aug-17,1,1,13,FNOP,Edith,Nolan,Zhuxin,Moskov,Hylos,TNC,Arlott,Roger,Aurora,Harith,Jawhead,BLUE
+6,1,aug-17,1,2,14,FNOP,Terizla,Hayabusa,Zhuxin,Harith,Grock,TNC,Edith,Roger,Aurora,Phoveus,Mathilda,BLUE
+7,1,aug-17,2,1,14,TLPH,Arlott,Hayabusa,Zhask,Claude,Jawhead,RSG,Thamuz,Julian,Faramis,Moskov,Edith,RED
+8,1,aug-17,2,2,16,TLPH,Chou,Nolan,Zhask,Roger,Jawhead,RSG,Arlott,Julian,Faramis,Moskov,Khufra,BLUE
+9,1,aug-17,2,3,14,TLPH,Arlott,Roger,Zhask,Karrie,Jawhead,RSG,Yu Zhong,Julian,Valentina,Moskov,Chou,BLUE
+10,1,aug-17,3,1,14,OMG,Edith,Ling,Vexana,Claude,Franco,FCAP,Terizla,Julian,Zhuxin,Brody,Jawhead,BLUE
+11,1,aug-17,3,2,14,FCAP,Terizla,Hayabusa,Zhask,Claude,Hylos,OMG,X.Borg,Nolan,Aurora,Roger,Ruby,BLUE
+12,1,aug-17,3,3,24,OMG,Hylos,Nolan,Lylia,Harith,Khufra,FCAP,Terizla,Roger,Zhask,Ruby,Jawhead,BLUE
+13,1,aug-18,1,1,18,FNOP,Chou,Fanny,Julian,Harith,Hylos,BLCK,Edith,Bane,Valentina,Claude,Mathilda,RED
+14,1,aug-18,1,2,12,BLCK,Edith,Joy,Valentina,Roger,Grock,FNOP,Barats,Ling,Zhask,Ruby,Hylos,RED
+15,1,aug-18,1,3,16,BLCK,Edith,Roger,Luo Yi,Moskov,Chou,FNOP,Terizla,Nolan,Zhask,Harith,Tigreal,RED
+16,1,aug-18,2,1,16,RORA,Arlott,Julian,Zhask,Moskov,Jawhead,RSG,Terizla,Benedetta,Aurora,Roger,Edith,BLUE
+17,1,aug-18,2,2,15,RSG,Terizla,Hayabusa,Zhuxin,Harith,Jawhead,RORA,Arlott,Julian,Zhask,Roger,Tigreal,RED
+18,2,aug-23,1,1,20,TNC,Terizla,Julian,Vexana,Moskov,Tigreal,TLPH,Edith,Roger,Aurora,Karrie,Jawhead,RED
+19,2,aug-23,1,2,16,TLPH,Grock,Fanny,Zhask,Roger,Edith,TNC,Terizla,Ling,Luo Yi,Ruby,Chou,BLUE
+20,2,aug-23,2,1,18,BLCK,Hylos,Hayabusa,Valentina,Roger,Grock,OMG,Gloo,Bane,Aurora,Claude,Edith,RED
+21,2,aug-23,2,2,11,OMG,Hylos,Nolan,Aurora,Harith,Lolita,BLCK,Edith,Roger,Luo Yi,Claude,Mathilda,BLUE
+22,2,aug-24,1,1,15,RSG,Edith,Hayabusa,Zhask,Roger,Kaja,TNC,Chou,Ling,Aurora,Moskov,Grock,BLUE
+23,2,aug-24,1,2,13,TNC,Arlott,Hayabusa,Faramis,Roger,Kaja,RSG,Phoveus,Lancelot,Zhuxin,Harith,Jawhead,RED
+24,2,aug-24,2,1,16,FCAP,Phoveus,Roger,Valentina,Claude,Jawhead,RORA,Arlott,Benedetta,Zhask,Moskov,Mathilda,BLUE
+25,2,aug-24,2,2,17,RORA,Terizla,Hayabusa,Zhask,Moskov,Grock,FCAP,Edith,Nolan,Faramis,Harith,Hylos,RED
+26,2,aug-24,3,1,19,FNOP,X.Borg,Ling,Luo Yi,Ruby,Minotaur,TLPH,Phoveus,Julian,Valentina,Roger,Tigreal,BLUE
+27,2,aug-24,3,2,14,TLPH,Edith,Roger,Zhask,Karrie,Grock,FNOP,Terizla,Ling,Luo Yi,Ruby,Chou,BLUE
+28,2,aug-24,3,3,14,FNOP,Grock,Roger,Valentina,Karrie,Tigreal,TLPH,Chou,Ling,Aurora,Clint,Edith,BLUE
+29,2,aug-25,1,1,14,FCAP,Terizla,Roger,Faramis,Bruno,Hylos,BLCK,Thamuz,Joy,Aurora,Ruby,Tigreal,BLUE
+30,2,aug-25,1,2,15,FCAP,Terizla,Roger,Valentina,Moskov,Minotaur,BLCK,Hylos,Lancelot,Aurora,Harith,Jawhead,BLUE
+31,2,aug-25,2,1,17,RORA,Edith,Nolan,Valentina,Claude,Tigreal,OMG,Arlott,Fredrinn,Zhask,Moskov,Jawhead,BLUE
+32,2,aug-25,2,2,22,RORA,Terizla,Ling,Valentina,Moskov,Chou,OMG,Edith,Nolan,Aurora,Claude,Hylos,RED
+33,2,aug-25,2,3,13,OMG,X.Borg,Nolan,Valentina,Harith,Grock,RORA,Arlott,Roger,Zhask,Moskov,Hylos,RED
+34,3,aug-30,1,1,22,RORA,Phoveus,Ling,Lylia,Moskov,Grock,FNOP,Terizla,Nolan,Zhask,Harith,Hylos,BLUE
+35,3,aug-30,1,2,11,FNOP,Arlott,Roger,Lylia,Karrie,Tigreal,RORA,Hylos,Hayabusa,Zhask,Bruno,Diggie,BLUE
+36,3,aug-30,1,3,14,RORA,Arlott,Ling,Valentina,Moskov,Jawhead,FNOP,Phoveus,Nolan,Vexana,Harith,Tigreal,RED
+37,3,aug-30,2,1,14,RSG,Edith,Hayabusa,Zhask,Moskov,Chou,FCAP,Phoveus,Nolan,Faramis,Harith,Lolita,RED
+38,3,aug-30,2,2,16,FCAP,Hylos,Ling,Faramis,Brody,Grock,RSG,Edith,Fanny,Valentina,Moskov,Jawhead,RED
+39,3,aug-30,2,3,15,FCAP,Phoveus,Ling,Valentina,Hanabi,Lolita,RSG,Hylos,X.Borg,Aurora,Moskov,Jawhead,BLUE
+40,3,aug-31,1,1,13,FNOP,Cici,Roger,Aurora,Ruby,Tigreal,OMG,Phoveus,Bane,Faramis,Moskov,Edith,BLUE
+41,3,aug-31,1,2,16,OMG,Hylos,Hayabusa,Zhask,Claude,Khufra,FNOP,Phoveus,Nolan,Lylia,Harith,Minotaur,RED
+42,3,aug-31,2,1,16,BLCK,Ruby,Ling,Vexana,Natan,Grock,RSG,Phoveus,Lancelot,Zhask,Karrie,Jawhead,RED
+43,3,aug-31,2,2,15,RSG,Edith,Nolan,Zhask,Harith,Chou,BLCK,Phoveus,Ling,Valentina,Bruno,Jawhead,BLUE
+44,3,aug-31,3,1,16,FCAP,Terizla,Ling,Luo Yi,Roger,Jawhead,TLPH,Arlott,Nolan,Zhask,Harith,Hylos,BLUE
+45,3,aug-31,3,2,35,TLPH,Ruby,Hayabusa,Aurora,Lunox,Hylos,FCAP,Edith,Ling,Vexana,Harith,Tigreal,RED
+46,3,sep-1,1,1,15,TNC,Phoveus,Julian,Luo Yi,Bruno,Hylos,RORA,Edith,Nolan,Zhask,Karrie,Tigreal,RED
+47,3,sep-1,1,2,12,RORA,Edith,Nolan,Valentina,Claude,Grock,TNC,Tigreal,Hayabusa,Zhask,Harith,Chou,RED
+48,3,sep-1,1,3,15,TNC,Hylos,Julian,Faramis,Bruno,Tigreal,RORA,Phoveus,Nolan,Zhask,Claude,Edith,RED
+49,3,sep-1,2,1,21,TLPH,Edith,Julian,Luo Yi,Claude,Jawhead,BLCK,Hylos,Nolan,Vexana,Harith,Lolita,BLUE
+50,3,sep-1,2,2,11,TLPH,Edith,Nolan,Faramis,Bruno,Hylos,BLCK,Phoveus,Julian,Zhask,Claude,Tigreal,BLUE
+51,4,sep-6,1,1,13,TNC,Arlott,Hayabusa,Valentina,Harith,Edith,FCAP,Terizla,Julian,Faramis,Moskov,Lolita,RED
+52,4,sep-6,1,2,13,FCAP,Hylos,Julian,Vexana,Moskov,Grock,TNC,Phoveus,Nolan,Aurora,Claude,Baxia,BLUE
+53,4,sep-6,2,1,14,FNOP,Ruby,Ling,Vexana,Roger,Khufra,RSG,Edith,Fanny,Aurora,Harith,Helcurt,BLUE
+54,4,sep-6,2,2,12,RSG,Terizla,Fanny,Zhuxin,Harith,Helcurt,FNOP,Edith,Hayabusa,Mathilda,Roger,Grock,BLUE
+55,4,sep-7,1,1,26,BLCK,Hylos,Hayabusa,Faramis,Natan,Minotaur,TNC,Edith,Nolan,Valentina,Melissa,Ruby,BLUE
+56,4,sep-7,1,2,15,TNC,Terizla,Nolan,Faramis,Melissa,Kaja,BLCK,Edith,Bane,Luo Yi,Harith,Lolita,RED
+57,4,sep-7,2,1,16,TLPH,Edith,Nolan,Vexana,Claude,Minotaur,RORA,Hylos,Bane,Valentina,Harith,Tigreal,RED
+58,4,sep-7,2,2,16,RORA,Edith,Joy,Valentina,Roger,Angela,TLPH,Hylos,Nolan,Zhask,Moskov,Lolita,RED
+59,4,sep-7,3,1,13,RSG,Terizla,Roger,Zhuxin,Karrie,Edith,OMG,Phoveus,Hayabusa,Lylia,Moskov,Gatotkaca,RED
+60,4,sep-7,3,2,13,OMG,Phoveus,Julian,Lylia,Moskov,Gatotkaca,RSG,Gloo,Ling,Zhask,Harith,Jawhead,RED
+61,4,sep-8,1,1,13,FCAP,X.Borg,Julian,Zhuxin,Moskov,Terizla,FNOP,Edith,Joy,Vexana,Roger,Grock,BLUE
+62,4,sep-8,1,2,15,FNOP,Edith,Roger,Luo Yi,Ruby,Tigreal,FCAP,Terizla,Julian,Zhask,Karrie,Lolita,BLUE
+63,4,sep-8,1,3,19,FCAP,Phoveus,Julian,Aurora,Moskov,Jawhead,FNOP,Alpha,Roger,Zhask,Ruby,Khufra,RED
+64,4,sep-8,2,1,24,OMG,Edith,Julian,Lylia,Moskov,Gatotkaca,TLPH,Arlott,Ling,Zhask,Roger,Tigreal,RED
+65,4,sep-8,2,2,13,TLPH,Edith,Ling,Zhask,Karrie,Jawhead,OMG,Barats,Fanny,Zhuxin,Moskov,Lolita,BLUE
+66,5,sep-13,1,1,14,OMG,Arlott,Hayabusa,Vexana,Harith,Edith,BLCK,Terizla,Bane,Aurora,Moskov,Mathilda,BLUE
+67,5,sep-13,1,2,13,OMG,Edith,Julian,Aurora,Moskov,Gatotkaca,BLCK,Terizla,Hayabusa,Faramis,Karrie,Lolita,RED
+68,5,sep-13,1,3,15,OMG,Edith,Julian,Vexana,Moskov,Minotaur,BLCK,Terizla,Hayabusa,Zhuxin,Natan,Lolita,BLUE
+69,5,sep-13,2,1,14,TLPH,Arlott,Ling,Zhask,Roger,Tigreal,FNOP,Edith,Fanny,Vexana,Moskov,Chou,RED
+70,5,sep-13,2,2,19,FNOP,Chou,Roger,Luo Yi,Clint,Tigreal,TLPH,Edith,Ling,Zhask,Karrie,Jawhead,BLUE
+71,5,sep-14,1,1,25,FCAP,Phoveus,Roger,Valentina,Natan,Gatotkaca,TNC,Terizla,Julian,Vexana,Karrie,Ruby,BLUE
+72,5,sep-14,1,2,17,TNC,Terizla,Julian,Faramis,Claude,Mathilda,FCAP,Edith,Roger,Yve,Harith,Hylos,BLUE
+73,5,sep-14,1,3,14,FCAP,Phoveus,Alpha,Lylia,Moskov,Lolita,TNC,Terizla,X.Borg,Zhask,Ixia,Mathilda,BLUE
+74,5,sep-14,2,1,18,BLCK,Terizla,Nolan,Faramis,Lunox,Tigreal,FNOP,Edith,Ling,Vexana,Harith,Minotaur,RED
+75,5,sep-14,2,2,26,FNOP,Ruby,Roger,Valentina,Karrie,Carmilla,BLCK,Hylos,Julian,Aurora,Claude,Tigreal,BLUE
+76,5,sep-14,3,1,14,RORA,Phoveus,Ling,Vexana,Roger,Jawhead,OMG,Edith,Julian,Luo Yi,Moskov,Belerick,RED
+77,5,sep-14,3,2,18,OMG,Hylos,Hayabusa,Faramis,Moskov,Mathilda,RORA,Phoveus,Fanny,Zhuxin,Harith,Chou,RED
+78,5,sep-14,3,3,13,RORA,Gatotkaca,Bane,Zhuxin,Roger,Tigreal,OMG,Phoveus,Hayabusa,Vexana,Moskov,Carmilla,RED
+79,5,sep-15,1,1,14,TNC,Phoveus,Nolan,Faramis,Natan,Mathilda,RSG,Edith,Julian,Zhask,Roger,Lolita,BLUE
+80,5,sep-15,1,2,13,RSG,Edith,Nolan,Zhuxin,Karrie,Kaja,TNC,Terizla,Hayabusa,Aurora,Roger,Ruby,BLUE
+81,5,sep-15,1,3,14,TNC,Arlott,Julian,Zhuxin,Claude,Grock,RSG,Edith,Nolan,Zhask,Moskov,Chou,RED
+82,5,sep-15,2,1,14,RORA,Arlott,Roger,Zhuxin,Claude,Chou,FCAP,Phoveus,Hayabusa,Faramis,Moskov,Mathilda,RED
+83,5,sep-15,2,2,10,FCAP,Terizla,Alpha,Julian,Beatrix,Mathilda,RORA,Phoveus,Hayabusa,Zhask,Claude,Minotaur,RED
+84,5,sep-15,2,3,17,FCAP,Phoveus,Julian,Luo Yi,Melissa,Mathilda,RORA,Hylos,Bane,Faramis,Moskov,Minsitthar,BLUE
+85,6,sep-20,1,1,15,FCAP,Arlott,Roger,Vexana,Moskov,Lolita,BLCK,Hylos,Nolan,Faramis,Natan,Mathilda,RED
+86,6,sep-20,1,2,23,BLCK,Arlott,Nolan,Faramis,Natan,Tigreal,FCAP,Terizla,Julian,Vexana,Claude,Edith,BLUE
+87,6,sep-20,2,1,11,RORA,Terizla,Hayabusa,Luo Yi,Moskov,Mathilda,TLPH,Arlott,Ling,Valentina,Claude,Ruby,BLUE
+88,6,sep-20,2,2,11,TLPH,Phoveus,Roger,Yve,Natan,Minotaur,RORA,Edith,X.Borg,Valentina,Karrie,Rafaela,RED
+89,6,sep-21,1,1,16,BLCK,Cici,Hayabusa,Luo Yi,Moskov,Tigreal,RSG,Hylos,Ling,Vexana,Harith,Gatotkaca,BLUE
+90,6,sep-21,1,2,20,BLCK,Terizla,Nolan,Luo Yi,Claude,Tigreal,RSG,Hylos,Julian,Yve,Moskov,Guinevere,BLUE
+91,6,sep-21,2,1,18,TNC,Arlott,Hayabusa,Luo Yi,Moskov,Belerick,FNOP,Ruby,Nolan,Yve,Beatrix,Chou,RED
+92,6,sep-21,2,2,17,FNOP,Gloo,Hayabusa,Yve,Alice,Tigreal,TNC,Terizla,Julian,Valentina,Claude,Chou,BLUE
+93,6,sep-21,3,1,11,TLPH,Edith,Julian,Aurora,Claude,Tigreal,OMG,Arlott,Ling,Vexana,Harith,Khufra,BLUE
+94,6,sep-21,3,2,12,OMG,Edith,Nolan,Vexana,Alice,Tigreal,TLPH,Khaleed,Hayabusa,Luo Yi,Moskov,Chou,RED
+95,6,sep-22,1,1,19,FCAP,Hylos,Fanny,Vexana,Alice,Tigreal,RSG,Ruby,Julian,Aurora,Claude,Gatotkaca,BLUE
+96,6,sep-22,1,2,16,RSG,Thamuz,Ling,Valentina,Harith,Edith,FCAP,Hylos,Nolan,Faramis,Claude,Ruby,RED
+97,6,sep-22,2,1,17,OMG,Grock,Hayabusa,Zhask,Harith,Hylos,TNC,Chou,Nolan,Vexana,Claude,Tigreal,BLUE
+98,6,sep-22,2,2,19,TNC,Thamuz,Nolan,Luo Yi,Moskov,Ruby,OMG,Arlott,Ling,Zhask,Harith,Grock,RED
+99,7,sep-27,1,1,14,TLPH,Arlott,Julian,Mathilda,Karrie,Tigreal,RSG,Khaleed,Hayabusa,Yve,Claude,Chou,BLUE
+100,7,sep-27,1,2,14,RSG,Phoveus,Nolan,Valentina,Moskov,Chou,TLPH,Edith,Hayabusa,Vexana,Natan,Hylos,BLUE
+101,7,sep-27,1,3,14,TLPH,Khaleed,Hayabusa,Aurora,Wanwan,Chou,RSG,Edith,Julian,Valentina,Roger,Kaja,BLUE
+102,7,sep-27,2,1,13,RORA,Terizla,Ling,Valentina,Harith,Minotaur,TNC,Khaleed,Julian,Aurora,Claude,Chou,BLUE
+103,7,sep-27,2,2,11,TNC,Phoveus,Julian,Vexana,Ixia,Ruby,RORA,Edith,Paquito,Valentina,Karrie,Mathilda,BLUE
+104,7,sep-27,2,3,15,RORA,Phoveus,Hayabusa,Faramis,Moskov,Carmilla,TNC,Edith,Julian,Lylia,Karrie,Tigreal,BLUE
+105,7,sep-28,1,1,13,BLCK,Edith,Nolan,Kagura,Karrie,Mathilda,TLPH,Gatotkaca,Hayabusa,Luo Yi,Natan,Tigreal,RED
+106,7,sep-28,1,2,13,TLPH,Arlott,Julian,Valentina,Wanwan,Tigreal,BLCK,Terizla,Nolan,Vexana,Claude,Mathilda,BLUE
+107,7,sep-28,2,1,15,FNOP,Arlott,Hayabusa,Valentina,Alice,Chou,RORA,Khaleed,Ling,Vexana,Lunox,Edith,BLUE
+108,7,sep-28,2,2,14,RORA,Edith,Fanny,Vexana,Beatrix,Terizla,FNOP,Grock,Hayabusa,Valentina,Moskov,Chou,BLUE
+109,7,sep-28,2,3,14,FNOP,Chou,Ling,Valentina,Beatrix,Jawhead,RORA,Khaleed,Nolan,Luo Yi,Alice,Mathilda,BLUE
+110,7,sep-28,3,1,10,FCAP,Khaleed,Fanny,Faramis,Clint,Ruby,OMG,Edith,Bane,Lylia,Moskov,Gatotkaca,RED
+111,7,sep-28,3,2,23,OMG,Arlott,Ling,Grock,Moskov,Lylia,FCAP,Khaleed,Hayabusa,Vexana,Claude,Gatotkaca,RED
+112,7,sep-28,3,3,13,FCAP,Khaleed,Nolan,Nana,Moskov,Hylos,OMG,Grock,Bane,Vexana,Claude,Gatotkaca,BLUE
+113,7,sep-29,1,1,13,RSG,Khaleed,Hayabusa,Yve,Moskov,Tigreal,FNOP,Edith,Nolan,Faramis,Harith,Gatotkaca,RED
+114,7,sep-29,1,2,24,FNOP,Edith,Ling,Valentina,Beatrix,Akai,RSG,Arlott,Julian,Faramis,Claude,Gatotkaca,BLUE
+115,7,sep-29,2,1,14,TNC,Edith,Ling,Vexana,Harith,Gatotkaca,BLCK,Cici,Hayabusa,Valentina,Lunox,Tigreal,RED
+116,7,sep-29,2,2,14,TNC,Khaleed,Ling,Valentina,Ruby,Mathilda,BLCK,Hylos,Nolan,Luo Yi,Beatrix,Tigreal,BLUE
+117,7,sep-29,2,3,21,BLCK,Cici,Julian,Valentina,X.Borg,Tigreal,TNC,Terizla,Nolan,Faramis,Harith,Edith,BLUE
+118,8,oct-4,1,1,17,OMG,Edith,Ling,Vexana,Lunox,Jawhead,RSG,Arlott,Hayabusa,Valentina,Claude,Gatotkaca,RED
+119,8,oct-4,1,2,13,OMG,Edith,Ling,Luo Yi,Lunox,Belerick,RSG,Arlott,Hayabusa,Valentina,Moskov,Gatotkaca,BLUE
+120,8,oct-4,1,3,16,OMG,Grock,Ling,Lylia,Lunox,Gatotkaca,RSG,Arlott,Julian,Faramis,Moskov,Khaleed,BLUE
+121,8,oct-4,2,1,18,FNOP,Gatotkaca,Fanny,Aurora,Claude,Chou,FCAP,Hylos,Ling,Faramis,Harith,Grock,BLUE
+122,8,oct-4,2,2,9,FCAP,Phoveus,X.Borg,Valentina,Moskov,Angela,FNOP,Edith,Alpha,Cecilion,Claude,Mathilda,RED
+123,8,oct-5,1,1,20,TLPH,Gatotkaca,Julian,Valentina,Wanwan,Kaja,TNC,Hylos,Hayabusa,Vexana,Harith,Edith,RED
+124,8,oct-5,1,2,19,TNC,Gatotkaca,Julian,Valentina,Karrie,Chou,TLPH,Hylos,Ling,Luo Yi,Ruby,Angela,RED
+125,8,oct-5,1,3,14,TLPH,Arlott,Hayabusa,Luo Yi,Natan,Chou,TNC,Edith,Julian,Vexana,Beatrix,Ruby,BLUE
+126,8,oct-5,2,1,14,RSG,Gatotkaca,Ling,Aurora,Karrie,Chou,RORA,Khaleed,Roger,Valentina,Moskov,Tigreal,RED
+127,8,oct-5,2,2,14,RORA,Khaleed,Hayabusa,Vexana,Harith,Mathilda,RSG,Gatotkaca,Julian,Valentina,Claude,Chou,BLUE
+128,8,oct-5,3,1,12,OMG,Edith,Hayabusa,Zhuxin,Moskov,Tigreal,FNOP,Akai,Ling,Valentina,Lunox,Carmilla,RED
+129,8,oct-5,3,2,27,FNOP,Edith,Alpha,Zhuxin,Bruno,Mathilda,OMG,Chou,Nolan,Vexana,Harith,Khaleed,RED
+130,8,oct-5,3,3,11,OMG,Chou,Hayabusa,Zhuxin,Melissa,Khaleed,FNOP,Ruby,Ling,Valentina,Masha,Hylos,BLUE
+131,8,oct-6,1,1,13,BLCK,Arlott,Hayabusa,Valentina,Wanwan,Gatotkaca,RORA,Khaleed,Julian,Aurora,Moskov,Chou,RED
+132,8,oct-6,1,2,22,RORA,Khaleed,Hayabusa,Vexana,Beatrix,Grock,BLCK,Cici,Ling,Aurora,Ruby,Gatotkaca,RED
+133,8,oct-6,1,3,22,RORA,Chou,Ling,Valentina,Beatrix,Lolita,BLCK,Khaleed,Bane,Zhuxin,Moskov,Mathilda,RED
+134,8,oct-6,2,1,25,TLPH,Arlott,Julian,Zhask,Moskov,Khaleed,FCAP,Gatotkaca,Hayabusa,Vexana,Harith,Tigreal,RED
+135,8,oct-6,2,2,17,FCAP,Phoveus,Julian,Vexana,Claude,Chou,TLPH,Hylos,Hayabusa,Yve,Natan,Khaleed,BLUE
+136,9,oct-16,1,1,10,BLCK,Benedetta,Alpha,Zhuxin,Moskov,Mathilda,OMG,Arlott,Alice,Angela,Miya,Gatotkaca,BLUE
+137,9,oct-16,1,2,19,BLCK,Hylos,Alpha,Zhuxin,Bruno,Rafaela,OMG,Gloo,Ling,Yve,Lunox,Chou,BLUE
+138,9,oct-16,1,3,21,OMG,Chou,Suyou,Luo Yi,Wanwan,Gatotkaca,BLCK,Cici,Alpha,Aurora,Natan,Hylos,RED
+139,9,oct-16,2,1,20,RORA,Phoveus,Fanny,Aurora,Harith,Tigreal,TLPH,Arlott,Alpha,Vexana,Moskov,Chou,BLUE
+140,9,oct-16,2,2,22,TLPH,Arlott,Alpha,Luo Yi,Natan,Chou,RORA,Edith,Hayabusa,Novaria,Karrie,Tigreal,BLUE
+141,9,oct-16,2,3,15,RORA,Edith,Suyou,Valentina,Beatrix,Kaja,TLPH,Hylos,Nolan,Zhuxin,Harith,Mathilda,BLUE
+142,9,oct-16,2,4,13,TLPH,Edith,Suyou,Luo Yi,Alice,Hylos,RORA,Phoveus,Hayabusa,Valentina,Natan,Minotaur,BLUE
+143,9,oct-16,2,5,14,RORA,Terizla,Alpha,Vexana,Harith,Mathilda,TLPH,Phoveus,Suyou,Aurora,Natan,Khaleed,BLUE
+144,9,oct-17,1,1,11,FCAP,Gloo,Suyou,Faramis,Karrie,Gatotkaca,BLCK,Arlott,Ling,Luo Yi,Harith,Hylos,RED
+145,9,oct-17,1,2,16,BLCK,Arlott,Alpha,Zhuxin,Lunox,Khaleed,FCAP,Terizla,Suyou,Yve,Harith,Gatotkaca,RED
+146,9,oct-17,1,3,19,FCAP,Gatotkaca,Fanny,Vexana,Claude,Ruby,BLCK,Khaleed,Suyou,Faramis,Harith,Chou,RED
+147,9,oct-17,1,4,24,BLCK,Benedetta,Alpha,Zhuxin,Claude,Rafaela,FCAP,Khaleed,Suyou,Yve,Clint,Gatotkaca,RED
+148,9,oct-17,1,5,16,FCAP,Khaleed,Suyou,Zhuxin,Karrie,Edith,BLCK,Yu Zhong,Ling,Angela,Alice,Gatotkaca,BLUE
+149,9,oct-17,2,1,9,FNOP,Edith,Suyou,Luo Yi,Beatrix,Gatotkaca,RORA,Phoveus,Julian,Valentina,Moskov,Terizla,BLUE
+150,9,oct-17,2,2,16,RORA,Terizla,Suyou,Vexana,Harith,Carmilla,FNOP,Edith,Nolan,Yve,Wanwan,Gatotkaca,RED
+151,9,oct-17,2,3,12,FNOP,Edith,Suyou,Lylia,Harith,Tigreal,RORA,Terizla,Ling,Faramis,Moskov,Chou,BLUE
+152,9,oct-18,1,1,12,FNOP,Edith,Suyou,Valentina,Beatrix,Chou,FCAP,Phoveus,Nolan,Vexana,Moskov,Gatotkaca,BLUE
+153,9,oct-18,1,2,22,FCAP,Phoveus,Suyou,Aurora,Natan,Hylos,FNOP,Edith,Nolan,Luo Yi,Clint,Grock,RED
+154,9,oct-18,1,3,23,FNOP,Cici,Suyou,Vexana,Beatrix,Tigreal,FCAP,Edith,Julian,Faramis,Moskov,Gatotkaca,RED
+155,9,oct-18,1,4,9,FCAP,Edith,Julian,Faramis,Claude,Arlott,FNOP,Phoveus,Suyou,Yve,Moskov,Tigreal,RED
+156,9,oct-18,2,1,12,RORA,Phoveus,Ling,Zhuxin,Lunox,Angela,BLCK,Barats,Suyou,Yve,Harith,Hylos,BLUE
+157,9,oct-18,2,2,9,BLCK,Gatotkaca,Alpha,Zhuxin,Bruno,Rafaela,RORA,Edith,Suyou,Aurora,Clint,Chou,RED
+158,9,oct-18,2,3,16,RORA,Phoveus,Ling,Zhuxin,Beatrix,Chou,BLCK,Hylos,Suyou,Aurora,Moskov,Tigreal,BLUE
+159,9,oct-19,1,1,11,FCAP,Barats,Suyou,Luo Yi,Beatrix,Khaleed,RORA,Edith,Alpha,Valentina,Moskov,Mathilda,BLUE
+160,9,oct-19,1,2,14,RORA,Edith,Alpha,Zhask,Harith,Mathilda,FCAP,Gatotkaca,Hayabusa,Aurora,Natan,Chou,BLUE
+161,9,oct-19,1,3,18,FCAP,Hylos,Fanny,Zhuxin,Clint,Edith,RORA,Arlott,Suyou,Aurora,Moskov,Gatotkaca,RED
+162,9,oct-19,1,4,14,RORA,Edith,Alpha,Zhuxin,Harith,Rafaela,FCAP,Gatotkaca,Nolan,Yve,Moskov,Chou,BLUE
+163,9,oct-19,1,5,18,FCAP,Edith,Suyou,Faramis,Moskov,Grock,RORA,Arlott,Alpha,Vexana,Natan,Gatotkaca,BLUE
+164,9,oct-19,1,6,14,RORA,Edith,X.Borg,Aurora,Moskov,Mathilda,FCAP,Gatotkaca,Alpha,Vexana,Harith,Rafaela,BLUE
+165,9,oct-20,1,1,17,FNOP,Arlott,Suyou,Valentina,Lunox,Chou,RORA,Edith,Alpha,Yve,Harith,Ruby,BLUE
+166,9,oct-20,1,2,21,RORA,Terizla,Suyou,Valentina,Harith,Rafaela,FNOP,Gatotkaca,Nolan,Yve,Beatrix,Franco,RED
+167,9,oct-20,1,3,17,FNOP,Arlott,Fanny,Valentina,Wanwan,Tigreal,RORA,Edith,Ling,Vexana,Moskov,Gatotkaca,RED
+168,9,oct-20,1,4,15,RORA,Arlott,Suyou,Valentina,Moskov,Gatotkaca,FNOP,Phoveus,Alpha,Yve,Harith,Gatotkaca,RED
+169,9,oct-20,1,5,14,FNOP,Edith,Alpha,Yve,Clint,Chou,RORA,Gloo,Suyou,Cecilion,Harith,Rafaela,RED
+170,9,oct-20,1,6,13,RORA,Edith,Alpha,Aurora,Harith,Chou,FNOP,Gatotkaca,Suyou,Vexana,Moskov,Ruby,BLUE
+171,9,oct-20,1,7,21,FNOP,Edith,Suyou,Vexana,Beatrix,Chou,RORA,Gatotkaca,Alpha,Yve,Clint,Tigreal,BLUE

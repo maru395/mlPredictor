@@ -1,0 +1,5 @@
+{
+  "enabled": true,
+  "mode": "day_after_completion",
+  "completion_delay_hours": 24
+}
