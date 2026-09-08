@@ -14,11 +14,47 @@ TIER_ORDER = ("S", "A", "B", "C", "D", "F")
 TIER_SCORES = {"S": 5.0, "A": 4.0, "B": 3.0, "C": 2.0, "D": 1.0, "F": 0.0}
 UNRATED_SCORE = 2.5
 AUTO_META_PRIOR_GAMES = 5.0
+ROLE_ALIASES = {
+    "exp": "EXP Lane",
+    "exp lane": "EXP Lane",
+    "jungle": "Jungle",
+    "jungler": "Jungle",
+    "mid": "Mid Lane",
+    "mid lane": "Mid Lane",
+    "gold": "Gold Lane",
+    "gold lane": "Gold Lane",
+    "roam": "Roam",
+    "roamer": "Roam",
+}
+
+
+def normalize_role(role: str | None) -> str | None:
+    if role is None:
+        return None
+    return ROLE_ALIASES.get(" ".join(str(role).strip().casefold().split()))
+
+
+def hero_tier(
+    hero: str,
+    tiers: dict[str, str],
+    *,
+    role: str | None = None,
+    role_tiers: dict[str, dict[str, str]] | None = None,
+) -> str:
+    """Return a role-specific tier when present, then fall back to the global tier."""
+    canonical_role = normalize_role(role)
+    if canonical_role and role_tiers:
+        assigned = role_tiers.get(canonical_role, {}).get(hero)
+        if assigned in TIER_SCORES:
+            return assigned
+    return tiers.get(hero, "Unrated")
 
 
 def roster_meta_profile(
     players: list[str], player_picks: dict, tiers: dict[str, str],
-    *, prior_games: float = AUTO_META_PRIOR_GAMES,
+    *, roles: list[str] | None = None,
+    role_tiers: dict[str, dict[str, str]] | None = None,
+    prior_games: float = AUTO_META_PRIOR_GAMES,
 ) -> dict:
     """Estimate current-roster tier fit from each player's empirical hero pool.
 
@@ -30,32 +66,41 @@ def roster_meta_profile(
     keys = [player_key(player) for player in players]
     if len(keys) != 5 or len(set(keys)) != 5 or not all(keys):
         raise ValueError("Automatic meta requires five unique current starters")
+    if roles is not None and len(roles) != len(players):
+        raise ValueError("Automatic meta roles must match the current starters")
     if prior_games <= 0:
         raise ValueError("Neutral prior games must be positive")
     summaries = []
-    for player, key in zip(players, keys):
+    player_roles = roles if roles is not None else [None] * len(players)
+    for player, key, role in zip(players, keys, player_roles):
         history = player_picks.get(key, {})
         hero_rows = history.get("heroes", [])
         if any(int(row["picks"]) <= 0 for row in hero_rows):
             raise ValueError("Hero pick counts must be positive")
         count = sum(int(row["picks"]) for row in hero_rows)
+        resolved_tiers = {
+            row["hero"]: hero_tier(
+                row["hero"], tiers, role=role, role_tiers=role_tiers,
+            )
+            for row in hero_rows
+        }
         weighted_total = sum(
-            int(row["picks"]) * TIER_SCORES.get(tiers.get(row["hero"], ""), UNRATED_SCORE)
+            int(row["picks"]) * TIER_SCORES.get(resolved_tiers[row["hero"]], UNRATED_SCORE)
             for row in hero_rows
         )
         raw_score = weighted_total / count if count else UNRATED_SCORE
         score = (weighted_total + prior_games * UNRATED_SCORE) / (count + prior_games)
-        rated_picks = sum(int(row["picks"]) for row in hero_rows if tiers.get(row["hero"]) in TIER_SCORES)
-        top_tier_picks = sum(int(row["picks"]) for row in hero_rows if tiers.get(row["hero"]) in {"S", "A"})
+        rated_picks = sum(int(row["picks"]) for row in hero_rows if resolved_tiers[row["hero"]] in TIER_SCORES)
+        top_tier_picks = sum(int(row["picks"]) for row in hero_rows if resolved_tiers[row["hero"]] in {"S", "A"})
         summaries.append({
-            "player": player, "games_with_picks": count,
+            "player": player, "role": normalize_role(role), "games_with_picks": count,
             "series": history.get("series", 0), "missing_pick_games": history.get("missing_pick_games", 0),
             "from": history.get("from"), "through": history.get("through"),
             "raw_tier_score": raw_score, "tier_score": score,
             "rated_picks": rated_picks, "unrated_picks": count - rated_picks,
             "sa_pick_share": top_tier_picks / count if count else None,
             "sample_weight": count / (count + prior_games),
-            "heroes": [{**row, "tier": hero_tier(row["hero"], tiers)} for row in hero_rows],
+            "heroes": [{**row, "tier": resolved_tiers[row["hero"]]} for row in hero_rows],
         })
     return {
         "tier_score": sum(row["tier_score"] for row in summaries) / 5,
@@ -70,6 +115,7 @@ def default_meta_config() -> dict:
     return {
         "season": "Custom season / patch",
         "tiers": {},
+        "role_tiers": {},
         "custom_heroes": [],
         "updated_at": None,
     }
@@ -86,6 +132,17 @@ def load_meta_config(path: Path) -> dict:
         for hero, tier in dict(config["tiers"]).items()
         if str(tier).upper() in TIER_SCORES
     }
+    clean_role_tiers: dict[str, dict[str, str]] = {}
+    for role, assignments in dict(config.get("role_tiers", {})).items():
+        canonical_role = normalize_role(str(role))
+        if canonical_role is None or not isinstance(assignments, dict):
+            continue
+        clean_role_tiers[canonical_role] = {
+            str(hero): str(tier).upper()
+            for hero, tier in assignments.items()
+            if str(tier).upper() in TIER_SCORES
+        }
+    config["role_tiers"] = clean_role_tiers
     config["custom_heroes"] = sorted(
         {" ".join(str(hero).strip().split()) for hero in config["custom_heroes"] if str(hero).strip()},
         key=str.lower,
@@ -101,10 +158,6 @@ def save_meta_config(path: Path, config: dict) -> None:
     temporary = path.with_suffix(path.suffix + ".tmp")
     temporary.write_text(json.dumps(payload, indent=2, sort_keys=True), encoding="utf-8")
     temporary.replace(path)
-
-
-def hero_tier(hero: str, tiers: dict[str, str]) -> str:
-    return tiers.get(hero, "Unrated")
 
 
 def draft_tier_score(draft: list[str], tiers: dict[str, str]) -> float:

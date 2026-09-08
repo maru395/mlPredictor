@@ -127,6 +127,33 @@ class AutomaticMetaTests(unittest.TestCase):
         self.assertGreater(high["tier_score"], low["tier_score"])
         self.assertEqual(history, original)
 
+    def test_role_tier_overrides_global_tier_for_each_starter(self):
+        players, history = pools("A", hero="Atlas")
+        profile = roster_meta_profile(
+            players,
+            history,
+            {"Atlas": "S"},
+            roles=["EXP Lane", "Jungle", "Mid Lane", "Gold Lane", "Roam"],
+            role_tiers={"EXP Lane": {"Atlas": "A"}},
+        )
+        self.assertEqual(profile["players"][0]["heroes"][0]["tier"], "A")
+        self.assertEqual(profile["players"][1]["heroes"][0]["tier"], "S")
+        self.assertEqual(profile["players"][0]["role"], "EXP Lane")
+        self.assertLess(profile["players"][0]["tier_score"], profile["players"][1]["tier_score"])
+
+    def test_meta_config_normalizes_and_filters_role_tiers(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "tiers.json"
+            save_meta_config(path, {
+                "tiers": {"Atlas": "S"},
+                "role_tiers": {
+                    "exp": {"Atlas": "a", "Invalid": "Z"},
+                    "unknown": {"Atlas": "F"},
+                },
+            })
+            loaded = load_meta_config(path)
+        self.assertEqual(loaded["role_tiers"], {"EXP Lane": {"Atlas": "A"}})
+
     def test_real_player_pools_are_limited_to_ten_series(self):
         _, rows = load_game_history([ROOT / f"data/processed/mpl_ph_s{s}_player_games.json" for s in (17, 18)])
         result = recent_player_picks(rows, ["KarlTzy", "Nathzz", "Unknown"])

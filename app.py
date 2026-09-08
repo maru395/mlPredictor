@@ -155,6 +155,7 @@ recent_picks: dict[str, list[dict]] = recent_payload["teams"]
 recent_context = {**context, "team_heroes": recent_picks}
 meta_config = load_meta_config(META_PATH)
 tiers: dict[str, str] = dict(meta_config["tiers"])
+role_tiers: dict[str, dict[str, str]] = dict(meta_config["role_tiers"])
 all_heroes = sorted(
     set(context["hero_pool"])
     | {
@@ -163,7 +164,8 @@ all_heroes = sorted(
         for row in team_rows
     }
     | set(meta_config["custom_heroes"])
-    | set(tiers),
+    | set(tiers)
+    | {hero for assignments in role_tiers.values() for hero in assignments},
     key=str.lower,
 )
 teams = [profile["code"] for profile in team_profiles]
@@ -215,8 +217,14 @@ with predict_tab:
         lineup_a = player_model.lineup_summary(rating_names_a)
         lineup_b = player_model.lineup_summary(rating_names_b)
         player_pools = recent_player_picks(player_games, rating_names_a + rating_names_b, limit=10)
-        automatic_a = roster_meta_profile(rating_names_a, player_pools, tiers)
-        automatic_b = roster_meta_profile(rating_names_b, player_pools, tiers)
+        automatic_a = roster_meta_profile(
+            rating_names_a, player_pools, tiers,
+            roles=[member["role"] for member in starters_a], role_tiers=role_tiers,
+        )
+        automatic_b = roster_meta_profile(
+            rating_names_b, player_pools, tiers,
+            roles=[member["role"] for member in starters_b], role_tiers=role_tiers,
+        )
 
         for profile, starters, lineup in (
             (profile_a, starters_a, lineup_a),
@@ -244,7 +252,7 @@ with predict_tab:
             )
             st.caption(
                 f"Active tier list: {meta_config['season']} · {len(tiers)} rated heroes. "
-                "Automatic mode uses each starter's last 10 recorded series, including games for previous teams. "
+                "Automatic mode uses each starter's lane and last 10 recorded series, including games for previous teams. "
                 "More frequently played heroes contribute more. No draft input is needed."
             )
             st.caption("Optional: select five unique, non-overlapping heroes per side to replace the automatic estimate with that actual draft.")
@@ -643,7 +651,7 @@ with history_tab:
 with meta_tab:
     st.subheader("Your season hero tiers")
     st.write(
-        "Assign heroes to S, A, B, C, D, or F. Unrated heroes are treated as neutral in draft calculations."
+        "Assign heroes to S, A, B, C, D, or F. Automatic scoring uses a player's lane when a lane-specific assignment exists; unrated heroes are neutral."
     )
     import_details = meta_config.get("import")
     if isinstance(import_details, dict):
@@ -668,6 +676,17 @@ with meta_tab:
     tier_metric_2.metric("Rated", len(tiers))
     tier_metric_3.metric("Unrated", len(all_heroes) - len(tiers))
     st.markdown(tier_summary_html(tiers, TIER_ORDER), unsafe_allow_html=True)
+    if role_tiers:
+        with st.expander("Lane-specific meta assignments", expanded=True):
+            st.dataframe(
+                [
+                    {"Lane": role, "Hero": hero, "Tier": tier}
+                    for role, assignments in role_tiers.items()
+                    for hero, tier in sorted(assignments.items(), key=lambda item: item[0].lower())
+                ],
+                hide_index=True,
+                width="stretch",
+            )
 
     with st.form("add_custom_heroes", clear_on_submit=True):
         custom_text = st.text_input(
@@ -721,13 +740,14 @@ with meta_tab:
             updated = dict(meta_config)
             updated["season"] = season_label.strip() or "Custom season / patch"
             updated["tiers"] = {hero: assigned[0] for hero, assigned in assignments.items()}
+            updated["role_tiers"] = {}
             save_meta_config(META_PATH, updated)
             st.success(f"Saved {len(updated['tiers'])} tier assignments for {updated['season']}.")
             st.rerun()
 
     st.caption(
         "The tier file is saved locally at config/meta_tiers.json. Saving updates automatic meta fit and selected-draft adjustments immediately; retraining is not required. "
-        "Saving manual edits keeps the import notes while replacing the hero assignments."
+        "Saving manual edits keeps the import notes while replacing the hero assignments and lane-specific overrides."
     )
 
 def manila_time(value: str | datetime | None) -> str:
