@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 from collections import Counter, defaultdict
+from datetime import date, timedelta
 import json
 from pathlib import Path
 
@@ -81,21 +82,23 @@ def valid_picks(row: dict) -> bool:
     return len(heroes_a) == len(heroes_b) == 5 and all(heroes) and len(set(heroes)) == 10
 
 
-def recent_team_picks(rows: list[dict], teams: set[str], limit: int = 10) -> dict:
+def recent_team_picks(rows: list[dict], teams: set[str], limit: int | None = 10) -> dict:
     """Count played heroes in the last N series, not the last N individual games.
 
     The series window includes games with bad pick data. They are excluded from
     the pick-rate denominator and reported as gaps, never replaced by older data.
     Bans (verified or user-reported) are never counted as picks.
     """
-    if limit < 1:
+    if limit is not None and limit < 1:
         raise ValueError("The recent-series window must be positive")
     groups: dict[tuple, list[dict]] = defaultdict(list)
     for row in merge_game_history(rows):
         groups[series_key(row)].append(row)
     result = {"window": limit, "unit": "series", "teams": {}, "coverage": {}}
     for team in sorted(teams):
-        selected = [games for key, games in groups.items() if team in key[1:]][-limit:]
+        selected = [games for key, games in groups.items() if team in key[1:]]
+        if limit is not None:
+            selected = selected[-limit:]
         counts: Counter = Counter()
         valid_games, missing, series_rows = 0, [], []
         for games in selected:
@@ -128,13 +131,13 @@ def recent_team_picks(rows: list[dict], teams: set[str], limit: int = 10) -> dic
     return result
 
 
-def recent_player_picks(rows: list[dict], players: list[str], limit: int = 10) -> dict:
+def recent_player_picks(rows: list[dict], players: list[str], limit: int | None = 10) -> dict:
     """Recent hero pools follow the player, including appearances for other teams.
 
     Select each player's last N recorded series before filtering invalid drafts.
     Never map heroes onto an incomplete lineup or infer absent player identities.
     """
-    if limit < 1:
+    if limit is not None and limit < 1:
         raise ValueError("The recent-series window must be positive")
     groups: dict[tuple, list[dict]] = defaultdict(list)
     for row in merge_game_history(rows):
@@ -145,9 +148,11 @@ def recent_player_picks(rows: list[dict], players: list[str], limit: int = 10) -
         selected = [games for games in groups.values() if any(
             key in {player_key(name) for name in row.get("players_a", []) + row.get("players_b", [])}
             for row in games
-        )][-limit:]
+        )]
+        if limit is not None:
+            selected = selected[-limit:]
         counts: Counter = Counter()
-        appearances = 0
+        appearances = wins = losses = 0
         for games in selected:
             for row in games:
                 for side in ("a", "b"):
@@ -155,10 +160,13 @@ def recent_player_picks(rows: list[dict], players: list[str], limit: int = 10) -
                     if key not in names:
                         continue
                     appearances += 1
+                    if valid_lineups(row):
+                        wins += int(row["winner"] == row[f"team_{side}"])
+                        losses += int(row["winner"] != row[f"team_{side}"])
                     if valid_lineups(row) and valid_picks(row):
                         counts[row[f"heroes_{side}"][names.index(key)]] += 1
         result[key] = {
-            "player": player, "series": len(selected), "games": appearances,
+            "player": player, "series": len(selected), "games": appearances, "wins": wins, "losses": losses,
             "games_with_picks": sum(counts.values()),
             "missing_pick_games": appearances - sum(counts.values()),
             "from": selected[0][0]["date"] if selected else None,
@@ -168,3 +176,64 @@ def recent_player_picks(rows: list[dict], players: list[str], limit: int = 10) -
             )],
         }
     return result
+
+
+CURRENT_SEASON = "MPL Philippines Season 18"
+
+
+def season_games(rows: list[dict], season: str = CURRENT_SEASON) -> list[dict]:
+    return merge_game_history([row for row in rows if row.get("season") == season])
+
+
+def season_player_picks(rows: list[dict], players: list[str], season: str = CURRENT_SEASON) -> dict:
+    """Cumulative, deduplicated player/hero appearances in one season only."""
+    result = recent_player_picks(season_games(rows, season), players, limit=None)
+    for stats in result.values():
+        stats["season"] = season
+    return result
+
+
+def season_player_pick_records(rows: list[dict], player: str, season: str = CURRENT_SEASON) -> list[dict]:
+    """Auditable played-hero appearances, with the same eligibility as meta pools."""
+    records = []
+    key = player_key(player)
+    for row in season_games(rows, season):
+        if not valid_lineups(row) or not valid_picks(row):
+            continue
+        for side, other in (("a", "b"), ("b", "a")):
+            names = list(map(player_key, row[f"players_{side}"]))
+            if key in names:
+                records.append({"Date": row["date"], "Team": row[f"team_{side}"],
+                                "Opponent": row[f"team_{other}"], "Game": row["game"],
+                                "Hero": row[f"heroes_{side}"][names.index(key)], "Season": season,
+                                "Source": row["series_url"]})
+    return records
+
+
+def season_team_picks(rows: list[dict], teams: set[str], season: str = CURRENT_SEASON) -> dict:
+    return recent_team_picks(season_games(rows, season), teams, limit=None)
+
+
+def matches_by_week(rows: list[dict]) -> list[dict]:
+    """Prefer extracted event week numbers; infer missing seed weeks by calendar."""
+    rows = merge_game_history(rows)
+    if not rows:
+        return []
+    first = date.fromisoformat(min(row["date"] for row in rows))
+    start = first - timedelta(days=first.weekday())
+    anchored = next((row for row in rows if isinstance(row.get("week"), int) and row["week"] > 0
+                     and row.get("stage", "Regular Season") == "Regular Season"), None)
+    if anchored:
+        anchor_date = date.fromisoformat(anchored["date"])
+        start = anchor_date - timedelta(days=anchor_date.weekday() + 7 * (anchored["week"] - 1))
+    groups = {}
+    for row in rows:
+        extracted = row.get("week")
+        week = (int(extracted) if isinstance(extracted, int) and extracted > 0 else
+                (date.fromisoformat(row["date"]) - start).days // 7 + 1)
+        stage = row.get("stage", "Regular Season")
+        label = f"Week {week}" if stage == "Regular Season" else f"{stage} · Week {week}"
+        group = groups.setdefault(label, {"label": label, "rows": [], "from": row["date"], "through": row["date"]})
+        group["rows"].append(row)
+        group["through"] = max(group["through"], row["date"])
+    return sorted(groups.values(), key=lambda group: group["from"], reverse=True)

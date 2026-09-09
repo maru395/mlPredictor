@@ -25,15 +25,15 @@ class AppTests(unittest.TestCase):
 
     def test_import_table_and_recent_profile_counts(self):
         tables = [frame.value for frame in self.app.dataframe]
-        imported = next(table for table in tables if "Used for Elo" in table.columns)
-        self.assertEqual(len(imported), 21)
-        self.assertEqual(int(imported["Used for Elo"].sum()), 19)
+        imported = [table for table in tables if "Used for Elo" in table.columns]
+        self.assertEqual(sum(len(table) for table in imported), 21)
+        self.assertEqual(sum(int(table["Used for Elo"].sum()) for table in imported), 19)
         self.app.selectbox(key="inspector_team").set_value("TWIS").run()
         self.assertFalse(self.app.exception)
-        self.assertTrue(any("window is not extended" in warning.value for warning in self.app.warning))
-        favorites = next(frame.value for frame in self.app.dataframe if "Recent picks" in frame.value.columns)
-        self.assertEqual(favorites.iloc[0]["Hero"], "Claude")
-        self.assertEqual(favorites.iloc[0]["Recent picks"], 9)
+        self.assertTrue(any("excluded from Season 18" in warning.value for warning in self.app.warning))
+        favorites = next(frame.value for frame in self.app.dataframe if "Pick rate per game" in frame.value.columns)
+        self.assertEqual(favorites.iloc[0]["Hero"], "Dyrroth")
+        self.assertEqual(favorites.iloc[0]["Season picks"], 2)
 
     def test_collection_ui_explains_match_aware_timing_without_interval_control(self):
         self.assertNotIn("collection_interval", [element.key for element in self.app.selectbox])
@@ -48,7 +48,7 @@ class AppTests(unittest.TestCase):
         self.app.run()
         self.assertFalse(self.app.exception)
         self.assertTrue(any("Meta-adjusted favorite" in item.value for item in self.app.markdown))
-        adjustment = next(frame.value for frame in self.app.dataframe if "Last-10-series comfort" in frame.value.columns)
+        adjustment = next(frame.value for frame in self.app.dataframe if "Season 18 comfort" in frame.value.columns)
         self.assertEqual(len(adjustment), 2)
 
     def test_same_team_selection_and_incomplete_draft_are_safe(self):
@@ -153,6 +153,32 @@ class AppTests(unittest.TestCase):
         self.assertIn(str(snapshot[1]["match_count"]), strip)
         self.assertIn(snapshot[2]["cutoff"], strip)
         self.assertTrue(app.button(key="collect_now").disabled)
+
+    def test_role_filter_and_week_filter_only_change_visible_tables(self):
+        for role in ("EXP Lane", "Gold Lane"):
+            self.app.selectbox(key="meta_role_filter").set_value(role).run()
+            self.assertFalse(self.app.exception)
+            assignments = next(frame.value for frame in self.app.dataframe if list(frame.value.columns) == ["Lane", "Hero", "Tier"])
+            self.assertEqual(set(assignments["Lane"]), {role})
+        self.app.selectbox(key="history_week").set_value("Week 1").run()
+        tables = [frame.value for frame in self.app.dataframe if "Used for Elo" in frame.value.columns]
+        self.assertEqual(len(tables), 1)
+        self.assertEqual(len(tables[0]), 17)
+        self.assertLessEqual(max(tables[0]["Date"]), "2026-08-23")
+        self.assertFalse(any("S13 games" in frame.value.columns or "Top historical picks" in frame.value.columns for frame in self.app.dataframe))
+
+    def test_meta_evidence_and_source_audit_exclude_old_sanji_yve_games(self):
+        self.app.selectbox(key="meta_pick_audit_player").set_value("Sanji").run()
+        self.assertFalse(self.app.exception)
+        evidence = next(frame.value for frame in self.app.dataframe if "Most-played heroes · S18" in frame.value.columns)
+        sanji = evidence[evidence["Player"] == "Sanji"].iloc[0]
+        self.assertNotIn("Yve", sanji["Most-played heroes · S18"])
+        self.assertIn("Novaria", sanji["Most-played heroes · S18"])
+        self.assertEqual(sanji["Series"], 3)
+        self.assertEqual(sanji["Usable games"], 7)
+        audit = next(frame.value for frame in self.app.dataframe if "Season" in frame.value.columns and "Hero" in frame.value.columns)
+        self.assertEqual(audit["Hero"].value_counts().to_dict(), {"Novaria": 5, "Selena": 2})
+        self.assertEqual(set(audit["Season"]), {"MPL Philippines Season 18"})
 
 
 if __name__ == "__main__":

@@ -4,6 +4,8 @@
 def startup_notice(result: dict) -> tuple[str, str]:
     """Do not confuse a successful schedule check with fresh match downloads."""
     state = result.get("state")
+    if result.get("profile_report", {}).get("state") in {"error", "partial"}:
+        return "warning", "Some official team profiles could not refresh. Saved profiles remain available; see Data collection for source errors and retries."
     if state == "paused":
         return "info", "Automatic collection is paused. Loaded saved match data."
     if state == "timeout":

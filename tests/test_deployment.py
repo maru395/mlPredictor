@@ -109,6 +109,7 @@ from unittest.mock import patch
 from streamlit.testing.v1 import AppTest
 from mlbb_predictor.live_data import load_prediction_state
 class FakeService:
+    profile_updates_enabled = True
     running = pending = False
     last_error = None
     calls = 0

@@ -7,6 +7,7 @@ from contextlib import contextmanager
 from copy import deepcopy
 from datetime import datetime, timezone
 import html
+from html.parser import HTMLParser
 import json
 import os
 from pathlib import Path
@@ -77,7 +78,7 @@ def save_settings(root: Path, enabled: bool) -> None:
 @contextmanager
 def collection_lock(root: Path, name: str = "collection.lock"):
     """OS lock: shared by CLI and app workers; automatically released on crashes."""
-    if name not in {"collection.lock", "schedule.lock"}:
+    if name not in {"collection.lock", "schedule.lock", "profiles.lock"}:
         raise ValueError("Unknown collector lock")
     path = root / "data/processed" / name
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -133,10 +134,53 @@ def fetch_public(url: str, ajax: bool = False) -> str:
         return response.read().decode("utf-8")
 
 
+class _FixtureStages(HTMLParser):
+    """Stage belongs to a containing section, never the preceding sibling tab."""
+
+    def __init__(self):
+        super().__init__()
+        self.stack = []
+        self.stages = {}
+        self.weeks = {}
+        self.week = None
+        self.result_week = None
+        self.result_stage = "Unknown"
+
+    def handle_starttag(self, tag, attrs):
+        attrs = dict(attrs)
+        classes = attrs.get("class", "").split()
+        if tag == "div":
+            self.stack.append(attrs.get("data-stage", self.stack[-1] if self.stack else "Unknown"))
+        if tag == "a" and "matches-item" in classes:
+            self.stages[attrs.get("href")] = self.stack[-1] if self.stack else "Unknown"
+        if tag == "span" and "td-dr-week-title" in classes:
+            self.week = []
+        if tag == "tr" and "td-dr-row" in classes and self.result_stage != "Unknown":
+            self.stages[attrs.get("data-href")] = self.result_stage
+            if self.result_week:
+                self.weeks[attrs.get("data-href")] = self.result_week
+
+    def handle_data(self, data):
+        if self.week is not None:
+            self.week.append(data)
+
+    def handle_endtag(self, tag):
+        if tag == "div" and self.stack:
+            self.stack.pop()
+        if tag == "span" and self.week is not None:
+            title = " ".join("".join(self.week).split())
+            number = re.search(r"\bWeek (\d+)\b", title, re.I)
+            self.result_week = int(number.group(1)) if number else None
+            self.result_stage = ("Playoffs" if "playoffs" in title.casefold() else
+                                 "Regular Season" if re.fullmatch(r"Week \d+", title, re.I) else "Unknown")
+            self.week = None
+
+
 def discover_schedule(page: str, now: datetime) -> list[dict]:
     """Read starts/statuses; data-utc is a scheduled start, NOT a finish time."""
     found = {}
-    stages = [(match.start(), html.unescape(match.group(1))) for match in re.finditer(r'data-stage="([^"]+)"', page)]
+    stages = _FixtureStages()
+    stages.feed(page)
     pattern = r'<a class="matches-item" href="([^"]+)">(.*?)</a>'
     for match in re.finditer(pattern, page, re.I | re.S):
         url, card = html.unescape(match.group(1)), match.group(2)
@@ -169,12 +213,14 @@ def discover_schedule(page: str, now: datetime) -> list[dict]:
                 raise ValueError("Completed fixture does not contain a finished series score")
         else:
             scores = [None, None]  # Partial/live scores must never become final results.
-        stage = next((value for pos, value in reversed(stages) if pos < match.start()), "Unknown")
+        stage = stages.stages.get(url, "Unknown")
         fixture = {
             "date": local_date(timestamp.group(1)), "series_started_at": timestamp.group(1),
             "team_a": codes[0], "team_b": codes[1], "score_a": scores[0], "score_b": scores[1],
             "best_of": int(best_of.group(1)), "stage": stage, "url": safe_url(url), "status": state,
         }
+        if url in stages.weeks:
+            fixture["week"] = stages.weeks[url]
         key = series_key(fixture)
         if key in found and found[key] != fixture:
             raise ValueError(f"Conflicting fixture: {key}")
@@ -202,6 +248,8 @@ def collect_series(fixture: dict, profiles: dict, fetcher=fetch_public) -> list[
         if row["game"] != number or series_key(row) != series_key(fixture):
             raise ValueError("Game order, date or teams differ from the fixture")
         row["stage"] = fixture["stage"]
+        if fixture.get("week"):
+            row["week"] = fixture["week"]
         row["bans_a"], row["bans_b"], row["bans_verified"] = [], [], False
         row["draft_source"] = f"{fixture['url']}?load_draft=false&game_seq={number}"
         try:
@@ -316,6 +364,9 @@ def run_collection(root: Path, *, fetcher=fetch_public, now: datetime | None = N
             fixtures = (discover_completed(json.loads(fetcher(FIXTURES_URL))["html"], now)
                         if fixture_feed is None else [item for item in fixture_feed if item["status"] == "completed"])
             profiles = read_json(root / "config/mpl_ph_teams.json")
+            live_profiles = read_json(root / "data/processed/team_profiles.json", {})
+            # Keep historical aliases too, including players who left a team.
+            profiles = {**profiles, "teams": profiles["teams"] + live_profiles.get("teams", [])}
             old_payload = read_json(root / "data/processed/mpl_ph_s17_player_games.json")
             seed = read_json(root / "data/processed/mpl_ph_s18_player_games.json")
             previous_snapshot = read_json(snapshot_path(root), {})

@@ -16,9 +16,12 @@ def snapshot_path(root: Path) -> Path:
 
 def data_revision(root: Path, offline: bool = False) -> tuple:
     names = ["models/player_elo_model.json", "data/processed/mpl_ph_s17_player_games.json",
-             "data/processed/mpl_ph_s18_player_games.json"]
+             "data/processed/mpl_ph_s18_player_games.json", "config/mpl_ph_teams.json",
+             "config/meta_tiers.json", "data/processed/context.json"]
     if not offline:
         names.append("data/processed/live_snapshot.json")
+        names.append("data/processed/team_profiles.json")
+        names.append("data/processed/match_schedule.json")
     return tuple((root / name).stat().st_mtime_ns if (root / name).exists() else 0 for name in names)
 
 

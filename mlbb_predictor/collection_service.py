@@ -9,7 +9,8 @@ from pathlib import Path
 import threading
 
 from .collector import load_settings, read_json, utc_now
-from .match_schedule import next_check, run_scheduled_collection, schedule_path, timestamp
+from .match_schedule import schedule_path, timestamp
+from .automatic_collection import next_check, run_automatic_collection
 
 LOGGER = logging.getLogger(__name__)
 OPEN_WAIT_SECONDS = 15
@@ -27,8 +28,9 @@ class _RefreshAttempt:
 class CollectionService:
     """Files are shared state; no Streamlit functions run on this daemon thread."""
 
-    def __init__(self, root: Path, collector=run_scheduled_collection):
+    def __init__(self, root: Path, collector=run_automatic_collection):
         self.root = root
+        self.profile_updates_enabled = True
         self.collector = collector
         self._wake = threading.Event()
         self._stop = threading.Event()
@@ -79,9 +81,9 @@ class CollectionService:
                 if not self._running and not self._requested:
                     schedule = read_json(schedule_path(self.root), {})
                     now = utc_now()
-                    due = next_check(settings, schedule, now)
+                    due = next_check(settings, schedule, now, self.root)
                     retry = timestamp(schedule.get("retry_at"))
-                    if schedule.get("state") == "error" and retry and retry > now:
+                    if schedule.get("state") == "error" and retry and retry > now and due > now:
                         return {**schedule, "cached": True}
                     checked = timestamp(schedule.get("last_checked_at"))
                     if (schedule.get("state") == "success" and checked and
@@ -119,7 +121,7 @@ class CollectionService:
                 settings = load_settings(self.root)
                 status = read_json(schedule_path(self.root), {})
                 now = utc_now()
-                due = next_check(settings, status, now)
+                due = next_check(settings, status, now, self.root)
                 with self._guard:
                     should_run = not self._stop.is_set() and (self._requested or (due is not None and due <= now))
                     if should_run:
